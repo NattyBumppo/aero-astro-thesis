@@ -1,0 +1,50 @@
+Michel's testing log
+==================================
+
+moving forward 3000 rpm
+initially reviewed pilot screen
+distance traveled
+observed slope starts flat
+actually looked at correlation screen, yay
+observed packet correlation
+looked at different high correlation values
+misunderstood channel name (cpu rotations)
+didn't know how to respond to fault info
+unclear if he needs to click?
+observed going downslope
+
+had to re-read alert panel row description
+
+guessed we'd entered shadow
+
+signal strength low--entered valley guessed
+
+didn't really pay attention to the connectivity map
+
+observed negative correlation between mission time and battery level
+
+tried to click alert panels on correlation screen
+
+observed when we got out of the crater
+
+concluded when we got up into the sun
+
+misunderstood more channel names... we really ought to make hovertext, I think
+
+noticed unstable terrain! yay!
+
+had problems clicking touchpad
+
+would be nice for the alert panels on the correlation screen to send you back to the pilot/copilot screens and fault information
+
+some information about organization would be nice--pdu correlations, mc correlations, etc.
+
+sampling "level" to sampling "window"
+
+====================
+Main points
+====================
+
+-Channel names are occasionally hard to understand
+-Touchpad sucked (well, yeah)
+-Better correlation map organization (or, well, obvious organization) would be better

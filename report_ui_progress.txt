@@ -1,0 +1,108 @@
+Ground Station Interface Progress Report（日本語以下）
+
+Pittsburgh field tests:
+
+-The Pittsburgh field tests went very well, and we were able to control and monitor telemetry from Silver and Red with relatively few problems. Newer features like NRT worked well, and certain features like the Connectivity Map improved performance and troubleshooting greatly when compared to previous missions.
+-Used results of Pittsburgh field tests to make several changes and to set priorities. The in-application photo and video file display turned out to be unused during the field tests, so we removed it. When rover-side issues occurred during the field test, we wanted more detailed information about them, so I added a box that would show detailed fault information and possible suggestions for resolutions. 
+-We discovered that it was difficult to track the position of the rover during the field tests without looking at it, so I added a map display. We had stuck wheel issues during the field test that were non-obvious, so I added autonomous stuck wheel detection on the rover side, and displayed this state as well in the user interface. 
+-We also found that we wanted to see changing values during operation, so I improved a previous feature to detect changes over time in values, and added an arrow-based display for them in the copilot interface. We also noticed that the immersive viewing feature was immensely helpful, so we are currently having interns work on features to augment this with panorama-like stitching of images to provide a more realistic experience.
+-We also desired better tools to review data in-depth and to examine events that occurred during the course of a run. For this reason, I built functionality to pause and navigate back and forth in the data, and to save and export runs for future review.
+
+This week's usability tests:
+
+-Performed usability testing this week
+-Seven people participated in the test, mostly interns and students who are familiar with the rover, but who do not have extensive experience with the ground station interface
+-Participants were given a simplified form of the ground station, with the Pilot Screen, Copilot Screen, and a new, in-development data analysis tool that showed correlation between various pairs of data channels
+-Participants monitored telemetry and looked for patterns in the data during a ~10-minute simulation drive on the lunar surface
+-During the course of the drive, camera images were unavailable, but the rover telemetry was indicative of various events that occurred to the rover during the run
+-The scenario consisted of the rover descending down into a crater, where it lost direct sunlight, resulting in reduced temperatures and solar charge voltages. It also lost line of sight with the lunar lander, resulting in reduced signal strength and packet loss. The rover then climbs out of the crater, improving these conditions. It enters some rough terrain, and ultimately stops after a rock becomes stuck in the wheel.
+-It was the task of the usability test participants to analyze the telemetry as they received it in order to try to understand the details of the story above.
+
+Results of the Usability Test
+
+-Faults are very visible and the fault information is very helpful
+-Copilot screen is extremely useful for monitoring telemetry
+-Everyone was able to deduce the general course of events undergone by the rover
+-Data scrubbing was very easy to use and excellent for reviewing the flow and discovering missed data
+-Graphs are desired
+-Tunnel vision is occasionally an issue--too much attention on one specific thing can create delayed reactions to fault events. Need a better way to break attention in certain cases
+-Screen transition lag is a bit of an issue
+-Need to reduce complexity of correlation map and find better ways to train people on it
+
+-It'd be nice to have a resource for reminders about what each data channel signifies
+-More visible speed indicator would be useful, since speed is very important
+
+Future priorities:
+
+-Think of features to break tunnel vision
+-Improve data analysis features (correlation map and graphing)
+-Add more system-specific data for operation (channel meanings)
+-Develop and integrate higher-level data sources that inform the ground station (depth information from the ToF camera and rover-side SLAM and visual odometry, for example)
+-Improve performance a little bit
+
+地上局の進捗報告
+
+ピッツバーグのフィールド実験
+
+・ピッツバーグのフィールド実験はほとんど順調でした
+・地上局側で、ムーンレイカーシルバーとレッドをほとんど問題なく、操縦して、テレメトリーをモニタリングすることができました
+・NRTや接続性マップなどの新く導入された機能はうまく動いて、利用することで前のミッションと比べてパフォーマンスやトラブルシューティングプロセスが大きく改善されました
+
+・ピッツバーグのフィールド実験の結果を参考にして、その後の優先度を設定して、様々な変更を行いました。
+・地上局のアプリ内の静止画・動画のファイルリストは、フィールド実験でまったく利用されなかったため、一旦隠しました。
+・フィールド実験でローバー側の問題が発生した際に、もっと詳細な情報が欲しいと思った時があったため、
+　詳細な異常情報と解決のためのお勧めを示したインターフェース要素を追加しました。
+・フィールド実験を行っている最中に、ローバーを直接見ないと現在の位置が分かりにくいと分かったため、
+　オーバーヘッドマップ表示を追加しました。
+・ホイルがロックした状態に入りましたが、そのことが明らかではないことがありました。
+　将来こんなことを防ぐために、ローバー側で自立のロック状態検知機能を導入して、
+　そのロックした状態を地上局側でも示すような機能を追加しました。
+・操作中に値の変更がもっと見やすくなるような機能が必要だということに気が付きました。
+　そのため、値の変更を検知するという、前にも存在していた機能を改善して、
+　コパイロット画面にデータの変更を矢印で示した機能を加えました。
+・三次元でナビできるカメラ表示が非常に役に立ったため、
+　現在はこの機能をもっとリアルで便利にするために、インターンに画像をスティッチングするような作業をしてもらっています。
+・ミッション中に発生したイベント、受信したテレメトリーをもっと楽で詳しく見るためのツールの必要性に気が付きました。
+　そのため、データをポーズしたり前のデータを見たり再生したりするための機能を導入しました。
+　また、受信したテレメトリーを保存する機能も入れました。
+
+今週のユーザビリティ実験の報告
+
+・今週は地上国のユーザビリティ実験を行いました。
+・参加者は、主にインターンと学生でした。
+　参加者はローバーについて知識を持っていますが、地上局を使った経験があまりありません。
+・参加者は、三つの画面しかない、地上局のちょっと単純化された物を使っていました。
+　使える画面は、パイロット画面とコパイロット画面と、データチャンネルのペアの相関を示すための、今開発中のデータ分析ツールでした。
+・参加者は約１０分の、シミュレートされた月面走行のテレメトリーをモニタリングして、データのパタンやローバーのイベントを確認しようとしていました。
+・実験の走行中には、カメラの画像が見れなかったのですが、ローバーの他のテレメトリーは、いくつかのイベントによるデータを示しました。
+・実験のシナリオはこういう流れでした：ローバーがまっすぐ走行しながら、小さいクレーターに入って、直接な日差しがなくなる同時に、
+　温度が下がったりして、太陽光発電の電圧も下がります。また、月面ランダーとのラジオ通信が弱くなって、パケロスの可能性が高まります。
+　その後、クレーターの反対側を乗り越えて、ソーラーパネルでの充電もできるようになって、温度も高くなり始めます。
+　最後に、荒れた地形をしばらく走った後に、石が車輪に挟まったせいか、車輪がロックした状態に入って、ローバーの走行が止まります。
+・テレメトリーを受信しながら解析して、上記のイベントの流れを洗い出すのが参加者の目的でした。
+
+ユーザビリティ実験の結果、習った事
+
+・参加者の全員が、ほとんど問題や誤解なく、ローバーのイベントの総合的な流れが理解できました
+・異常情報が見やすくて、役に立ちました
+・コパイロット画面はテレメトリーのモニタリングをするためにとても便利でした
+・受信したデータのレビュー・再生機能はとても使いやすくて、流れを見直して見逃したイベントを見つけるために役に立ました
+・グラフ表示があればデータの変更や傾向がもっと分かりやすい時がありました
+・視野が狭すぎて大事なイベントを見逃した時がありました。一つだけのことに集中していると、
+　異常が検知されたなどの大事なイベントへの反応が遅くなることがあります。
+　このような場合に、もっと注目を引く仕組みが必要です。
+・画面遷移のラグのせいで操作しにくい時がありました。
+・相関マップは複雑すぎて、なかなか分からないと言った参加者がいました。
+　もっと単純にする方法がないかについて、研究開発が必要です。
+　また、この機能をうまく使えるようになるために、特別な訓練も必要になるのではないかと思います。
+・各データチャンネルの定義や意味について詳細情報があれば役に立った、というコメントがありました。
+・ローバーの速度が非常に大事な情報なので、文字での表示だけではなく、
+　車のスピードメーターみたいな表示もあれば役に立った、というお勧めも受けました。
+
+将来の優先度の設定
+
+・トンネル視野（視野が狭くなって大事なことを見逃してしまうこと）を防ぐための装置を考え出すこと
+・データ分析機能（相関マップ、グラフ等）の改善
+・各サブシステムのデータ項目の定義や意味などの情報の導入
+・地上局のデータソースになる、高レベルのデータ（ToFカメラのデプス情報、ローバー側で計算されたSLAMやビジュアルオドメトリーなど）の開発、結合
+・パフォーマンス（特に画面遷移）を若干改善すること

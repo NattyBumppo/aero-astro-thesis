@@ -1,0 +1,74 @@
+Paulo's testing log
+==================================
+
+not 100% sure that he understood all of my explanation
+
+first looking at motor voltage
+
+understands rover is moving straight ahead from rotations
+
+spent a minute or so examining the pilot screen
+
+"everything seems fine until now"
+
+noticed something weird about the right motor (?)
+
+noticed that it's going down
+
+"the voltage is too high" (misunderstood the meaning of the alert panel)
+
+reading the fault info literally, but doesn't seem to interpret its meaning very well
+
+"maybe we're entering some sort of cave, I don't know, because the soloar panels still don't have enough energy"
+
+Spending most of his time on the pilot screen
+
+might not understand the connectivity map 
+"the components are flashing; sounds dangerous"
+"I would do an emergency stop if I was a pilot"
+
+"the radio is not responding"
+
+"no line of sight... so probably there's some sort of cliff"
+
+doesn't seem to understand the correlation map
+
+inferred that we're in the shade: "the cliff is blocking the sun"
+
+didn't seem to notice that the rover is going uphill, or that it bottomed out earlier
+
+noticing the low battery and that we don't have solar energy
+
+noticed the charging getting better "okay, we are seeing the sun again"
+
+"it's charging... too fast, this is strange" (that's true...)
+
+noticed time mismatch
+
+noticed the rover attitude getting choppy: "we almost flip... we're facing some harsh environment... probably passing through some rocks and obstacles"
+
+* need to cut RPM to 0 after lock, oops... I'll fix after this :op
+
+
+Didn't look at the correlation map because he wasn't sure how to use it... because he doesn't know channel names and meanings
+
+using the data scrubbing to good advantage
+
+came up with a good representation of what happened
+
+really likes the rover info on the Pilot screen... likes the large icons
+
+didn't use analysis--didn't know how to use it
+
+
+would like to have graphs
+
+====================
+Main points
+====================
+
+-Correlation map requires training to understand properly
+-Changes may need to be more visible, as they're missed occasionally
+-Sometimes non-serious faults (rocky terrain) can be interpreted as serious ("we almost flipped")
+-Data scrubbing back and forth is very useful
+-Graphs would be useful

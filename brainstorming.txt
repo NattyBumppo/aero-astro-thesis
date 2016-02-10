@@ -1,0 +1,53 @@
+Introduction to Moonraker and Unity software framework
+
+
+Basic fault detection techniques (high temps, etc.)
+
+Threshold-Based Fault Detection
+-problem
+-theory
+-implementation
+-results of actual use
+
+Integration of target device faults with remote ground station
+-problem
+-theory
+-implementation
+-results of actual use
+
+Fault information/suggestions
+-problem
+-theory
+-implementation
+-results of actual use
+
+Rover-specific fault detection techniques (stuck wheels, etc.)
+
+Connectivity map
+-problem
+-theory
+-implementation
+-results of actual use
+
+3D View
+-problem
+-theory
+-implementation
+-results of actual use
+
+Map display
+-problem
+-theory
+-implementation
+-results of actual use
+
+Telemetry Correlation Matrix
+-problem
+-theory
+-implementation
+-results of actual use
+
+Need more about actual control theory and fault detection
+
+
+Appendix: an overview of UI solutions maybe? I dunno

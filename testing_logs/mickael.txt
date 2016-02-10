@@ -1,0 +1,77 @@
+Mickael's testing log
+==================================
+
+looking at orange arrows doesn't understand what they mean
+understands rover is going forward
+no problems yet
+understood the grey modules on the conn. map as meaning "offline"
+
+looking at the corr. map... finds it "disturbing"
+thought it was a loading screen at the beginning
+
+hasn't commented on the distance and RPM, but seems to understand that the rover is moving forward
+explained that this is coming from distance and RPM and rotations
+
+noticed downhill
+
+took about five seconds to notice the fault indications (longer than others)
+
+hung up on transition lag
+not worried about pitch
+
+trying to figure out why the solar cells are having problems
+looking at correlation map but is having trouble
+
+would like to see channels linked to faulted ones on correlation map (good idea!)
+
+wants to use correlation window better but hard to use
+
+hasn't noticed yet that rover is going uphill
+hasn't noticed the temperature changing
+
+started to figure out the ditch thing... gave a hypothesis that it's in a ditch
+
+"a lot of orange" (too many positive correlations to figure out what things mean)
+
+not noticing the other elements for narrowing down/manipulating data on corr map
+
+tried to click alert panel on corr map
+
+as soon as rover got up a bit, he figured out what had happened
+
+commented out how he wishes there was camera data to inform the decisions
+
+proposed stopping rover in bottom of ditch, but later figured out that that would have been a problem
+
+trying his hardest to use the correlation map, but having problems with it
+
+noticed the rocky terrain as soon as it started (noticed based on attitude alerts while on the corr map screen)
+
+reiterating his summary of what happened
+
+without camera and tof data, it's a bit hard to understand the rover state
+
+needs proper training
+really likes the copilot window
+
+needs more explanations on how to find stuff
+thought it was a loading screen at first
+
+theorized about regolith in the joints or rocky situation
+
+thinking about how to correct rocky
+
+easy to understand that it was in a ditch when it started going back up
+
+flashing lights can be overwhelming
+
+didn't use data review / playback features
+
+feature idea: or highlighted faulted channels on the correlation map
+
+====================
+Main points
+====================
+
+-Correlation map is hard to understand
+-Highlighting channels of interest in the correlation map (like faulted ones) would be useful

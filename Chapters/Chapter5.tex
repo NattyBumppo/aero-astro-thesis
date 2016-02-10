@@ -1,0 +1,100 @@
+\chapter{Case Study: Hakuto ``Moonraker" Lunar Rover}
+
+In this section, we will discuss a motivating problem and platform on which to test some of the algorithms we've developed and assess their practicality.
+
+\section{HAKUTO Lunar XPRIZE Team}
+
+In the summer and autumn of 2015, research was performed at Tohoku University's Space Robotics Lab (hereafter ``SRL"), under the guidance of Professor Kazuya Yoshida, among others. This laboratory focuses on the research and development of robotic systems for space exploration and science missions.
+
+One of the major sub-groups within SRL is the Hakuto Lunar XPRIZE team, a group of engineers who, working together with their promotional counterparts in Tokyo, have been working for several years on the core mission of sending a lunar rover to the Moon, traveling at least 500 meters, and sending back high-resolution and photos. Completing this mission would satisfy the requirements of the Google Lunar XPRIZE, an international lunar rover competition with a combined purse of \$30M USD \cite{xprize}.
+
+As a secondary mission, Hakuto hopes to explore the interior of caves on the Moon, as precursor exploration to assess their feasibility as future human habitats. Recent high-resolution photography from JAXA's Kaguya spacecraft, and from NASA's Lunar Reconnaissance Orbiter, has confirmed that large ``skylights" exist on the lunar surface leading into these caves \cite{rabbithole}, and Hakuto aims to land near enough to one of these skylights to make its exploration a possibility.
+
+We decided that Hakuto's four-wheeled ``Moonraker" rover would be an excellent testbed against which to develop advanced fault analysis algorithms and visualization. Moonraker is a state-of-the-art micro-rover, developed over the past 5 years by the Hakuto team. During normal operation, Moonraker sends back status reports on 100 to 150 channels of telemetry data to its ground station on Earth, at a rate of once per second. This telemetry covers everything from IMU attitude data and temperature sensors readings to motor rotations, solar charge voltage, and communication metadata such as packets errors detected and radio signal strength.
+
+See Figure~\ref{fig:moonraker} for a photo of Moonraker.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/moonraker.jpg}
+    \caption{Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.}
+    \label{fig:moonraker}
+\end{figure}
+
+\section{Ground Station Interface}
+
+After I joined Team Hakuto, we began designing a new ground station software suite for the most recent version of the rover. The rover had been updated in several ways since the prior Pre-Flight Model, and many of its avionics, including its software, were updated and redesigned, breaking compatibility with the previous version of the ground station software. We worked together to evaluate the current and future needs of the rover, and to redesign and reimplement software to optimally fit these needs.
+
+Our discussions focused on optimizing performance, reliability, and maintainability of the software. The latter factor was of particular concern, given that the software was to be used and maintained in a university laboratory environment, with many students---some of them inexperienced in software engineering---potentially responsible for updating the software and adding new features. After evaluating a list of disparate choices, including C++ on Linux with the Qt framework and multi-platform JavaScript running in HTML5, we ultimately decided that the ideal choice would be the Unity Game Engine, for its high frequency of software updates, its active developer community, and its aerospace legacy within the NASA Jet Propulsion Laboratory \cite{jplunity}. 
+
+\subsection{Non-FDIR-Related Components}
+
+The focus of this paper is on the fault detective and correlative visualizations implemented within the ground station, so we will spend the bulk of the time focusing on this component. However, there were several non-FDIR-related components as well, briefly described below to provide context:
+
+\begin{itemize}
+    \item \textit{Numerical telemetry display}, to visually show the state of various sensors on subsystem boards (such as IMU accelerations, motor voltages, and board temperatures), as well as internal software metrics. Whenever possible, telemetry data was placed in semantically meaningful positions and groups, to improve discoverability.
+    \item \textit{Attitude display and visual tachometer}, to provide more intuitive visualizations of pitch, roll, and current wheel rotation rate (which mostly corresponded to vehicle speed).
+    \item \textit{Telemetry change indicators}, to point out data channels that have strong downward or upward trends over time.
+    \item \textit{Quad-camera display}, to display the most recent images and streaming video from the rover cameras.
+    \item \textit{Connectivity map}, to show the state of connectivity to various subsystems based on the elapsed time since packets from those subsystems had been received.
+    \item \textit{Immersive viewing}, allowing users to navigate the camera data in an embedded 3D mapping.
+    \item \textit{Map display}, showing the position of the rover with respect to the surrounding selenography, based on mobility subsystem telemetry and SLAM telemetry.
+    \item \textit{Audio alert cues}, to draw the user's attention to the UI in the event of faults.
+    \item \textit{Telemetry saving, loading, and playback}, to facilitate the review of mission events after the fact.
+\end{itemize}
+
+\subsection{FDIR-Related Components}
+
+In comparison with traditional aerospace ground station software, particular attention was given in this implementation to FDIR-related components. The components below were implemented and used extensively.
+
+\subsubsection{Threshold-based fault detection}
+
+In order to build a threshold-based fault detection system for Moonraker, I worked with engineers on our team to define the ``danger" thresholds that indicated points of severe jeopardy, as well as the ``warning" thresholds that indicated points of concern. I implemented these thresholds in my ground station software as a general-purpose fault detection engine. Faults are detected constantly, and are displayed to the user via color and detailed information (see the following sections for more details). All fault occurrence details and times are logged for future review as well. See Figure~\ref{fig:mobility_telem_subpanel}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/mobility_telem_subpanel.png}
+    \caption{Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.}
+    \label{fig:mobility_telem_subpanel}
+\end{figure}
+
+\subsubsection{Fault alert panel}
+
+For safety, faults that have occurred need to be easily visible and understood by human operators. Towards this end, a highly visible, brightly colored alert panel was placed at the top of the screen seen by human operators. Each panel cell corresponds to a subsystem or other type of data grouping, and any issues with that grouping (i.e., faults that occur on monitored channels) will trigger a color change on that cell. Interacting with the cell can give the user more information on the fault (see the next section for details). See Figure~\ref{fig:alert_panel}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/alert_panel.png}
+    \caption{An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.}
+    \label{fig:alert_panel}
+\end{figure}
+
+\subsubsection{Detailed fault information}
+
+Ensuring human understanding of fault data is an essential part of the fault diagnosis and recovery process. As such, it's important to design a system where detailed information can be provided about individual faults that have occurred, while maintaining a high-level understanding of which systems are behaving anomalously. The system designed allows for this hierarchical organization of information. When high-level fault information is indicated in the ``fault alert panel," more concise information is provided in the ``fault information panel," including which anomalous data channels are contributing to the problem. The fault information is highly extensible, allowing for any other additional fault-related notes that system designers or operators would like to include for reference. This additional information, uncommon in traditional fault monitoring systems, accelerates the fault diagnosis problem by immediately pointing towards possible root causes. See Figure~\ref{fig:fault_info2}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=0.4\columnwidth]{images/fault_info2.png}
+    \caption{Information for monitored faults on a given subsystem.}
+    \label{fig:fault_info2}
+\end{figure}
+
+\subsubsection{Correlative Functionality}
+
+-start talking about correlation calculations
+--PCC for correlative analysis--give reasoning and background
+--corrgrams for visualization--give reasoning and background
+-give pseudocode and formulas for all calculations
+
+
+
+\section{Testing}
+
+\subsection{Field Testing}
+
+\subsection{Usability Testing}
+
+\subsection{Data Discovery}
+
+\subsection{Comparative Data Visualizations}

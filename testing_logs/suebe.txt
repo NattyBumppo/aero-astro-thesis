@@ -1,0 +1,81 @@
+Suebe-kun's testing log
+==================================
+
+looking at correlation table first
+looking at high positive correlations first
+trying to use positive correlations to get an idea of what's happening
+
+wasting a lot of time on the correlation screen (if you ask me...)
+
+trying to click alert buttons on screen
+
+noticed alert panels immediately
+
+didn't understand a lot of the English
+
+noticed temperature going down
+
+going back to correlation screen
+
+noted that the radio isn't working properly
+
+noted the attitude faults
+
+using the substring search to look for radio correlations--suspecting some sort of radio fault
+
+* maybe good to make a HL relative altitude indicator...?
+
+"radio is broken? not receiving packets?"
+
+just noticed pitch going up
+
+still trying to figure out radio instability
+
+noticed difference in temperature (much lower than before)
+
+battery is lowering too... thinks this probably means we're not charging properly
+
+using battery correlations to tell about the battery behavior
+
+noticed the vboost going up
+
+spending a good amount of time on each screen
+
+noticed the temperature going up as well
+
+* hit the corr map pause bug too
+
+looking at temp correlations and determining that it's going up across the board from that
+
+noticed the attitude leveling out
+sort of figuring out what had happened
+realized this means the radio issues might have to do with the temperature or the attitude
+
+wheel has locked, but hasn't noticed yet
+
+realized charge is fixed
+
+just noticed wheel trouble
+looking at correlation for wheel
+
+* updating value in paused mode... might be floating point error...??
+
+using correlation map to look for correlations that happened right around the wheel lock time
+
+some way or removing unwanted information on analysis screen... better ways to narrow down information
+
+arrows were very helpful
+
+helped him remember what the previous values were
+
+
+
+====================
+Main points
+====================
+
+-Correlation map, even when you understand what's going on, is not good for live telemetry analysis
+-Arrows were very helpful
+-Too much focus on specific data analysis can create tunnel vision with respect to critical fault events
+-We need a way to skip from any screen to the detailed fault information
+-Screen transition lag is a bit of an issue

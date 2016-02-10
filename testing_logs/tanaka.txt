@@ -1,0 +1,23 @@
+Tanaka-san's testing log
+==================================
+-Wondered about the meanings of some of the parameters
+-Had trouble finding speed; would like if there was a clearer indicator of speed
+-Stayed on the copilot screen for most of the time
+-Used the fault info well
+
+-Didn't notice temperature changes at first, but saw them on later data review
+-Liked to pause and review data, but didn't do so for too long
+-Thought the correlation map wasn't easy to view during real-time runs, but seemed useful for after-the-fact data review
+-(That said, he didn't hardly use it at all :-p )
+-Though the indicator arrows were easy to understand and useful
+-A graph of values would be a nice addition--to be able to select a value and actually see how it changed with time
+-Fault changes and error information are very easy to understand
+
+-Gave a good summary of what happened, except didn't comment on terrain roughness (I emphasized it more for later runs, because it was really too subtle)
+
+====================
+Main points
+====================
+
+-Parameter meaning not all clear
+-Better speed indicator might be better

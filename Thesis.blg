@@ -1,0 +1,25 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
+The style file: plain.bst
+Database file #1: bibliography.bib
+Warning--entry type for "spaceflight_antares" isn't style-file defined
+--line 13 of file bibliography.bib
+Warning--entry type for "spacex_crs7" isn't style-file defined
+--line 29 of file bibliography.bib
+Warning--entry type for "procyon_status" isn't style-file defined
+--line 37 of file bibliography.bib
+I was expecting an "="---line 390 of file bibliography.bib
+ :     
+ :     \includegraphics[width=\columnwidth]{images/moonraker.jpg}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "rabbithole" isn't style-file defined
+--line 410 of file bibliography.bib
+Warning--entry type for "xprize" isn't style-file defined
+--line 418 of file bibliography.bib
+Warning--entry type for "jplunity" isn't style-file defined
+--line 425 of file bibliography.bib
+Warning--I didn't find a database entry for "Cancro"
+Warning--I didn't find a database entry for "Yairi"
+Warning--I didn't find a database entry for "Willsky"
+Warning--to sort, need author or key in xprize
+(There was 1 error message)

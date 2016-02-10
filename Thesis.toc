@@ -1,0 +1,96 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{viii}{dummy.5}
+\contentsline {chapter}{List of Tables}{ix}{dummy.7}
+\contentsline {chapter}{Abbreviations}{x}{dummy.9}
+\contentsline {chapter}{Physical Constants}{xi}{dummy.12}
+\contentsline {chapter}{Symbols}{xii}{dummy.15}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
+\contentsline {chapter}{\numberline {2}Background in Fault Detection, Isolation and Recovery}{4}{chapter.19}
+\contentsline {section}{\numberline {2.1}A Section}{4}{section.20}
+\contentsline {subsection}{\numberline {2.1.1}A Subsection}{5}{subsection.21}
+\contentsline {section}{\numberline {2.2}Another Section}{5}{section.22}
+\contentsline {chapter}{\numberline {3}Correlative Analysis}{6}{chapter.23}
+\contentsline {section}{\numberline {3.1}Correlation for Fault Analysis}{6}{section.24}
+\contentsline {subsection}{\numberline {3.1.1}Correlation Matrices}{6}{subsection.25}
+\contentsline {subsection}{\numberline {3.1.2}Cross-Correlative Leak Analysis}{6}{subsection.26}
+\contentsline {section}{\numberline {3.2}Common Correlation ``Score" Techniques}{6}{section.27}
+\contentsline {subsection}{\numberline {3.2.1}Pearson Correlation Coefficient}{7}{subsection.28}
+\contentsline {subsection}{\numberline {3.2.2}Spearman Rank Correlation Coefficient ($\rho $)}{7}{subsection.30}
+\contentsline {subsection}{\numberline {3.2.3}Kendall Rank Correlation Coefficient ($\tau $)}{8}{subsection.31}
+\contentsline {section}{\numberline {3.3}Limitations of Traditional Correlative Techniques}{8}{section.32}
+\contentsline {subsection}{\numberline {3.3.1}Linearity Assumptions}{8}{subsection.33}
+\contentsline {subsection}{\numberline {3.3.2}Multivariate Normal Distances vs. Elliptical Distances}{8}{subsection.34}
+\contentsline {subsection}{\numberline {3.3.3}Implied Causation}{8}{subsection.35}
+\contentsline {subsection}{\numberline {3.3.4}Alternatives to Correlation Score Techniques}{8}{subsection.36}
+\contentsline {subsection}{\numberline {3.3.5}Distance Correlation}{8}{subsection.37}
+\contentsline {subsection}{\numberline {3.3.6}Correlation Ratio}{8}{subsection.38}
+\contentsline {subsection}{\numberline {3.3.7}Brownian Covariance}{8}{subsection.39}
+\contentsline {subsection}{\numberline {3.3.8}Coefficient of Determination}{8}{subsection.40}
+\contentsline {subsection}{\numberline {3.3.9}Polychloric Correlation}{8}{subsection.41}
+\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{9}{chapter.42}
+\contentsline {section}{\numberline {4.1}Goals}{9}{section.43}
+\contentsline {section}{\numberline {4.2}Corrgrams}{9}{section.44}
+\contentsline {subsection}{\numberline {4.2.1}Background}{9}{subsection.45}
+\contentsline {subsection}{\numberline {4.2.2}Applications}{9}{subsection.46}
+\contentsline {subsection}{\numberline {4.2.3}Animated Corrgrams}{9}{subsection.47}
+\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{10}{chapter.48}
+\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{10}{section.49}
+\contentsline {section}{\numberline {5.2}Ground Station Interface}{11}{section.51}
+\contentsline {subsection}{\numberline {5.2.1}Non-FDIR-Related Components}{12}{subsection.52}
+\contentsline {subsection}{\numberline {5.2.2}FDIR-Related Components}{13}{subsection.53}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Threshold-based fault detection}{13}{subsubsection.54}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Fault alert panel}{13}{subsubsection.56}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Detailed fault information}{14}{subsubsection.58}
+\contentsline {subsubsection}{\numberline {5.2.2.4}Correlative Functionality}{15}{subsubsection.60}
+\contentsline {section}{\numberline {5.3}Testing}{15}{section.61}
+\contentsline {subsection}{\numberline {5.3.1}Field Testing}{15}{subsection.62}
+\contentsline {subsection}{\numberline {5.3.2}Usability Testing}{15}{subsection.63}
+\contentsline {subsection}{\numberline {5.3.3}Data Discovery}{15}{subsection.64}
+\contentsline {subsection}{\numberline {5.3.4}Comparative Data Visualizations}{15}{subsection.65}
+\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{16}{chapter.66}
+\contentsline {section}{\numberline {6.1}A Section}{16}{section.67}
+\contentsline {subsection}{\numberline {6.1.1}A Subsection}{17}{subsection.68}
+\contentsline {section}{\numberline {6.2}Another Section}{17}{section.69}
+\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{18}{chapter.70}
+\contentsline {section}{\numberline {7.1}Dimensional Reduction}{18}{section.71}
+\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{18}{subsection.72}
+\contentsline {section}{\numberline {7.2}Meta-Analysis}{18}{section.73}
+\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{18}{subsection.74}
+\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{20}{subsection.75}
+\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{20}{section.76}
+\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{20}{subsection.77}
+\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{20}{subsection.78}
+\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{20}{subsection.79}
+\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{20}{subsection.80}
+\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{20}{subsection.81}
+\contentsline {subsection}{\numberline {7.3.6}Timelines}{20}{subsection.82}
+\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{20}{section.83}
+\contentsline {subsection}{\numberline {7.4.1}Dependency Graphs}{20}{subsection.84}
+\contentsline {subsection}{\numberline {7.4.2}Time Curves}{20}{subsection.85}
+\contentsline {subsection}{\numberline {7.4.3}Snapshotted Network Diagrams}{20}{subsection.86}
+\contentsline {subsection}{\numberline {7.4.4}}{20}{subsection.87}
+\contentsline {section}{\numberline {7.5}Time Curves}{20}{section.88}
+\contentsline {subsection}{\numberline {7.5.1}}{20}{subsection.89}
+\contentsline {subsection}{\numberline {7.5.2}}{20}{subsection.90}
+\contentsline {subsection}{\numberline {7.5.3}}{20}{subsection.91}
+\contentsline {subsection}{\numberline {7.5.4}}{20}{subsection.92}
+\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{20}{section.93}
+\contentsline {subsection}{\numberline {7.6.1}}{20}{subsection.94}
+\contentsline {subsection}{\numberline {7.6.2}}{20}{subsection.95}
+\contentsline {subsection}{\numberline {7.6.3}}{20}{subsection.96}
+\contentsline {subsection}{\numberline {7.6.4}}{20}{subsection.97}
+\contentsline {chapter}{\numberline {8}Results and Discussion}{21}{chapter.98}
+\contentsline {section}{\numberline {8.1}A Section}{21}{section.99}
+\contentsline {subsection}{\numberline {8.1.1}A Subsection}{22}{subsection.100}
+\contentsline {section}{\numberline {8.2}Another Section}{22}{section.101}
+\contentsline {chapter}{\numberline {9}Conclusion}{23}{chapter.102}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}An Appendix}{24}{appendix.103}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{26}{dummy.104}

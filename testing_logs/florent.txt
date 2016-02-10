@@ -1,0 +1,76 @@
+Florent's testing log
+==================================
+
+advancing, not changing
+everything normal
+noticed distance increasing
+spending equal time on each screen, so far
+* tried to click on title to change screens (not a bad idea...)
+still advancing
+noticed pitch/roll flatness
+
+noticed pitch down
+immediately deduced we'd gone into a "cave"
+
+used the correlation substring search!
+looked at voltage correlations
+
+noticed connectivity map drops
+
+
+kept screen paused and didn't realize it was paused
+
+understood connectivity map intuitively
+"lost some packets"
+
+kind of difficult to see patterns in the correlation map
+"difficult to... pinpoint what we want to see"
+
+looking for failed packets in correlation map
+found correlation between charge, but that's not really a good correlation
+
+noticed us climbing out
+
+*p in the text area on the analysis panel pauses! Oops! Need to fix that...
+
+noticed the battery beginning to charge again
+deduced that we'd gotten outside of a cave again
+
+noticed the temperature having gone down
+
+tried to use correlation map but couldn't figure out the right channel names to search
+
+saw the rough terrain as "an area with a slope but it's on the side"
+
+saw the stuck wheel notice immediately
+
+icon rotations for pitch/roll are useful
+
+eventually figured out that the terrain at the end was rocky, not just a slope to the side, from the amount of variation
+
+
+
+generally, the copilot interface is pretty clear
+not sure about the meaning of some of the data items, like the PDU
+
+the Abalysis interface: showing the correlation is interesting
+you need to know what you want to pountpoint before going to this screen
+there's a lot of information in a lot of little squares
+some correlations are obvious
+if you want to search for correlations, this is interesting...
+
+not super-useful for random exploration, I think he's saying... you need to know what you want to see
+
+pilot screen is great for general information, but when we can't send information, the copilot interface is more interesting
+
+and the copilot has all of the pilot's info too, so their screen is more useful
+
+but the pilot is good for controlling the rover
+
+====================
+Main points
+====================
+
+-Easy to not realize that you're paused
+-Hard to know what correlations to search for
+-Copilot screen is extremely useful for monitoring telemetry

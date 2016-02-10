@@ -1,0 +1,91 @@
+Takuto's testing log
+==================================
+
+rover's moving
+everything is "clear"
+3000 RPM
+monitoring voltage as being okay
+continuing to monitor distance traveled
+noticed flat environment
+seems very comfortable with the data
+noticed that it hasn't stopped
+
+looking at correlation map... doesn't know how to use it "I guess this is fine"
+
+noticed pitch slope
+
+noticed charge voltage going down immediately
+
+understood solar panels not getting charge immediately
+
+thought about possibility of stuck mode, but saw rover is still moving, so is happy about movement
+
+noticed temperature drop--even remembered the drop amount "10 degrees drop"
+
+not really using the alert panel fault information
+
+noticing "connectivity starting to haywire"
+
+rover's starting going uphill now... will he notice? (noticed about a minute later)
+
+doesn't seem to notice the channel substring search option
+
+interpreted pitch angle as "climbing up the hill"
+
+not sure if IMU is working correctly--bad connectivity made him doubt things
+
+using the fault information a little bit
+
+thinks rover isn't functioning correctly because of lower temps and low battery
+
+"a little bit worried"
+
+"the data does not make sense"
+
+noticed solar power being back on
+
+"I find it funny that total distance is not correlated with amount of current and amount of voltage with the motor"
+
+attitude is getting rocky... will he notice? (didn't seem to notice)
+
+immediately noticed motor issue
+
+not using fault infomration... will he find it? (he didn't use it)
+
+now reviewing data
+
+scrubbing back and forth
+
+looking at analysis correlation
+trying to figure out what the problem is
+"there's a lot of data sets"
+
+Accidental correlations seem a bit too distracting...
+
+understood downhill -> shade -> solar power input
+
+since solar power came back, it makes sense that it didn't actually "die;" we were in the shade
+
+"a small ditch"
+
+a little worried about battery temps
+
+pcb temperature... a little confusing for people who haven't worked on it as to where it's located
+doesn't know what the conv1-2-3 are
+it might be better to distinguish what the data items mean
+clarify their meanings better or change their names
+
+not sure how to look at the analysis data
+a small tutorial would be nice
+
+
+* Bug: looks like values are still updating on the correlation map corr. value display, even when the visualization is supposed to be paused!!
+
+missed flat at the bottom of the crater and rough terrain
+
+====================
+Main points
+====================
+
+-correlation map is hard to understand and has too much data
+-unclear what certain data items mean

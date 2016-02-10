@@ -1,0 +1,33 @@
+\contentsline {chapter}{\@textofLoF }{ii}
+\contentsline {chapter}{Glossary}{iii}
+\contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}
+\contentsline {section}{\numberline {1.1}The Purpose of This Sample Thesis}{1}
+\contentsline {section}{\numberline {1.2}Conventions and Notations}{1}
+\contentsline {section}{\numberline {1.3}Nota bene}{2}
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}A Brief Description of \TeX }{3}
+\contentsline {section}{\numberline {2.1}What is it; why is it spelled that way; and what do really long section titles look like in the text and in the Table of Contents?}{3}
+\contentsline {section}{\numberline {2.2}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m books}{4}
+\contentsline {section}{\numberline {2.3}Mathematics}{4}
+\contentsline {section}{\numberline {2.4}Languages other than English}{4}
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}The Thesis Unformatted}{6}
+\contentsline {section}{\numberline {3.1}The Control File}{6}
+\contentsline {section}{\numberline {3.2}The Text Pages}{8}
+\contentsline {subsection}{\numberline {3.2.1}Chapters, Sections, Subsections, and Appendices}{8}
+\contentsline {subsection}{\numberline {3.2.2}Footnotes}{8}
+\contentsline {subsection}{\numberline {3.2.3}Figures and Tables}{9}
+\contentsline {subsubsection}{Facing pages}{9}
+\contentsline {subsection}{\numberline {3.2.4}Horizontal Figures and Tables}{9}
+\contentsline {subsection}{\numberline {3.2.5}Figure and Table Captions}{10}
+\contentsline {subsection}{\numberline {3.2.6}Line spacing}{11}
+\contentsline {section}{\numberline {3.3}The Preliminary Pages}{11}
+\contentsline {subsection}{\numberline {3.3.1}Copyright page}{12}
+\contentsline {subsection}{\numberline {3.3.2}Title page}{12}
+\contentsline {subsection}{\numberline {3.3.3}Abstract}{13}
+\contentsline {subsection}{\numberline {3.3.4}Tables of contents}{13}
+\contentsline {subsection}{\numberline {3.3.5}Acknowledgments}{13}
+\contentsline {subsection}{\numberline {3.3.6}Dedication}{13}
+\contentsline {subsection}{\numberline {3.3.7}Vita}{13}
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}Running \LaTeX ({\it and printing if you must})}{14}
+\contentsline {section}{\numberline {4.1}Running}{14}
+\contentsline {section}{\numberline {4.2}Printing}{14}
+\contentsline {chapter}{\numberline {\@textofAppendix \ A:}Where to find the files}{15}
