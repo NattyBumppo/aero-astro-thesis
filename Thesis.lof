@@ -1,12 +1,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax }}{8}{figure.caption.32}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{11}{figure.caption.50}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax }}{13}{figure.caption.55}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax }}{14}{figure.caption.57}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{14}{figure.caption.59}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{12}{figure.caption.51}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax }}{13}{figure.caption.54}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax }}{15}{figure.caption.58}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax }}{15}{figure.caption.60}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{16}{figure.caption.62}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{17}{figure.caption.65}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax }}{19}{figure.caption.68}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{20}{figure.caption.69}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{20}{figure.caption.72}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

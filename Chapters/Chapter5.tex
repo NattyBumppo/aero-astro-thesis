@@ -27,6 +27,17 @@ After I joined Team Hakuto, we began designing a new ground station software sui
 
 Our discussions focused on optimizing performance, reliability, and maintainability of the software. The latter factor was of particular concern, given that the software was to be used and maintained in a university laboratory environment, with many students---some of them inexperienced in software engineering---potentially responsible for updating the software and adding new features. After evaluating a list of disparate choices, including C++ on Linux with the Qt framework and multi-platform JavaScript running in HTML5, we ultimately decided that the ideal choice would be the Unity Game Engine, for its high frequency of software updates, its active developer community, and its aerospace legacy within the NASA Jet Propulsion Laboratory \cite{jplunity}. 
 
+\section{Rover Data Path}
+
+In Hakuto's network configuration, Moonraker sends data packets over radio from the Moon, and they are intercepted on Earth and relayed to the ground station over the Internet. Subsequently, these packets are decoded and processed in order to be visualized by the ground station. The data is stored locally in memory by the ground station software for subsequent display. A flowchart of this data path is shown in Fig.~\ref{fig:data_path}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/rover_data_flow.png}
+    \caption{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.}
+    \label{fig:data)path}
+\end{figure}
+
 \subsection{Non-FDIR-Related Components}
 
 The focus of this paper is on the fault detective and correlative visualizations implemented within the ground station, so we will spend the bulk of the time focusing on this component. However, there were several non-FDIR-related components as well, briefly described below to provide context:
@@ -82,19 +93,88 @@ Ensuring human understanding of fault data is an essential part of the fault dia
 
 \subsubsection{Correlative Functionality}
 
--start talking about correlation calculations
---PCC for correlative analysis--give reasoning and background
---corrgrams for visualization--give reasoning and background
--give pseudocode and formulas for all calculations
+The Pearson Correlation Coefficient was chosen as an algorithm for calculating correlationbetween sets of data channels, in order to give a metric of their mutual ``connectedness." This algorithm was chosen for its simple and efficient calculations, under the (perhaps premature) assumption of linear relationships.
+
+To visualize this data, a two-dimensional corrgram was used, visualizing relationships between data channels as a matrix with cell shadings representative of the PCC score of each relationship. Hue of each cell shows positive/negative correlation, and intensity shows the strength of that correlation. This visualization allows an operator can see changing channel correlations, which may suggest possible interconnectedness or causation and aid with troubleshooting. See Figure~\ref{fig:corr_map}.
+
+To show the flow of this data, pseudocode for the algorithm used is shown below.
+
+\begin{algorithm}
+    \caption{Euclid's algorithm}\label{euclid}
+    \begin{algorithmic}[1]
+        \Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
+        \State $r\gets a\bmod b$
+        \While{$r\not=0$}\Comment{We have the answer if r is 0}
+        \State $a\gets b$
+        \State $b\gets r$
+        \State $r\gets a\bmod b$
+        \EndWhile\label{euclidendwhile}
+        \State \textbf{return} $b$\Comment{The gcd is b}
+        \EndProcedure
+    \end{algorithmic}
+\end{algorithm}
+
+
+I also built functionality to adjust the sampling rate, the period of time over which samples are taken, and parameters related to averaging for smoothing out noise. Channel pairs may also be filtered via substring search.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/corr_map.png}
+    \caption{Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.}
+    \label{fig:corr_map}
+\end{figure}
+
+
 
 
 
 \section{Testing}
 
+Hakuto carried out a number of field tests on the ground station software, including FDIR-related and correlative components. The major tests we conducted are described in detail below.
+
 \subsection{Field Testing}
+
+Over the course of two weeks, we performed daily field tests in the rock quarry, to both assess the physical characteristics of our radio communication and to confirm our mobility in a simulated lunar environment. (See Fig.~\ref{fig:night_test_team} for an image of the quarry terrain.) The ground station interface was in constant use throughout the course of the tests, with alternating drivers at the helm. The setup usually involved one primary pilot and one copilot, who helped with troubleshooting. See Fig.~\ref{fig:daytime_operation_pittsburgh_field_test} for an image of normal operation.
+
+Our radio testing was multi-pronged. First, we endeavored to established that we could a) communicate from the ground station to Moonraker and vice-versa by going through Astrobotic's radio relay, which they set up to emulate their lunar lander which will function as a communication relay during the actual, planned lunar mission. Second, we tested the communication capabilities of Moonraker's radio antenna at two different operating frequencies (900 MHz and 2.4 GHz), in order to characterize performance over long distance and with line-of-sight blocked by rocky terrain. We looked for communication signal strength and commanding efficacy in the presence of packet loss, and also tested the effect of a signal strength amplifier in a poor connectivity situation. These results were promising and are currently being analyzed by our communications team.
+
+Our mobility testing consisted of driving long distances over rocky, yet generally even, terrain, occasionally using only the near-real-time (``NRT") streaming video telemetry as visual feedback. We set up various challenges, such as large rock obstacles and inclines of increasing steepness, to test the rover's mobility capabilities as well as our operational capabilities using the ground station interface.
+
+Other tasks performed during the field tests included coordinating with Hakuto crew and Astrobotic/Caltech engineers to fulfill mission tasks, scouting for field test locations, setting up and testing the ground station and radio equipment, and driving the rover during all of the tests to accomplish all of our test goals.
+
+Results of this field test, and other similar ones, will be discussed in the next chapter.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/daytime_operation_pittsburgh_field_test.jpg}
+    \caption{Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.}
+    \label{fig:daytime_operation_pittsburgh_field_test}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/night_test_team.png}
+    \caption{Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.}
+    \label{fig:night_test_team}
+\end{figure}
 
 \subsection{Usability Testing}
 
-\subsection{Data Discovery}
+In November 2015, I performed a set of usability tests on a slimmed-down version of the Moonraker ground station interface, in order to evaluate the various data analysis affordances and to determine any usability issues in need of attention. Seven users participated in the test, mostly interns and students possessing some familiarity with the rover, but with limited to no experience operating it via the ground station interface. See Fig.~\ref{fig:ui_test_takako} for an image of a user taking the test.
 
-\subsection{Comparative Data Visualizations}
+Participants were presented with a simplified form of the ground station, with the Pilot Screen, Copilot Screen, and the Correlation Map screen. As the correlation map is a relatively novel idea, and has not (to the best of the author's knowledge) ever been used in ground station software, this test also served to see if it could be immediately usable in its present state, or if special training or modifications will be necessary before the correlation map is useful for correlation discovery and root cause analysis.
+
+\subsubsection{Test Tasks}
+
+During the test, participants monitored telemetry and looked for patterns in received data during a ~10-minute simulation drive on the lunar surface. During the course of the drive, camera images were unavailable, but the rover telemetry was indicative of various events that occurred to the rover during the run. The scenario consisted of the rover descending down into a crater, where it loses direct sunlight, resulting in reduced temperatures and solar charge voltages. It also loses line of sight with the lunar lander, causing packet losses and a reduction in signal strength. The rover then climbs out of the crater, bringing about an all-around improvement in these conditions. It enters some rough terrain, and ultimately stops after a rock becomes stuck in the wheel.
+
+It was the task of the usability test participants to analyze the telemetry as it was received in order to try to understand the details of the story above. After the 10-minute run was complete, users were then given up to an additional 10 minutes to review received telemetry until they were satisfied they had understood the ``story" of the rover's trip.
+
+Results of usability testing will be discussed in the next chapter.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/ui_test_takuto.jpg}
+    \caption{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.}
+    \label{fig:ui_test_takuto}
+\end{figure}

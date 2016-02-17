@@ -10,6 +10,9 @@
 \usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 
 %% ----------------------------------------------------------------
@@ -17,7 +20,7 @@
 \frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
 
 % Set up the Title Page
-\title {Techniques for Correlation and Visualization of Telemetry Dependence Relationships for Root Cause Fault Analysis in Complex Systems}
+\title {Techniques for Fault Detection and Visualization of Telemetry Dependence Relationships for Root Cause Fault Analysis in Complex Systems}
 \authors  {\texorpdfstring
             {\href{natguy@uw.edu}{Nathaniel Guy}}
             {Nathaniel Guy}
@@ -45,7 +48,7 @@
 
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-I, NATHANIEL GUY, declare that this thesis titled, `TECHNIQUES FOR CORRELATION AND VISUALIZATION OF TELEMETRY DEPENDENCE RELATIONSHIPS FOR ROOT CAUSE FAULT ANALYSIS IN COMPLEX SYSTEMS' and the work presented in it are my own. I confirm that:
+I, NATHANIEL GUY, declare that this thesis titled, `TECHNIQUES FOR FAULT DETECTION AND VISUALIZATION OF TELEMETRY DEPENDENCE RELATIONSHIPS FOR ROOT CAUSE FAULT ANALYSIS IN COMPLEX SYSTEMS' and the work presented in it are my own. I confirm that:
 
 \begin{itemize} 
 \item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
@@ -72,11 +75,9 @@ Date:\\
 \clearpage  % Declaration ended, now start a new page
 
 %% ----------------------------------------------------------------
-% The "Funny Quote Page"
 \pagestyle{empty}  % No headers or footers for the following pages
 
 \null\vfill
-% Now comes the "Funny Quote", written in italics
 \textit{``Okay, 13. We've got lots and lots of people working on this; we'll give you some dope as soon
 as we have it, and you'll be the first one to know.'}
 
