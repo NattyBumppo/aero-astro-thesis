@@ -35,7 +35,7 @@ In Hakuto's network configuration, Moonraker sends data packets over radio from 
 \centering
     \includegraphics[width=\columnwidth]{images/rover_data_flow.png}
     \caption{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.}
-    \label{fig:data)path}
+    \label{fig:data_path}
 \end{figure}
 
 \subsection{Non-FDIR-Related Components}
@@ -124,10 +124,6 @@ I also built functionality to adjust the sampling rate, the period of time over 
     \label{fig:corr_map}
 \end{figure}
 
-
-
-
-
 \section{Testing}
 
 Hakuto carried out a number of field tests on the ground station software, including FDIR-related and correlative components. The major tests we conducted are described in detail below.
@@ -162,6 +158,13 @@ Results of this field test, and other similar ones, will be discussed in the nex
 
 In November 2015, I performed a set of usability tests on a slimmed-down version of the Moonraker ground station interface, in order to evaluate the various data analysis affordances and to determine any usability issues in need of attention. Seven users participated in the test, mostly interns and students possessing some familiarity with the rover, but with limited to no experience operating it via the ground station interface. See Fig.~\ref{fig:ui_test_takako} for an image of a user taking the test.
 
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/ui_test_takuto.jpg}
+    \caption{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.}
+    \label{fig:ui_test_takako}
+\end{figure}
+
 Participants were presented with a simplified form of the ground station, with the Pilot Screen, Copilot Screen, and the Correlation Map screen. As the correlation map is a relatively novel idea, and has not (to the best of the author's knowledge) ever been used in ground station software, this test also served to see if it could be immediately usable in its present state, or if special training or modifications will be necessary before the correlation map is useful for correlation discovery and root cause analysis.
 
 \subsubsection{Test Tasks}
@@ -171,10 +174,3 @@ During the test, participants monitored telemetry and looked for patterns in rec
 It was the task of the usability test participants to analyze the telemetry as it was received in order to try to understand the details of the story above. After the 10-minute run was complete, users were then given up to an additional 10 minutes to review received telemetry until they were satisfied they had understood the ``story" of the rover's trip.
 
 Results of usability testing will be discussed in the next chapter.
-
-\begin{figure}[h]
-\centering
-    \includegraphics[width=\columnwidth]{images/ui_test_takuto.jpg}
-    \caption{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.}
-    \label{fig:ui_test_takuto}
-\end{figure}

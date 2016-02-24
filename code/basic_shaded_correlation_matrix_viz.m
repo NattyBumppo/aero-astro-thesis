@@ -39,7 +39,7 @@ figure(2)
 imagesc(corr_mx_tau);
 colormap(gray(256));
 colorbar;
-title('Kendall''s Rau Correlation Map Example');
+title('Kendall''s Tau Correlation Map Example');
 xlabel('Data Channels');
 ylabel('Data Channels');
 

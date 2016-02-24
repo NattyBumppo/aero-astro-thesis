@@ -1,0 +1,14 @@
+Notes on Data:
+
+-I've got the time curve .json files loading in now (yay)
+-Note that I have to reset firefox every time to load them, though (blargh)
+-A lot of the visualizations are kind of crappy
+-Hard to use (dang it, applet)
+-The lines are pushed out really far towards the edges for small visualizations
+-Large jumps are hard to render
+-My actual telemetry visualization is a little bit too difficult to follow
+-A lot of cyclic nature
+-I'm wondering if the monotonically increasing channels (which aren't all that useful anyway, I think, for this type of visualization) are throwing things off by constantly pushing us around in the embedding
+-I'm also wondering about the values that will show huge jumps when normalized (e.g., anything that's binary)
+-I'd like to try reducing the data channels that are looked at to a subset of Gaussian mean-ish sensor-telemetered values (like acceleration)
+--I tried this, just isolating the values to PDU_vbatt, and the results aren't terrific, but they're readable...ish
