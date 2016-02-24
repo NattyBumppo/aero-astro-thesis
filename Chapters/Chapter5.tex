@@ -23,7 +23,7 @@ See Figure~\ref{fig:moonraker} for a photo of Moonraker.
 
 \section{Ground Station Interface}
 
-After I joined Team Hakuto, we began designing a new ground station software suite for the most recent version of the rover. The rover had been updated in several ways since the prior Pre-Flight Model, and many of its avionics, including its software, were updated and redesigned, breaking compatibility with the previous version of the ground station software. We worked together to evaluate the current and future needs of the rover, and to redesign and reimplement software to optimally fit these needs.
+In early July 2015, Team Hakuto began designing a new ground station software suite for the most recent version of the rover. The rover had been updated in several ways since the prior Pre-Flight Model, and many of its avionics, including its software, were updated and redesigned, breaking compatibility with the previous version of the ground station software. We worked together to evaluate the current and future needs of the rover, and to redesign and reimplement software to optimally fit these needs.
 
 Our discussions focused on optimizing performance, reliability, and maintainability of the software. The latter factor was of particular concern, given that the software was to be used and maintained in a university laboratory environment, with many students---some of them inexperienced in software engineering---potentially responsible for updating the software and adding new features. After evaluating a list of disparate choices, including C++ on Linux with the Qt framework and multi-platform JavaScript running in HTML5, we ultimately decided that the ideal choice would be the Unity Game Engine, for its high frequency of software updates, its active developer community, and its aerospace legacy within the NASA Jet Propulsion Laboratory \cite{jplunity}. 
 
@@ -60,7 +60,7 @@ In comparison with traditional aerospace ground station software, particular att
 
 \subsubsection{Threshold-based fault detection}
 
-In order to build a threshold-based fault detection system for Moonraker, I worked with engineers on our team to define the ``danger" thresholds that indicated points of severe jeopardy, as well as the ``warning" thresholds that indicated points of concern. I implemented these thresholds in my ground station software as a general-purpose fault detection engine. Faults are detected constantly, and are displayed to the user via color and detailed information (see the following sections for more details). All fault occurrence details and times are logged for future review as well. See Figure~\ref{fig:mobility_telem_subpanel}.
+In order to build a threshold-based fault detection system for Moonraker, we worked with engineers on our team to define the ``danger" thresholds that indicated points of severe jeopardy, as well as the ``warning" thresholds that indicated points of concern. We implemented these thresholds in my ground station software as a general-purpose fault detection engine. Faults are detected constantly, and are displayed to the user via color and detailed information (see the following sections for more details). All fault occurrence details and times are logged for future review as well. See Figure~\ref{fig:mobility_telem_subpanel}.
 
 \begin{figure}[h]
 \centering
@@ -80,7 +80,7 @@ For safety, faults that have occurred need to be easily visible and understood b
     \label{fig:alert_panel}
 \end{figure}
 
-\subsubsection{Detailed fault information}
+\subsubsection{Expert fault information}
 
 Ensuring human understanding of fault data is an essential part of the fault diagnosis and recovery process. As such, it's important to design a system where detailed information can be provided about individual faults that have occurred, while maintaining a high-level understanding of which systems are behaving anomalously. The system designed allows for this hierarchical organization of information. When high-level fault information is indicated in the ``fault alert panel," more concise information is provided in the ``fault information panel," including which anomalous data channels are contributing to the problem. The fault information is highly extensible, allowing for any other additional fault-related notes that system designers or operators would like to include for reference. This additional information, uncommon in traditional fault monitoring systems, accelerates the fault diagnosis problem by immediately pointing towards possible root causes. See Figure~\ref{fig:fault_info2}.
 
@@ -115,7 +115,7 @@ To show the flow of this data, pseudocode for the algorithm used is shown below.
 \end{algorithm}
 
 
-I also built functionality to adjust the sampling rate, the period of time over which samples are taken, and parameters related to averaging for smoothing out noise. Channel pairs may also be filtered via substring search.
+We also built functionality to adjust the sampling rate, the period of time over which samples are taken, and parameters related to averaging for smoothing out noise. Channel pairs may also be filtered via substring search.
 
 \begin{figure}[h]
 \centering
@@ -156,7 +156,7 @@ Results of this field test, and other similar ones, will be discussed in the nex
 
 \subsection{Usability Testing}
 
-In November 2015, I performed a set of usability tests on a slimmed-down version of the Moonraker ground station interface, in order to evaluate the various data analysis affordances and to determine any usability issues in need of attention. Seven users participated in the test, mostly interns and students possessing some familiarity with the rover, but with limited to no experience operating it via the ground station interface. See Fig.~\ref{fig:ui_test_takako} for an image of a user taking the test.
+In November 2015, we performed a set of usability tests on a slimmed-down version of the Moonraker ground station interface, in order to evaluate the various data analysis affordances and to determine any usability issues in need of attention. Seven users participated in the test, mostly interns and students possessing some familiarity with the rover, but with limited to no experience operating it via the ground station interface. See Fig.~\ref{fig:ui_test_takako} for an image of a user taking the test.
 
 \begin{figure}[h]
 \centering
