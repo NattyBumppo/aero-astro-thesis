@@ -56,42 +56,41 @@
 \contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{21}{chapter.73}
 \contentsline {section}{\numberline {6.1}Field Test Results}{21}{section.74}
 \contentsline {section}{\numberline {6.2}Usability Test Results}{22}{section.75}
-\contentsline {section}{\numberline {6.3}Analytical Improvements and Additions}{23}{section.76}
-\contentsline {section}{\numberline {6.4}Visualization Improvements and Additions}{24}{section.77}
-\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{25}{chapter.78}
-\contentsline {section}{\numberline {7.1}Dimensional Reduction}{25}{section.79}
-\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{25}{subsection.80}
-\contentsline {section}{\numberline {7.2}Meta-Analysis}{25}{section.81}
-\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{25}{subsection.82}
-\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{26}{subsection.83}
-\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{26}{section.84}
-\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{26}{subsection.85}
-\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{26}{subsection.86}
-\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{26}{subsection.87}
-\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{26}{subsection.88}
-\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{26}{subsection.89}
-\contentsline {subsection}{\numberline {7.3.6}Timelines}{26}{subsection.90}
-\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{26}{section.91}
-\contentsline {subsection}{\numberline {7.4.1}Dependency Graphs}{27}{subsection.92}
-\contentsline {subsection}{\numberline {7.4.2}Time Curves}{27}{subsection.93}
-\contentsline {subsection}{\numberline {7.4.3}Snapshotted Network Diagrams}{27}{subsection.94}
-\contentsline {subsection}{\numberline {7.4.4}}{27}{subsection.95}
-\contentsline {section}{\numberline {7.5}Time Curves}{27}{section.96}
-\contentsline {subsection}{\numberline {7.5.1}}{27}{subsection.98}
-\contentsline {subsection}{\numberline {7.5.2}}{27}{subsection.99}
-\contentsline {subsection}{\numberline {7.5.3}}{27}{subsection.100}
-\contentsline {subsection}{\numberline {7.5.4}}{27}{subsection.101}
-\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{27}{section.102}
-\contentsline {subsection}{\numberline {7.6.1}}{27}{subsection.103}
-\contentsline {subsection}{\numberline {7.6.2}}{27}{subsection.104}
-\contentsline {subsection}{\numberline {7.6.3}}{27}{subsection.105}
-\contentsline {subsection}{\numberline {7.6.4}}{27}{subsection.106}
-\contentsline {chapter}{\numberline {8}Results and Discussion}{29}{chapter.107}
-\contentsline {section}{\numberline {8.1}A Section}{29}{section.108}
-\contentsline {subsection}{\numberline {8.1.1}A Subsection}{30}{subsection.109}
-\contentsline {section}{\numberline {8.2}Another Section}{30}{section.110}
-\contentsline {chapter}{\numberline {9}Conclusion}{31}{chapter.111}
+\contentsline {section}{\numberline {6.3}Improvements and Additions}{23}{section.76}
+\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{25}{chapter.77}
+\contentsline {section}{\numberline {7.1}Dimensional Reduction}{25}{section.78}
+\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{25}{subsection.79}
+\contentsline {section}{\numberline {7.2}Meta-Analysis}{25}{section.80}
+\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{25}{subsection.81}
+\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{26}{subsection.82}
+\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{26}{section.83}
+\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{26}{subsection.84}
+\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{26}{subsection.85}
+\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{26}{subsection.86}
+\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{26}{subsection.87}
+\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{26}{subsection.88}
+\contentsline {subsection}{\numberline {7.3.6}Timelines}{26}{subsection.89}
+\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{26}{section.90}
+\contentsline {subsection}{\numberline {7.4.1}Dependency Graphs}{27}{subsection.91}
+\contentsline {subsection}{\numberline {7.4.2}Time Curves}{27}{subsection.92}
+\contentsline {subsection}{\numberline {7.4.3}Snapshotted Network Diagrams}{27}{subsection.93}
+\contentsline {subsection}{\numberline {7.4.4}}{27}{subsection.94}
+\contentsline {section}{\numberline {7.5}Time Curves}{27}{section.95}
+\contentsline {subsection}{\numberline {7.5.1}}{27}{subsection.97}
+\contentsline {subsection}{\numberline {7.5.2}}{27}{subsection.98}
+\contentsline {subsection}{\numberline {7.5.3}}{27}{subsection.99}
+\contentsline {subsection}{\numberline {7.5.4}}{27}{subsection.100}
+\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{27}{section.101}
+\contentsline {subsection}{\numberline {7.6.1}}{27}{subsection.102}
+\contentsline {subsection}{\numberline {7.6.2}}{27}{subsection.103}
+\contentsline {subsection}{\numberline {7.6.3}}{27}{subsection.104}
+\contentsline {subsection}{\numberline {7.6.4}}{27}{subsection.105}
+\contentsline {chapter}{\numberline {8}Results and Discussion}{29}{chapter.106}
+\contentsline {section}{\numberline {8.1}A Section}{29}{section.107}
+\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{30}{subsection.108}
+\contentsline {section}{\numberline {8.2}Another Section}{30}{section.109}
+\contentsline {chapter}{\numberline {9}Conclusion}{31}{chapter.110}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{32}{appendix.112}
+\contentsline {chapter}{\numberline {A}An Appendix}{32}{appendix.111}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{34}{dummy.113}
+\contentsline {chapter}{Bibliography}{34}{dummy.112}
