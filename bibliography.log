@@ -1,0 +1,229 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2011.10.18)  25 JAN 2016 19:33
+entering extended mode
+**F:/Dropbox/thesis/bibliography.bib
+(F:/Dropbox/thesis/bibliography.bib
+Overfull \hbox (2.05159pt too wide) in paragraph at lines 24--32
+\tenrm tle=Metrology for Aerospace (MetroAeroSpace), 2014 IEEE, pages=413--417,
+ year=2014, or-ga-ni-za-tion=IEEE|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm l
+.\tenrm e
+.\tenrm =
+.\tenrm M
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--32
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (3.16273pt too wide) in paragraph at lines 53--61
+\tenrm mod-ule in satel-lite on-board soft-ware, au-thor=SalarKaleji, Fate-meh 
+and Dayyani, Aboul-fazl, book-ti-tle=Recent|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm m
+.\tenrm o
+.\kern0.27779
+.\tenrm d
+.\discretionary
+..\tenrm -
+.etc.
+
+
+Overfull \hbox (2.62454pt too wide) in paragraph at lines 79--87
+\tenrm ics Sys-tems Con-fer-ence, 1991. Pro-ceed-ings., IEEE/AIAA 10th, pages=5
+6--61, year=1991, or-ga-ni-za-tion=IEEE|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm i
+.\tenrm c
+.\tenrm s
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm S
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--87
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+
+Overfull \hbox (7.2738pt too wide) in paragraph at lines 97--104
+[]\tenrm @inproceedingspaakko2001bayesian, ti-tle=Bayesian Net-works for Ad-van
+ced FDIR, au-thor=Paakko, Matti|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+[1{C:/Users/Nat/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (3.05153pt too wide) in paragraph at lines 158--168
+[]\tenrm @articlerauch1994intelligent, ti-tle=Intelligent fault di-ag-no-sis an
+d con-trol re-con-fig-u-ra-tion, au-thor=Rauch,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (7.19052pt too wide) in paragraph at lines 158--168
+\tenrm Her-bert E, jour-nal=Control Sys-tems, IEEE, vol-ume=14, num-ber=3, page
+s=6--12, year=1994, pub-lisher=IEEE|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm H
+.\tenrm e
+.\tenrm r
+.\discretionary
+..\tenrm -
+.\tenrm b
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--168
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Overfull \hbox (27.68831pt too wide) in paragraph at lines 201--205
+[]\tenrm @articlepaakkomodern, ti-tle=Modern AI Ap-proaches for Build-ing Ro-bu
+st FDIR Com-po-nents, au-thor=Paakko,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (14.07918pt too wide) in paragraph at lines 216--224
+[]\tenrm @inproceedingsschwabacher2008pre, title=Pre-launch di-ag-nos-tics for 
+launch ve-hi-cles, au-thor=Schwabacher,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (9.68932pt too wide) in paragraph at lines 254--260
+[]\tenrm @articleholsti2001towards, ti-tle=Towards ad-vanced FDIR com-po-nents,
+ au-thor=Holsti, Niklas and Paakko,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (2.18933pt too wide) in paragraph at lines 282--292
+[]\tenrm @articlemurdoch1996graphical, ti-tle=A graph-i-cal dis-play of large c
+or-re-la-tion ma-tri-ces, au-thor=Murdoch,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (18.94058pt too wide) in paragraph at lines 293--303
+\tenrm thor=Friendly, Michael, jour-nal=The Amer-i-can Statis-ti-cian, vol-ume=
+56, num-ber=4, pages=316--324, year=2002,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm t
+.\tenrm h
+.\tenrm o
+.\tenrm r
+.\tenrm =
+.etc.
+
+
+Overfull \hbox (1.24605pt too wide) in paragraph at lines 304--310
+[]\tenrm @inproceedingsyeh2007exploratory, ti-tle=Exploratory vi-su-al-iza-tion
+ of cor-re-la-tion ma-tri-ces, au-thor=Yeh,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+[2]
+Overfull \hbox (25.60725pt too wide) in paragraph at lines 320--330
+[]\tenrm @articlehills1969looking, ti-tle=On look-ing at large cor-re-la-tion m
+a-tri-ces, au-thor=Hills, M, jour-nal=Biometrika,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (9.13489pt too wide) in paragraph at lines 331--340
+[]\tenrm @inproceedingsmuller2003visualization, ti-tle=Visualization meth-ods f
+or time-dependent data-an overview,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.374 .../science-news/science-at-nasa/2010/12jul_
+                                                  rabbithole/},
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.374 .../science-news/science-at-nasa/2010/12jul_
+                                                  rabbithole/},
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

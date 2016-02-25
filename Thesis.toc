@@ -47,50 +47,50 @@
 \contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{14}{subsection.56}
 \contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{14}{subsubsection.57}
 \contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{15}{subsubsection.59}
-\contentsline {subsubsection}{\numberline {5.3.2.3}Detailed fault information}{15}{subsubsection.61}
+\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{15}{subsubsection.61}
 \contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{16}{subsubsection.63}
 \contentsline {section}{\numberline {5.4}Testing}{17}{section.66}
 \contentsline {subsection}{\numberline {5.4.1}Field Testing}{17}{subsection.67}
-\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{18}{subsection.70}
-\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{19}{subsubsection.72}
-\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{21}{chapter.73}
-\contentsline {section}{\numberline {6.1}Field Test Results}{21}{section.74}
-\contentsline {section}{\numberline {6.2}Usability Test Results}{22}{section.75}
-\contentsline {section}{\numberline {6.3}Improvements and Additions}{23}{section.76}
-\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{25}{chapter.77}
-\contentsline {section}{\numberline {7.1}Dimensional Reduction}{25}{section.78}
-\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{25}{subsection.79}
-\contentsline {section}{\numberline {7.2}Meta-Analysis}{25}{section.80}
-\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{25}{subsection.81}
-\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{26}{subsection.82}
-\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{26}{section.83}
-\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{26}{subsection.84}
-\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{26}{subsection.85}
-\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{26}{subsection.86}
-\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{26}{subsection.87}
-\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{26}{subsection.88}
-\contentsline {subsection}{\numberline {7.3.6}Timelines}{26}{subsection.89}
-\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{26}{section.90}
-\contentsline {subsection}{\numberline {7.4.1}Dependency Graphs}{27}{subsection.91}
-\contentsline {subsection}{\numberline {7.4.2}Time Curves}{27}{subsection.92}
-\contentsline {subsection}{\numberline {7.4.3}Snapshotted Network Diagrams}{27}{subsection.93}
-\contentsline {subsection}{\numberline {7.4.4}}{27}{subsection.94}
-\contentsline {section}{\numberline {7.5}Time Curves}{27}{section.95}
-\contentsline {subsection}{\numberline {7.5.1}}{27}{subsection.97}
-\contentsline {subsection}{\numberline {7.5.2}}{27}{subsection.98}
-\contentsline {subsection}{\numberline {7.5.3}}{27}{subsection.99}
-\contentsline {subsection}{\numberline {7.5.4}}{27}{subsection.100}
-\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{27}{section.101}
-\contentsline {subsection}{\numberline {7.6.1}}{27}{subsection.102}
-\contentsline {subsection}{\numberline {7.6.2}}{27}{subsection.103}
-\contentsline {subsection}{\numberline {7.6.3}}{27}{subsection.104}
-\contentsline {subsection}{\numberline {7.6.4}}{27}{subsection.105}
-\contentsline {chapter}{\numberline {8}Results and Discussion}{29}{chapter.106}
-\contentsline {section}{\numberline {8.1}A Section}{29}{section.107}
-\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{30}{subsection.108}
-\contentsline {section}{\numberline {8.2}Another Section}{30}{section.109}
-\contentsline {chapter}{\numberline {9}Conclusion}{31}{chapter.110}
+\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{19}{subsection.70}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{21}{subsubsection.72}
+\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{22}{chapter.73}
+\contentsline {section}{\numberline {6.1}Field Test Results}{22}{section.74}
+\contentsline {section}{\numberline {6.2}Usability Test Results}{23}{section.75}
+\contentsline {section}{\numberline {6.3}Improvements and Additions}{24}{section.76}
+\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{26}{chapter.77}
+\contentsline {section}{\numberline {7.1}Dimensional Reduction}{26}{section.78}
+\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{26}{subsection.79}
+\contentsline {section}{\numberline {7.2}Meta-Analysis}{26}{section.80}
+\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{26}{subsection.81}
+\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{27}{subsection.82}
+\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{27}{section.83}
+\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{27}{subsection.84}
+\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{27}{subsection.85}
+\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{27}{subsection.86}
+\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{27}{subsection.87}
+\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{27}{subsection.88}
+\contentsline {subsection}{\numberline {7.3.6}Timelines}{27}{subsection.89}
+\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{27}{section.90}
+\contentsline {subsection}{\numberline {7.4.1}Dependency Graphs}{28}{subsection.91}
+\contentsline {subsection}{\numberline {7.4.2}Time Curves}{28}{subsection.92}
+\contentsline {subsection}{\numberline {7.4.3}Snapshotted Network Diagrams}{28}{subsection.93}
+\contentsline {subsection}{\numberline {7.4.4}}{28}{subsection.94}
+\contentsline {section}{\numberline {7.5}Time Curves}{28}{section.95}
+\contentsline {subsection}{\numberline {7.5.1}}{28}{subsection.97}
+\contentsline {subsection}{\numberline {7.5.2}}{28}{subsection.98}
+\contentsline {subsection}{\numberline {7.5.3}}{28}{subsection.99}
+\contentsline {subsection}{\numberline {7.5.4}}{28}{subsection.100}
+\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{28}{section.101}
+\contentsline {subsection}{\numberline {7.6.1}}{28}{subsection.102}
+\contentsline {subsection}{\numberline {7.6.2}}{28}{subsection.103}
+\contentsline {subsection}{\numberline {7.6.3}}{28}{subsection.104}
+\contentsline {subsection}{\numberline {7.6.4}}{28}{subsection.105}
+\contentsline {chapter}{\numberline {8}Results and Discussion}{30}{chapter.106}
+\contentsline {section}{\numberline {8.1}A Section}{30}{section.107}
+\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{31}{subsection.108}
+\contentsline {section}{\numberline {8.2}Another Section}{31}{section.109}
+\contentsline {chapter}{\numberline {9}Conclusion}{32}{chapter.110}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{32}{appendix.111}
+\contentsline {chapter}{\numberline {A}An Appendix}{33}{appendix.111}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{34}{dummy.112}
+\contentsline {chapter}{Bibliography}{35}{dummy.112}

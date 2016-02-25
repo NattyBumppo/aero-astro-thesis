@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{xprize}
 Google sponsors lunar x prize to create a space race for a new generation,
@@ -21,9 +21,19 @@ Benjamin Bach, Conglei Shi, Nicolas Heulot, Tara Madhyastha, Tom Grabowski, and
 Dauna Coulter.
 \newblock Down the lunar rabbit-hole, 2010.
 
+\bibitem{friendly2002corrgrams}
+Michael Friendly.
+\newblock Corrgrams: Exploratory displays for correlation matrices.
+\newblock {\em The American Statistician}, 56(4):316--324, 2002.
+
 \bibitem{procyon_status}
 JAXA~Institute of~Space and Astronautical Science.
 \newblock On the status of the procyon nanosatellite probe, 2015.
+
+\bibitem{rummelcorrelation}
+RJ~Rummel.
+\newblock Understanding correlation.
+\newblock 1976.
 
 \bibitem{spacex_crs7}
 SpaceX.

@@ -1,1 +1,5 @@
 papers/*
+.DS_Store
+Images/.DS_Store
+Chapters/.DS_Store
+testing_logs/.DS_Store

@@ -97,23 +97,25 @@ The Pearson Correlation Coefficient was chosen as an algorithm for calculating c
 
 To visualize this data, a two-dimensional corrgram was used, visualizing relationships between data channels as a matrix with cell shadings representative of the PCC score of each relationship. Hue of each cell shows positive/negative correlation, and intensity shows the strength of that correlation. This visualization allows an operator can see changing channel correlations, which may suggest possible interconnectedness or causation and aid with troubleshooting. See Figure~\ref{fig:corr_map}.
 
-To show the flow of this data, pseudocode for the algorithm used is shown below.
+To show the flow of this data, pseudocode for the algorithm used is shown in Algorithm~\ref{alg:corrgram_get}. Assume that a pre-generated $n \times n$ grid of transparent blocks, $\textbf{Corr}$, is displayed on the screen. Also assume that $\textbf{GetColor}$ refers to an arbitrary function which maps from a PCC score $\in [-1,1]$ to an RGB color $(r, g, b) \in \mathbb{R}^{3}$, where $0 \leq r, g, b \leq 255$. We experimented with several variations of this function, and found that a linear mapping exaggerated the importance of low correlation scores, which led to the development of a hand-tuned exponential color mapping function to produce the correct scores. Certain work has explored the complexities of determining a proper mapping, which relate to the non-linearity of human perception of color \cite{friendly2002corrgrams}. Other work has suggested the efficacy of pre-squaring the PCC score before display, which instead results in displaying the coefficient of determination (i.e., the shared portion of the variance) for the pair of data items, which intuitively corresponds to a more intuitive human understanding of data connectivity \cite{rummelcorrelation}.
 
 \begin{algorithm}
-    \caption{Euclid's algorithm}\label{euclid}
+    \caption{Animated Corrgram Generation Algorithm}\label{alg:corrgram_get}
     \begin{algorithmic}[1]
-        \Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
-        \State $r\gets a\bmod b$
-        \While{$r\not=0$}\Comment{We have the answer if r is 0}
-        \State $a\gets b$
-        \State $b\gets r$
-        \State $r\gets a\bmod b$
-        \EndWhile\label{euclidendwhile}
-        \State \textbf{return} $b$\Comment{The gcd is b}
-        \EndProcedure
+        \Procedure{CorrgramGenerator}{$D$}\Comment{Takes data point matrix $D \in \mathbb{R}^{n \times t}$.}
+        \State $S \gets \{U_{:,j}\}_{j=t-s}^{n}$ \Comment{Reduce data to most recent $s$ points.}
+        \State $P\gets \textbf{PCC}_{s}(D_{r})$ \Comment{Calculate a symmetric PCC matrix using last $s$ points.}
+        \For{$\textbf{row} = 1~\textbf{to}~n$}
+            \For{$\textbf{col} = 1~\textbf{to}~n$}
+                \State $\textbf{color} = \textbf{GetColor}(S_{row, col})$ \Comment{Convert PCC score to a color.}
+                \State $\textbf{Corr}_{row, col}\textbf{.color} \gets \textbf{color}$ \Comment{Assign color to cell in corrgram.}
+            \EndFor
+        \EndFor
+        \EndProcedure \Comment{Algorithm is re-run on every graphical update.}
     \end{algorithmic}
 \end{algorithm}
 
+A few additional modifications were applied in order to make this algorithm performant. For instance, the entire corrgram is not updated at once, due to the performance hit from calculating new PCC scores for thousands of corrgram cells on each graphical update. Instead, a subset of the corrgram cells are updated, resulting in a ``rolling" effect wherein cells update gradually, with a full update of the corrgram being achieved on the order of once per second.
 
 We also built functionality to adjust the sampling rate, the period of time over which samples are taken, and parameters related to averaging for smoothing out noise. Channel pairs may also be filtered via substring search.
 
