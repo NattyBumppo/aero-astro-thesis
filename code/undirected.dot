@@ -1,0 +1,102 @@
+graph {
+node [shape=ellipse];
+
+overlap=false;
+splines = true;
+
+// nodes
+HL_total_distance PDU_vboost2 PDU_vboost0 PDU_vboost1 MC_right_temp_cpu0 RADIO_passed_packets RADIO_total_packets PDU_vbatt MC_right_rotation_cpu1 MC_right_rotation_cpu0 PDU_temp3 PDU_temp2 MC_right_temp_cpu1 PDU_temp0 MC_left_temp_cpu0 MC_temp_cpu1 HL_mission_time MC_left_rotation_cpu0 IMU_temp MC_left_rotation_cpu1 ;
+
+// positive edges
+edge [color=Orange];
+MC_right_rotation_cpu1 -- MC_right_rotation_cpu0;
+PDU_vboost2 -- PDU_vboost0;
+PDU_vboost2 -- PDU_vboost1;
+MC_left_rotation_cpu1 -- MC_left_rotation_cpu0;
+HL_total_distance -- RADIO_passed_packets;
+PDU_vbatt -- IMU_temp;
+PDU_vboost2 -- IMU_temp;
+HL_mission_time -- MC_right_rotation_cpu1;
+HL_mission_time -- MC_right_rotation_cpu0;
+MC_right_temp_cpu1 -- MC_right_temp_cpu0;
+RADIO_passed_packets -- MC_right_rotation_cpu0;
+HL_total_distance -- MC_right_rotation_cpu1;
+HL_total_distance -- MC_right_rotation_cpu0;
+MC_right_temp_cpu0 -- IMU_temp;
+HL_mission_time -- RADIO_passed_packets;
+PDU_vboost0 -- PDU_vboost1;
+PDU_temp3 -- MC_left_temp_cpu0;
+HL_mission_time -- HL_total_distance;
+MC_left_rotation_cpu0 -- RADIO_total_packets;
+PDU_temp2 -- PDU_vbatt;
+HL_mission_time -- MC_left_rotation_cpu1;
+HL_mission_time -- MC_left_rotation_cpu0;
+HL_total_distance -- RADIO_total_packets;
+PDU_vboost2 -- PDU_vbatt;
+PDU_vbatt -- PDU_vboost0;
+PDU_vbatt -- PDU_vboost1;
+MC_left_rotation_cpu1 -- MC_right_rotation_cpu1;
+MC_left_rotation_cpu1 -- MC_right_rotation_cpu0;
+MC_left_rotation_cpu0 -- MC_right_rotation_cpu0;
+RADIO_passed_packets -- MC_right_rotation_cpu1;
+IMU_temp -- PDU_vboost0;
+IMU_temp -- PDU_vboost1;
+PDU_temp0 -- MC_temp_cpu1;
+RADIO_total_packets -- MC_right_rotation_cpu0;
+MC_right_rotation_cpu1 -- RADIO_total_packets;
+MC_left_rotation_cpu1 -- RADIO_total_packets;
+RADIO_passed_packets -- MC_left_rotation_cpu1;
+RADIO_passed_packets -- MC_left_rotation_cpu0;
+PDU_temp2 -- PDU_vboost2;
+PDU_temp2 -- PDU_vboost1;
+PDU_temp2 -- PDU_vboost0;
+HL_total_distance -- MC_left_rotation_cpu1;
+HL_total_distance -- MC_left_rotation_cpu0;
+HL_mission_time -- RADIO_total_packets;
+MC_left_rotation_cpu0 -- MC_right_rotation_cpu1;
+
+// negative edges
+edge [color=Blue];
+PDU_vboost0 -- MC_right_rotation_cpu1;
+PDU_vboost0 -- MC_right_rotation_cpu0;
+PDU_vboost2 -- MC_right_rotation_cpu1;
+PDU_vboost2 -- MC_right_rotation_cpu0;
+PDU_temp0 -- RADIO_total_packets;
+PDU_temp2 -- RADIO_total_packets;
+HL_mission_time -- PDU_vboost0;
+HL_mission_time -- PDU_vboost1;
+HL_mission_time -- PDU_vboost2;
+HL_total_distance -- PDU_vboost0;
+HL_total_distance -- PDU_vboost1;
+HL_total_distance -- PDU_vboost2;
+PDU_temp0 -- MC_left_rotation_cpu0;
+MC_left_rotation_cpu1 -- PDU_temp0;
+PDU_temp2 -- MC_left_rotation_cpu0;
+PDU_temp2 -- MC_left_rotation_cpu1;
+RADIO_passed_packets -- PDU_vboost0;
+RADIO_passed_packets -- PDU_vboost1;
+RADIO_passed_packets -- PDU_vboost2;
+MC_left_rotation_cpu1 -- PDU_vboost1;
+PDU_vboost1 -- MC_right_rotation_cpu0;
+MC_right_rotation_cpu1 -- PDU_vboost1;
+MC_left_rotation_cpu0 -- PDU_vboost1;
+HL_total_distance -- PDU_temp0;
+PDU_temp2 -- HL_total_distance;
+HL_mission_time -- PDU_vbatt;
+RADIO_passed_packets -- PDU_temp0;
+PDU_temp2 -- RADIO_passed_packets;
+MC_left_rotation_cpu1 -- PDU_vboost0;
+MC_left_rotation_cpu0 -- PDU_vboost0;
+MC_left_rotation_cpu1 -- PDU_vboost2;
+MC_left_rotation_cpu0 -- PDU_vboost2;
+PDU_vboost1 -- RADIO_total_packets;
+PDU_vboost0 -- RADIO_total_packets;
+PDU_vboost2 -- RADIO_total_packets;
+HL_mission_time -- PDU_temp0;
+PDU_temp2 -- HL_mission_time;
+HL_total_distance -- PDU_vbatt;
+PDU_temp0 -- MC_right_rotation_cpu0;
+PDU_temp0 -- MC_right_rotation_cpu1;
+PDU_temp2 -- MC_right_rotation_cpu0;
+PDU_temp2 -- MC_right_rotation_cpu1;
+}

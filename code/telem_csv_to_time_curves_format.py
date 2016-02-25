@@ -5,7 +5,7 @@ import json
 import sys
 import numpy as np
 
-telem_filename = 'telem_test2.csv'
+telem_filename = 'telem.csv'
 timecurve_json_filename = 'timecurve_test_dummy_data.json'
 dataset_name = 'PFM2 User Test Data'
 
@@ -49,6 +49,8 @@ with open(telem_filename, 'rb') as csvfile:
     channel_names = list(channel_names)
 
     print "Collected names of %s distinct data channels." % len(channel_names)
+    # for channel_name in channel_names:
+    #     print channel_name
 
 # Initialize this value so it'll be global
 earliest_time_struct = None
