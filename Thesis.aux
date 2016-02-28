@@ -22,6 +22,7 @@
 \@writefile{toc}{\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}}
 \@writefile{toc}{\vspace  {1em}}
 \@writefile{toc}{\contentsline {chapter}{List of Figures}{viii}{dummy.5}}
+\citation{bach2016time}
 \@writefile{toc}{\contentsline {chapter}{List of Tables}{x}{dummy.7}}
 \gdef \LT@i {\LT@entry 
     {1}{43.80045pt}\LT@entry 
@@ -46,147 +47,176 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \citation{spacex_crs7}
 \citation{procyon_status}
-\citation{Cancro}
-\citation{Yairi}
-\citation{Willsky}
+\citation{schwabacher2008pre}
+\citation{dearden2004real}
+\citation{tipaldi2014spacecraft}
+\citation{willsky1976survey}
+\citation{hwang2010survey}
+\citation{schwabacher2008pre}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Background in Fault Detection, Isolation and Recovery}{4}{chapter.19}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}A Section}{4}{section.20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}A Subsection}{5}{subsection.21}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Another Section}{5}{section.22}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Correlative Analysis}{6}{chapter.23}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Goals and Definitions}{4}{section.20}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Model-Based FDIR}{4}{section.21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}System Model-Based FDIR}{4}{subsection.22}}
+\citation{larson2002model}
+\citation{washington2000board}
+\citation{dearden2004real}
+\citation{hammett1991application}
+\citation{lin2006fault}
+\citation{aycard2000state}
+\citation{holsti2001towards}
+\citation{paakko2001bayesian}
+\citation{castel2006fdir}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Rule-Based FDIR}{5}{subsection.23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Residual Generation}{5}{subsection.24}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Fault Filtering and State Observation}{5}{section.25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Full-State Observer Fault Filters}{5}{subsection.26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Parity-Space Filtering}{5}{subsection.27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Kalman Filtering for FDIR}{5}{subsection.28}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Redundancy and Voting Systems}{5}{section.29}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Advanced Techniques for Fault Detection}{5}{section.30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Fault Syndromes}{5}{subsection.31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Machine Learning and Classification}{5}{subsection.32}}
+\citation{kurien2010intrinsic}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Distributed Fault Control}{6}{subsection.33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Common FDIR Issues}{6}{subsection.34}}
+\citation{Cancro}
+\citation{Yairi}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Correlative Analysis}{7}{chapter.35}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Correlation for Fault Analysis}{6}{section.24}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Correlation Matrices}{6}{subsection.25}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Cross-Correlative Leak Analysis}{6}{subsection.26}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Common Correlation ``Score" Techniques}{6}{section.27}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Pearson Correlation Coefficient}{7}{subsection.28}}
-\newlabel{eq:pcc}{{3.1}{7}{Pearson Correlation Coefficient\relax }{equation.29}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Spearman Rank Correlation Coefficient ($\rho $)}{7}{subsection.30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Kendall Rank Correlation Coefficient ($\tau $)}{8}{subsection.31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax }}{8}{figure.caption.32}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Correlation for Fault Analysis}{7}{section.36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Correlation Matrices}{7}{subsection.37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Cross-Correlative Leak Analysis}{7}{subsection.38}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Common Correlation ``Score" Techniques}{8}{section.39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Pearson Correlation Coefficient}{8}{subsection.40}}
+\newlabel{eq:pcc}{{3.1}{8}{Pearson Correlation Coefficient\relax }{equation.41}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Spearman Rank Correlation Coefficient ($\rho $)}{8}{subsection.42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Kendall Rank Correlation Coefficient ($\tau $)}{9}{subsection.43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax }}{9}{figure.caption.44}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:correlation_comparison}{{3.1}{8}{Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.32}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Limitations of Traditional Correlative Techniques}{8}{section.33}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Linearity Assumptions}{9}{subsection.34}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multivariate Normal Distances vs. Elliptical Distances}{9}{subsection.35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Implied Causation}{9}{subsection.36}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Alternatives to Correlation Score Techniques}{9}{subsection.37}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Distance Correlation}{9}{subsection.38}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}Correlation Ratio}{9}{subsection.39}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.7}Brownian Covariance}{9}{subsection.40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.8}Coefficient of Determination}{9}{subsection.41}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.9}Polychloric Correlation}{9}{subsection.42}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{10}{chapter.43}}
+\newlabel{fig:correlation_comparison}{{3.1}{9}{Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.44}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Limitations of Traditional Correlative Techniques}{10}{section.45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Linearity Assumptions}{10}{subsection.46}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multivariate Normal Distances vs. Elliptical Distances}{10}{subsection.47}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Implied Causation}{10}{subsection.48}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Alternatives to Correlation Score Techniques}{10}{subsection.49}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Distance Correlation}{10}{subsection.50}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}Correlation Ratio}{10}{subsection.51}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.7}Brownian Covariance}{10}{subsection.52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.8}Coefficient of Determination}{10}{subsection.53}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.9}Polychloric Correlation}{10}{subsection.54}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{11}{chapter.55}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Goals}{10}{section.44}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Corrgrams}{10}{section.45}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Background}{10}{subsection.46}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Applications}{10}{subsection.47}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Animated Corrgrams}{10}{subsection.48}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Goals}{11}{section.56}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Corrgrams}{11}{section.57}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Background}{11}{subsection.58}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Applications}{11}{subsection.59}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Animated Corrgrams}{11}{subsection.60}}
 \citation{xprize}
 \citation{rabbithole}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{11}{chapter.49}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{12}{chapter.61}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{11}{section.50}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{12}{figure.caption.51}}
-\newlabel{fig:moonraker}{{5.1}{12}{Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax \relax }{figure.caption.51}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Ground Station Interface}{12}{section.52}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{12}{section.62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{13}{figure.caption.63}}
+\newlabel{fig:moonraker}{{5.1}{13}{Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax \relax }{figure.caption.63}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Ground Station Interface}{13}{section.64}}
 \citation{jplunity}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Rover Data Path}{13}{section.53}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax }}{13}{figure.caption.54}}
-\newlabel{fig:data_path}{{5.2}{13}{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax \relax }{figure.caption.54}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Non-FDIR-Related Components}{13}{subsection.55}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{14}{subsection.56}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{14}{subsubsection.57}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax }}{15}{figure.caption.58}}
-\newlabel{fig:mobility_telem_subpanel}{{5.3}{15}{Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax \relax }{figure.caption.58}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{15}{subsubsection.59}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax }}{15}{figure.caption.60}}
-\newlabel{fig:alert_panel}{{5.4}{15}{An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax \relax }{figure.caption.60}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{15}{subsubsection.61}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Rover Data Path}{14}{section.65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax }}{14}{figure.caption.66}}
+\newlabel{fig:data_path}{{5.2}{14}{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax \relax }{figure.caption.66}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Non-FDIR-Related Components}{14}{subsection.67}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{15}{subsection.68}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{15}{subsubsection.69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax }}{16}{figure.caption.70}}
+\newlabel{fig:mobility_telem_subpanel}{{5.3}{16}{Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax \relax }{figure.caption.70}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{16}{subsubsection.71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax }}{16}{figure.caption.72}}
+\newlabel{fig:alert_panel}{{5.4}{16}{An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax \relax }{figure.caption.72}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{16}{subsubsection.73}}
 \citation{friendly2002corrgrams}
 \citation{rummelcorrelation}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{16}{figure.caption.62}}
-\newlabel{fig:fault_info2}{{5.5}{16}{Information for monitored faults on a given subsystem.\relax \relax }{figure.caption.62}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{16}{subsubsection.63}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Animated Corrgram Generation Algorithm\relax }}{17}{algorithm.64}}
-\newlabel{alg:corrgram_get}{{1}{17}{Animated Corrgram Generation Algorithm\relax \relax }{algorithm.64}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Testing}{17}{section.66}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Field Testing}{17}{subsection.67}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{18}{figure.caption.65}}
-\newlabel{fig:corr_map}{{5.6}{18}{Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax \relax }{figure.caption.65}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax }}{19}{figure.caption.68}}
-\newlabel{fig:daytime_operation_pittsburgh_field_test}{{5.7}{19}{Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax \relax }{figure.caption.68}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{19}{subsection.70}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{20}{figure.caption.69}}
-\newlabel{fig:night_test_team}{{5.8}{20}{Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax \relax }{figure.caption.69}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{20}{figure.caption.71}}
-\newlabel{fig:ui_test_takako}{{5.9}{20}{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax \relax }{figure.caption.71}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{21}{subsubsection.72}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{22}{chapter.73}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{17}{figure.caption.74}}
+\newlabel{fig:fault_info2}{{5.5}{17}{Information for monitored faults on a given subsystem.\relax \relax }{figure.caption.74}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{17}{subsubsection.75}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Animated Corrgram Generation Algorithm\relax }}{18}{algorithm.76}}
+\newlabel{alg:corrgram_get}{{1}{18}{Animated Corrgram Generation Algorithm\relax \relax }{algorithm.76}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Testing}{18}{section.78}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Field Testing}{18}{subsection.79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{19}{figure.caption.77}}
+\newlabel{fig:corr_map}{{5.6}{19}{Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax \relax }{figure.caption.77}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax }}{20}{figure.caption.80}}
+\newlabel{fig:daytime_operation_pittsburgh_field_test}{{5.7}{20}{Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax \relax }{figure.caption.80}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{20}{subsection.82}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{21}{figure.caption.81}}
+\newlabel{fig:night_test_team}{{5.8}{21}{Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax \relax }{figure.caption.81}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{21}{figure.caption.83}}
+\newlabel{fig:ui_test_takako}{{5.9}{21}{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax \relax }{figure.caption.83}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{22}{subsubsection.84}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{23}{chapter.85}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Field Test Results}{22}{section.74}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Usability Test Results}{23}{section.75}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Improvements and Additions}{24}{section.76}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{26}{chapter.77}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Field Test Results}{23}{section.86}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Usability Test Results}{24}{section.87}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Improvements and Additions}{25}{section.88}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{27}{chapter.89}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Dimensional Reduction}{26}{section.78}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{26}{subsection.79}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Meta-Analysis}{26}{section.80}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{26}{subsection.81}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{27}{subsection.82}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{27}{section.83}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{27}{subsection.84}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{27}{subsection.85}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{27}{subsection.86}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{27}{subsection.87}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{27}{subsection.88}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.6}Timelines}{27}{subsection.89}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{27}{section.90}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{27}{subsection.91}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax }}{28}{figure.caption.92}}
-\newlabel{fig:dependency_graph_example}{{7.1}{28}{A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax \relax }{figure.caption.92}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax }}{29}{figure.caption.97}}
-\newlabel{fig:comparison_correlation_map}{{7.2}{29}{A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax \relax }{figure.caption.97}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax }}{29}{figure.caption.98}}
-\newlabel{fig:undirected_both}{{7.3}{29}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax \relax }{figure.caption.98}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax }}{30}{figure.caption.99}}
-\newlabel{fig:undirected_positive_only}{{7.4}{30}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.99}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Dimensional Reduction}{27}{section.90}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{27}{subsection.91}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Meta-Analysis}{27}{section.92}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{27}{subsection.93}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{28}{subsection.94}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{28}{section.95}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{28}{subsection.96}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{28}{subsection.97}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{28}{subsection.98}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{28}{subsection.99}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{28}{subsection.100}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.6}Timelines}{28}{subsection.101}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{28}{section.102}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{28}{subsection.103}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax }}{29}{figure.caption.104}}
+\newlabel{fig:dependency_graph_example}{{7.1}{29}{A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax \relax }{figure.caption.104}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax }}{30}{figure.caption.109}}
+\newlabel{fig:comparison_correlation_map}{{7.2}{30}{A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax \relax }{figure.caption.109}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax }}{30}{figure.caption.110}}
+\newlabel{fig:undirected_both}{{7.3}{30}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax \relax }{figure.caption.110}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax }}{31}{figure.caption.111}}
+\newlabel{fig:undirected_positive_only}{{7.4}{31}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.111}{}}
 \citation{bach2016time}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{31}{figure.caption.100}}
-\newlabel{fig:undirected_negative_only}{{7.5}{31}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.100}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Time Curves}{31}{section.102}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{32}{figure.caption.101}}
-\newlabel{fig:undirected_positive_with_negative_clusters}{{7.6}{32}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax \relax }{figure.caption.101}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax }}{33}{figure.caption.103}}
-\newlabel{fig:time_curve_example}{{7.7}{33}{Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.103}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}}{33}{subsection.104}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}}{33}{subsection.105}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.3}}{33}{subsection.106}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.4}}{33}{subsection.107}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{33}{section.108}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.1}}{33}{subsection.109}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.2}}{33}{subsection.110}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.3}}{33}{subsection.111}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.4}}{33}{subsection.112}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results and Discussion}{34}{chapter.113}}
+\citation{bach2016time}
+\citation{bach2016time}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{32}{figure.caption.112}}
+\newlabel{fig:undirected_negative_only}{{7.5}{32}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.112}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Time Curves}{32}{section.114}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{33}{figure.caption.113}}
+\newlabel{fig:undirected_positive_with_negative_clusters}{{7.6}{33}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax \relax }{figure.caption.113}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite  {bach2016time}.\relax }}{34}{figure.caption.115}}
+\newlabel{fig:time_curve_example}{{7.7}{34}{A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax \relax }{figure.caption.115}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}}{34}{subsection.116}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}}{34}{subsection.117}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.3}}{34}{subsection.118}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.4}}{34}{subsection.119}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{34}{section.120}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.1}}{34}{subsection.121}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.2}}{34}{subsection.122}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.3}}{34}{subsection.123}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.4}}{34}{subsection.124}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results and Discussion}{35}{chapter.125}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}A Section}{34}{section.114}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{35}{subsection.115}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Another Section}{35}{section.116}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{36}{chapter.117}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}A Section}{35}{section.126}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{36}{subsection.127}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Another Section}{36}{section.128}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{37}{chapter.129}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\vspace  {2em}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}An Appendix}{37}{appendix.118}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}An Appendix}{38}{appendix.130}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\vspace  {2em}}
@@ -194,15 +224,29 @@
 \bibdata{bibliography}
 \bibcite{xprize}{{1}{}{{}}{{}}}
 \bibcite{spaceflight_antares}{{2}{}{{}}{{}}}
-\bibcite{bach2016time}{{3}{}{{}}{{}}}
-\bibcite{rabbithole}{{4}{}{{}}{{}}}
-\bibcite{friendly2002corrgrams}{{5}{}{{}}{{}}}
-\bibcite{procyon_status}{{6}{}{{}}{{}}}
-\bibcite{rummelcorrelation}{{7}{}{{}}{{}}}
-\bibcite{spacex_crs7}{{8}{}{{}}{{}}}
-\bibcite{nasa_orb3}{{9}{}{{}}{{}}}
-\bibcite{jplunity}{{10}{}{{}}{{}}}
-\bibcite{apollo13}{{11}{}{{}}{{}}}
+\bibcite{aycard2000state}{{3}{}{{}}{{}}}
+\bibcite{bach2016time}{{4}{}{{}}{{}}}
+\bibcite{castel2006fdir}{{5}{}{{}}{{}}}
+\bibcite{rabbithole}{{6}{}{{}}{{}}}
+\bibcite{dearden2004real}{{7}{}{{}}{{}}}
+\bibcite{friendly2002corrgrams}{{8}{}{{}}{{}}}
+\bibcite{hammett1991application}{{9}{}{{}}{{}}}
+\bibcite{holsti2001towards}{{10}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{40}{dummy.131}}
+\newlabel{Bibliography}{{9}{40}{An Appendix\relax }{dummy.131}{}}
+\bibcite{hwang2010survey}{{11}{}{{}}{{}}}
+\bibcite{kurien2010intrinsic}{{12}{}{{}}{{}}}
+\bibcite{larson2002model}{{13}{}{{}}{{}}}
+\bibcite{lin2006fault}{{14}{}{{}}{{}}}
+\bibcite{procyon_status}{{15}{}{{}}{{}}}
+\bibcite{paakko2001bayesian}{{16}{}{{}}{{}}}
+\bibcite{rummelcorrelation}{{17}{}{{}}{{}}}
+\bibcite{schwabacher2008pre}{{18}{}{{}}{{}}}
+\bibcite{spacex_crs7}{{19}{}{{}}{{}}}
+\bibcite{nasa_orb3}{{20}{}{{}}{{}}}
+\bibcite{jplunity}{{21}{}{{}}{{}}}
+\bibcite{apollo13}{{22}{}{{}}{{}}}
+\bibcite{tipaldi2014spacecraft}{{23}{}{{}}{{}}}
+\bibcite{washington2000board}{{24}{}{{}}{{}}}
+\bibcite{willsky1976survey}{{25}{}{{}}{{}}}
 \global\NAT@numberstrue
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{39}{dummy.119}}
-\newlabel{Bibliography}{{9}{39}{An Appendix\relax }{dummy.119}{}}

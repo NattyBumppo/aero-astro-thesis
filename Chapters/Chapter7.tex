@@ -105,15 +105,14 @@ These visualizations present a very different way of viewing the correlative dat
 
 Another advantage of this technique is that it clearly isolates small groups of correlated components; low-degree subgraphs can point towards noisy data, or towards significant links, but if they are persistent, it seems they may suggest interesting correlations that deviate from the patterns exhibiting by the bulk of the data channels, which tend to correlate due to behavior exhibiting positive and negative monotonicity. However, towards the idea of exploring a visualization which can show the evolution of state and correlative data over time, we will look at another technique in the following section.
 
-
 \section{Time Curves}
 
 In early 2016, Bach et al presented a powerful new type of visualization tool called ``Time Curves" \cite{bach2016time}. The time curve is a generic 2D embedding algorithm designed specifically for system state data which changes over time. Time curves visualize system states as a series of points, connected in temporal along curves within the 2D embedding. This allows the viewer to gain an understanding of system behavior by the shape and directions of the curves, and by the grouping of the data points. A visual example of how a time curve is ``folded" from an initial linear timeline is shown in Fig.~\ref{fig:time_curve_example}.
 
 \begin{figure}[h]
 \centering
-    \includegraphics[width=\columnwidth]{images/time_curve_example.png}
-    \caption{Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.}
+    \includegraphics[width=0.5\columnwidth]{images/time_curve_example.png}
+    \caption{A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite{bach2016time}.}
     \label{fig:time_curve_example}
 \end{figure}
 

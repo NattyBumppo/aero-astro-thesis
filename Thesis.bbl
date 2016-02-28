@@ -9,6 +9,12 @@ Spaceflight 101.
 \newblock Nasa report on antares launch failure places blame on aj26 engines,
   2015.
 
+\bibitem{aycard2000state}
+Olivier Aycard and Richard Washington.
+\newblock State identification for planetary rovers: Learning and recognition.
+\newblock In {\em Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE
+  International Conference on}, volume~2, pages 1163--1168. IEEE, 2000.
+
 \bibitem{bach2016time}
 Benjamin Bach, Conglei Shi, Nicolas Heulot, Tara Madhyastha, Tom Grabowski, and
   Pierre Dragicevic.
@@ -17,23 +23,87 @@ Benjamin Bach, Conglei Shi, Nicolas Heulot, Tara Madhyastha, Tom Grabowski, and
 \newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
   22(1):559--568, 2016.
 
+\bibitem{castel2006fdir}
+Charles Castel, Jean-Fran{\c{c}}ois Gabard, Catherine Tessier, Bertrand
+  Laborde, and Raymond Soumagne.
+\newblock Fdir strategies for autonomous satellite formations-a preliminary
+  report.
+\newblock In {\em Symposium Spacecraft Autonomy: Using AI to Expand Human Space
+  Exploration}, 2006.
+
 \bibitem{rabbithole}
 Dauna Coulter.
 \newblock Down the lunar rabbit-hole, 2010.
+
+\bibitem{dearden2004real}
+Richard Dearden, Thomas Willeke, Reid Simmons, Vandi Verma, Frank Hutter, and
+  Sebastian Thrun.
+\newblock Real-time fault detection and situational awareness for rovers:
+  Report on the mars technology program task.
+\newblock In {\em Aerospace Conference, 2004. Proceedings. 2004 IEEE},
+  volume~2, pages 826--840. IEEE, 2004.
 
 \bibitem{friendly2002corrgrams}
 Michael Friendly.
 \newblock Corrgrams: Exploratory displays for correlation matrices.
 \newblock {\em The American Statistician}, 56(4):316--324, 2002.
 
+\bibitem{hammett1991application}
+Robert Hammett and Robert Luppold.
+\newblock Application of syndrome pattern-matching approach to fault isolation
+  in avionic systems.
+\newblock In {\em Digital Avionics Systems Conference, 1991. Proceedings.,
+  IEEE/AIAA 10th}, pages 56--61. IEEE, 1991.
+
+\bibitem{holsti2001towards}
+Niklas Holsti and Matti Paakko.
+\newblock Towards advanced fdir components.
+\newblock {\em Data Systems in Aerospace, DASIA 2001}, 2001.
+
+\bibitem{hwang2010survey}
+Inseok Hwang, Sungwan Kim, Youdan Kim, and Chze~Eng Seah.
+\newblock A survey of fault detection, isolation, and reconfiguration methods.
+\newblock {\em Control Systems Technology, IEEE Transactions on},
+  18(3):636--653, 2010.
+
+\bibitem{kurien2010intrinsic}
+James Kurien and Mar{\'\i}a~DR Moreno.
+\newblock Intrinsic hurdles in applying automated diagnosis and recovery to
+  spacecraft.
+\newblock {\em Systems, Man and Cybernetics, Part A: Systems and Humans, IEEE
+  Transactions on}, 40(5):945--958, 2010.
+
+\bibitem{larson2002model}
+Edward~C Larson, Eugene~B Parker~Jr, and Brian~R Clark.
+\newblock Model-based sensor and actuator fault detection and isolation.
+\newblock In {\em American Control Conference, 2002. Proceedings of the 2002},
+  volume~5, pages 4215--4219. IEEE, 2002.
+
+\bibitem{lin2006fault}
+Jiliang Lin and Jingping Jiang.
+\newblock Fault detection and analysis of control software for a mobile robot.
+\newblock In {\em Intelligent Systems Design and Applications, 2006. ISDA'06.
+  Sixth International Conference on}, volume~1, pages 862--866. IEEE, 2006.
+
 \bibitem{procyon_status}
 JAXA~Institute of~Space and Astronautical Science.
 \newblock On the status of the procyon nanosatellite probe, 2015.
+
+\bibitem{paakko2001bayesian}
+Matti Paakko, Petri Myllym{\"a}ki, Niklas Holsti, and Henry Tirri.
+\newblock Bayesian networks for advanced fdir.
+\newblock In {\em Proceedings of the ESA Workshop on On-Board Autonomy}, pages
+  311--318, 2001.
 
 \bibitem{rummelcorrelation}
 RJ~Rummel.
 \newblock Understanding correlation.
 \newblock 1976.
+
+\bibitem{schwabacher2008pre}
+Mark Schwabacher and Robert Waterman.
+\newblock Pre-launch diagnostics for launch vehicles.
+\newblock In {\em Aerospace Conference, 2008 IEEE}, pages 1--8. IEEE, 2008.
 
 \bibitem{spacex_crs7}
 SpaceX.
@@ -54,5 +124,22 @@ Apollo Spacecraft Program~Office Test~Division.
 \newblock {\em Apollo 13 Technical Air-to-Ground Voice Transcription}.
 \newblock National Aeronautics and Space Administration Manned Spacecraft
   Center, 1970.
+
+\bibitem{tipaldi2014spacecraft}
+Massimo Tipaldi and Bernhard Bruenjes.
+\newblock Spacecraft health monitoring and management systems.
+\newblock In {\em Metrology for Aerospace (MetroAeroSpace), 2014 IEEE}, pages
+  68--72. IEEE, 2014.
+
+\bibitem{washington2000board}
+Richard Washington.
+\newblock On-board real-time state and fault identification for rovers.
+\newblock In {\em Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE
+  International Conference on}, volume~2, pages 1175--1181. IEEE, 2000.
+
+\bibitem{willsky1976survey}
+Alan~S Willsky.
+\newblock A survey of design methods for failure detection in dynamic systems.
+\newblock {\em Automatica}, 12(6):601--611, 1976.
 
 \end{thebibliography}

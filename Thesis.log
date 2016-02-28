@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  24 FEB 2016 22:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  27 FEB 2016 20:41
 entering extended mode
 **F:/Dropbox/thesis/Thesis.tex
 (F:/Dropbox/thesis/Thesis.tex
@@ -684,118 +684,114 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Background in Fault Detection, Isolation and Recovery
 ------------------------------------------------------------------------------
-
-Package natbib Warning: Citation `Cancro' on page 4 undefined on input line 13.
-
-
-
-Package natbib Warning: Citation `Yairi' on page 4 undefined on input line 13.
-
-
-Package natbib Warning: Citation `Willsky' on page 4 undefined on input line 13
-.
-
 [4
 
-]) (F:\Dropbox\thesis\Chapters/Chapter3.tex [5]
+] [5]) (F:\Dropbox\thesis\Chapters/Chapter3.tex [6]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Correlative Analysis
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Package natbib Warning: Citation `Cancro' on page 7 undefined on input line 12.
+
+
+
+Package natbib Warning: Citation `Yairi' on page 7 undefined on input line 12.
+
+[7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[6
-
-]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rho' on input line 48.
+(hyperref)                removing `\rho' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 48.
+(hyperref)                removing `math shift' on input line 51.
+
+[8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 52.
+(hyperref)                removing `\tau' on input line 55.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 52.
+(hyperref)                removing `math shift' on input line 55.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 52.
-
-[7] <images/correlation_comparison.png, id=642, 773.13844pt x 630.10406pt>
+<images/correlation_comparison.png, id=736, 773.13844pt x 630.10406pt>
 File: images/correlation_comparison.png Graphic file (type png)
 
 <use images/correlation_comparison.png>
 Package pdftex.def Info: images/correlation_comparison.png used on input line 6
-0.
+3.
 (pdftex.def)             Requested size: 417.47307pt x 340.24152pt.
- [8 <F:/Dropbox/thesis/images/correlation_comparison.png>]) (F:\Dropbox\thesis\
-Chapters/Chapter4.tex [9]
+ [9 <F:/Dropbox/thesis/images/correlation_comparison.png>]) (F:\Dropbox\thesis\
+Chapters/Chapter4.tex [10]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Visualization of Correlative Relationships
 ------------------------------------------------------------------------------
-) (F:\Dropbox\thesis\Chapters/Chapter5.tex [10
+) (F:\Dropbox\thesis\Chapters/Chapter5.tex [11
 
 ]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Case Study: Hakuto ``Moonraker" Lunar Rover
 ------------------------------------------------------------------------------
-[11
+[12
 
-] <images/moonraker.jpg, id=668, 912.40875pt x 736.7525pt>
+] <images/moonraker.jpg, id=762, 912.40875pt x 736.7525pt>
 File: images/moonraker.jpg Graphic file (type jpg)
 
 <use images/moonraker.jpg>
 Package pdftex.def Info: images/moonraker.jpg used on input line 19.
 (pdftex.def)             Requested size: 417.47307pt x 337.10031pt.
- [12 <F:/Dropbox/thesis/images/moonraker.jpg>]
-<images/rover_data_flow.png, id=675, 644.4075pt x 230.8625pt>
+ [13 <F:/Dropbox/thesis/images/moonraker.jpg>]
+<images/rover_data_flow.png, id=769, 644.4075pt x 230.8625pt>
 File: images/rover_data_flow.png Graphic file (type png)
 
 <use images/rover_data_flow.png>
 Package pdftex.def Info: images/rover_data_flow.png used on input line 36.
 (pdftex.def)             Requested size: 417.47307pt x 149.56566pt.
- [13 <F:/Dropbox/thesis/images/rover_data_flow.png>] <images/mobility_telem_sub
-panel.png, id=683, 924.45375pt x 213.79875pt>
+ [14 <F:/Dropbox/thesis/images/rover_data_flow.png>] <images/mobility_telem_sub
+panel.png, id=777, 924.45375pt x 213.79875pt>
 File: images/mobility_telem_subpanel.png Graphic file (type png)
 
 <use images/mobility_telem_subpanel.png>
 Package pdftex.def Info: images/mobility_telem_subpanel.png used on input line 
 67.
 (pdftex.def)             Requested size: 417.47307pt x 96.54782pt.
- [14]
-<images/alert_panel.png, id=689, 550.055pt x 39.14626pt>
+ [15]
+<images/alert_panel.png, id=783, 550.055pt x 39.14626pt>
 File: images/alert_panel.png Graphic file (type png)
 
 <use images/alert_panel.png>
 Package pdftex.def Info: images/alert_panel.png used on input line 78.
 (pdftex.def)             Requested size: 417.47307pt x 29.71143pt.
 
-<images/fault_info2.png, id=691, 322.20375pt x 398.48875pt>
+<images/fault_info2.png, id=785, 322.20375pt x 398.48875pt>
 File: images/fault_info2.png Graphic file (type png)
 
 <use images/fault_info2.png>
 Package pdftex.def Info: images/fault_info2.png used on input line 89.
 (pdftex.def)             Requested size: 166.98668pt x 206.52824pt.
- [15 <F:/Dropbox/thesis/images/mobility_telem_subpanel.png> <F:/Dropbox/thesis/
-images/alert_panel.png>] [16 <F:/Dropbox/thesis/images/fault_info2.png>]
+ [16 <F:/Dropbox/thesis/images/mobility_telem_subpanel.png> <F:/Dropbox/thesis/
+images/alert_panel.png>] [17 <F:/Dropbox/thesis/images/fault_info2.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 103.
- <images/corr_map.png, id=710, 1691.31876pt x 925.4575pt>
+ <images/corr_map.png, id=804, 1691.31876pt x 925.4575pt>
 File: images/corr_map.png Graphic file (type png)
 
 <use images/corr_map.png>
@@ -805,8 +801,8 @@ Package pdftex.def Info: images/corr_map.png used on input line 124.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18 <F:/Dropbox/thesis/images/corr_map.png>]
-<images/daytime_operation_pittsburgh_field_test.jpg, id=725, 3276.24pt x 2457.1
+[18] [19 <F:/Dropbox/thesis/images/corr_map.png>]
+<images/daytime_operation_pittsburgh_field_test.jpg, id=819, 3276.24pt x 2457.1
 8pt>
 File: images/daytime_operation_pittsburgh_field_test.jpg Graphic file (type jpg
 )
@@ -815,7 +811,7 @@ Package pdftex.def Info: images/daytime_operation_pittsburgh_field_test.jpg use
 d on input line 147.
 (pdftex.def)             Requested size: 417.47307pt x 313.07072pt.
 
-<images/night_test_team.png, id=726, 937.25156pt x 536.75531pt>
+<images/night_test_team.png, id=820, 937.25156pt x 536.75531pt>
 File: images/night_test_team.png Graphic file (type png)
 
 <use images/night_test_team.png>
@@ -825,7 +821,7 @@ Package pdftex.def Info: images/night_test_team.png used on input line 154.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/ui_test_takuto.jpg, id=728, 2055.68pt x 1156.32pt>
+<images/ui_test_takuto.jpg, id=822, 2055.68pt x 1156.32pt>
 File: images/ui_test_takuto.jpg Graphic file (type jpg)
 
 <use images/ui_test_takuto.jpg>
@@ -835,23 +831,23 @@ Package pdftex.def Info: images/ui_test_takuto.jpg used on input line 165.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <F:/Dropbox/thesis/images/daytime_operation_pittsburgh_field_test.jpg>]
-[20 <F:/Dropbox/thesis/images/night_test_team.png> <F:/Dropbox/thesis/images/ui
-_test_takuto.jpg>]) (F:\Dropbox\thesis\Chapters/Chapter6.tex [21]
+[20 <F:/Dropbox/thesis/images/daytime_operation_pittsburgh_field_test.jpg>]
+[21 <F:/Dropbox/thesis/images/night_test_team.png> <F:/Dropbox/thesis/images/ui
+_test_takuto.jpg>]) (F:\Dropbox\thesis\Chapters/Chapter6.tex [22]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Intermediate Results and Reassessment
 ------------------------------------------------------------------------------
-[22
+[23
 
-] [23] [24]) (F:\Dropbox\thesis\Chapters/Chapter7.tex [25]
+] [24] [25]) (F:\Dropbox\thesis\Chapters/Chapter7.tex [26]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Dimensional Reduction and Visualization Improvements
 ------------------------------------------------------------------------------
-[26
+[27
 
-] <images/dependency_graph_example.png, id=763, 353.06906pt x 83.5622pt>
+] <images/dependency_graph_example.png, id=857, 353.06906pt x 83.5622pt>
 File: images/dependency_graph_example.png Graphic file (type png)
 
 <use images/dependency_graph_example.png>
@@ -862,8 +858,8 @@ Package pdftex.def Info: images/dependency_graph_example.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28 <F:/Dropbox/thesis/images/dependency_graph_example.png>]
-<images/comparison_correlation_map.png, id=782, 1053.9375pt x 373.395pt>
+[28] [29 <F:/Dropbox/thesis/images/dependency_graph_example.png>]
+<images/comparison_correlation_map.png, id=876, 1053.9375pt x 373.395pt>
 File: images/comparison_correlation_map.png Graphic file (type png)
 
 <use images/comparison_correlation_map.png>
@@ -871,14 +867,14 @@ Package pdftex.def Info: images/comparison_correlation_map.png used on input li
 ne 71.
 (pdftex.def)             Requested size: 417.47307pt x 147.90817pt.
 
-<images/undirected_both.png, id=783, 2690.05pt x 1408.26125pt>
+<images/undirected_both.png, id=877, 2690.05pt x 1408.26125pt>
 File: images/undirected_both.png Graphic file (type png)
 
 <use images/undirected_both.png>
 Package pdftex.def Info: images/undirected_both.png used on input line 78.
 (pdftex.def)             Requested size: 417.47307pt x 218.53609pt.
 
-<images/undirected_positive_only.png, id=784, 1096.095pt x 846.16125pt>
+<images/undirected_positive_only.png, id=878, 1096.095pt x 846.16125pt>
 File: images/undirected_positive_only.png Graphic file (type png)
 
 <use images/undirected_positive_only.png>
@@ -889,7 +885,7 @@ Package pdftex.def Info: images/undirected_positive_only.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/undirected_negative_only.png, id=785, 1257.69875pt x 733.74126pt>
+<images/undirected_negative_only.png, id=879, 1257.69875pt x 733.74126pt>
 File: images/undirected_negative_only.png Graphic file (type png)
 
 <use images/undirected_negative_only.png>
@@ -900,9 +896,9 @@ Package pdftex.def Info: images/undirected_negative_only.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <F:/Dropbox/thesis/images/comparison_correlation_map.png> <F:/Dropbox/thesi
+[30 <F:/Dropbox/thesis/images/comparison_correlation_map.png> <F:/Dropbox/thesi
 s/images/undirected_both.png>]
-<images/undirected_positive_with_negative_clusters.png, id=796, 1204.5pt x 929.
+<images/undirected_positive_with_negative_clusters.png, id=890, 1204.5pt x 929.
 72343pt>
 File: images/undirected_positive_with_negative_clusters.png Graphic file (type 
 png)
@@ -914,76 +910,72 @@ used on input line 101.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30 <F:/Dropbox/thesis/images/undirected_positive_only.png>]
-<images/time_curve_example.png, id=804, 295.1025pt x 363.60844pt>
+[31 <F:/Dropbox/thesis/images/undirected_positive_only.png>]
+<images/time_curve_example.png, id=898, 295.1025pt x 363.60844pt>
 File: images/time_curve_example.png Graphic file (type png)
 
 <use images/time_curve_example.png>
-Package pdftex.def Info: images/time_curve_example.png used on input line 115.
-(pdftex.def)             Requested size: 417.47307pt x 514.3968pt.
+Package pdftex.def Info: images/time_curve_example.png used on input line 114.
+(pdftex.def)             Requested size: 208.73653pt x 257.1984pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (F:\Dropbox\thesis\Chapters/Chapter8.tex [31 <F:/Dropbox/thesis/images/undire
-cted_negative_only.png>] [32 <F:/Dropbox/thesis/images/undirected_positive_with
-_negative_clusters.png>]
-Overfull \vbox (211.9325pt too high) has occurred while \output is active []
-
-
-[33 <F:/Dropbox/thesis/images/time_curve_example.png>]
+) (F:\Dropbox\thesis\Chapters/Chapter8.tex [32 <F:/Dropbox/thesis/images/undire
+cted_negative_only.png>] [33 <F:/Dropbox/thesis/images/undirected_positive_with
+_negative_clusters.png>] [34 <F:/Dropbox/thesis/images/time_curve_example.png>]
 Chapter 8.
 ------------------------------------------------------------------------------
  8 Results and Discussion
 ------------------------------------------------------------------------------
-[34
+[35
 
-]) (F:\Dropbox\thesis\Chapters/Chapter9.tex [35]
+]) (F:\Dropbox\thesis\Chapters/Chapter9.tex [36]
 Chapter 9.
 ------------------------------------------------------------------------------
  9 Conclusion
 ------------------------------------------------------------------------------
-) (F:\Dropbox\thesis\Appendices/AppendixA.tex [36
+) (F:\Dropbox\thesis\Appendices/AppendixA.tex [37
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[37
+[38
 
-]) [38]
+]) [39]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(F:\Dropbox\thesis\Thesis.bbl
+(F:\Dropbox\thesis\Thesis.bbl [40
+
+
+]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-)
+ [41])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-[39
-
-
-]
+[42]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (F:\Dropbox\thesis\Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DCD0A9450DD0A08B572E2ACFF5725B57;16639.
+(rerunfilecheck)             Checksum: AED1E2E18013CCE725837D1428749E3B;19479.
  ) 
 Here is how much of TeX's memory you used:
- 11304 strings out of 494045
- 159501 string characters out of 3152019
- 251839 words of memory out of 3000000
- 14181 multiletter control sequences out of 15000+200000
+ 11360 strings out of 494045
+ 160436 string characters out of 3152019
+ 251973 words of memory out of 3000000
+ 14208 multiletter control sequences out of 15000+200000
  16830 words of font info for 63 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,12n,45p,1782b,421s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,12n,45p,1782b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Apps/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/
@@ -1000,9 +992,9 @@ type1/public/amsfonts/cm/cmsy8.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><F:/Apps/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (54 pages, 6298036 bytes).
+Output written on Thesis.pdf (57 pages, 6314474 bytes).
 PDF statistics:
- 951 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
- 782 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1060 PDF objects out of 1200 (max. 8388607)
+ 215 named destinations out of 1000 (max. 500000)
+ 878 words of extra memory for PDF output out of 10000 (max. 10000000)
 
