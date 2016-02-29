@@ -168,8 +168,11 @@ I would like to thank my advisor, Dr. Mehran Mesbahi, for his academic guidance,
 \textbf{FD} & \textbf{F}ault \textbf{D}etection \\
 \textbf{FDIR} & \textbf{F}ault \textbf{D}etection, \textbf{I}solation, and \textbf{R}ecovery \\
 \textbf{GSN} & \textbf{G}round \textbf{S}tatio\textbf{n} \\
+\textbf{IMU} & \textbf{I}nertial \textbf{M}easurement \textbf{U}nit \\
+\textbf{JAXA} & \textbf{J}apanese \textbf{A}erospace e\textbf{X}ploration \textbf{A}gency \\
 \textbf{PCA} & \textbf{P}rincipal \textbf{C}omponent \textbf{A}nalysis \\
 \textbf{PCC} & \textbf{P}earson \textbf{C}orrelation \textbf{C}oefficient \\
+\textbf{SRL} & \textbf{S}pace \textbf{R}obotics \textbf{L}aboratory \\
 \textbf{SVD} & \textbf{S}ingular \textbf{V}alue \textbf{D}ecomposition \\
 
 }
@@ -190,7 +193,18 @@ I would like to thank my advisor, Dr. Mehran Mesbahi, for his academic guidance,
 \listofnomenclature{lll}  % Include a list of Symbols (a three column table)
 {
 % symbol & name & unit \\
-$\sigma_{X}$ & standard deviation of vector $X$ &  \\
+$\rho_{X, Y}$ & Spearman's Rho Correlation Coefficient for variables $X$ and $Y$ &  \\
+$\tau_{X, Y}$ & Kendall's Tau Correlation Coefficient for variables $X$ and $Y$ &  \\
+$D$ & Distance matrix (for state differences) & \\
+$C$ & Correlation matrix & \\
+$C_{all}$ & Horizontally stacked matrix of flattened correlation matrices at each time step & \\
+$D_{ij}$ & Row $i$, column $j$ of $D$ & \\
+$D_{ij}$ & Row $i$, all columns of $D$ & \\
+$M$ & State history matrix & \\
+$r_{PCC, X, Y}$ & Pearson's Correlation Coefficient for variables $X$ and $Y$ &  \\
+$t$ & Time; number of time steps & \\
+$w$ & Window size & \\
+$W$ & Windowed sample matrix (a subset of the state history matrix) &  \\
 
 & & \\ % Gap to separate the Roman symbols from the Greek
 %$\omega$ & angular frequency & rads$^{-1}$ \\

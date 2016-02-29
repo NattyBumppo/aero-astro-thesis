@@ -93,7 +93,7 @@ Ensuring human understanding of fault data is an essential part of the fault dia
 
 \subsubsection{Correlative Functionality}
 
-The Pearson Correlation Coefficient was chosen as an algorithm for calculating correlationbetween sets of data channels, in order to give a metric of their mutual ``connectedness." This algorithm was chosen for its simple and efficient calculations, under the (in retrospect, naïve) assumption of linear relationships.
+The Pearson Correlation Coefficient was chosen as an algorithm for calculating correlation between sets of data channels, in order to give a metric of their mutual ``connectedness." This algorithm was chosen for its simple and efficient calculations, under the (in retrospect, naïve) assumption of linear relationships.
 
 To visualize this data, a two-dimensional corrgram was used, visualizing relationships between data channels as a matrix with cell shadings representative of the PCC score of each relationship. Hue of each cell shows positive/negative correlation, and intensity shows the strength of that correlation. This visualization allows an operator can see changing channel correlations, which may suggest possible interconnectedness or causation and aid with troubleshooting. See Figure~\ref{fig:corr_map}.
 
@@ -102,12 +102,12 @@ To show the flow of this data, pseudocode for the algorithm used is shown in Alg
 \begin{algorithm}
     \caption{Animated Corrgram Generation Algorithm}\label{alg:corrgram_get}
     \begin{algorithmic}[1]
-        \Procedure{CorrgramGenerator}{$D$}\Comment{Takes data point matrix $D \in \mathbb{R}^{n \times t}$.}
-        \State $S \gets \{U_{:,j}\}_{j=t-s}^{n}$ \Comment{Reduce data to most recent $s$ points.}
-        \State $P\gets \textbf{PCC}_{s}(D_{r})$ \Comment{Calculate a symmetric PCC matrix using last $s$ points.}
+        \Procedure{CorrgramGenerator}{$M$}\Comment{Takes data point matrix $M \in \mathbb{R}^{n \times t}$.}
+        \State $M_{r} \gets \{U_{:,j}\}_{j=t-s}^{n}$ \Comment{Reduce data to most recent $s$ points.}
+        \State $C\gets \textbf{PCC}_{s}(M_{r})$ \Comment{Calculate a symmetric PCC matrix using last $s$ points.}
         \For{$\textbf{row} = 1~\textbf{to}~n$}
             \For{$\textbf{col} = 1~\textbf{to}~n$}
-                \State $\textbf{color} = \textbf{GetColor}(S_{row, col})$ \Comment{Convert PCC score to a color.}
+                \State $\textbf{color} = \textbf{GetColor}(C_{row, col})$ \Comment{Convert PCC score to a color.}
                 \State $\textbf{Corr}_{row, col}\textbf{.color} \gets \textbf{color}$ \Comment{Assign color to cell in corrgram.}
             \EndFor
         \EndFor
@@ -171,7 +171,7 @@ Participants were presented with a simplified form of the ground station, with t
 
 \subsubsection{Test Tasks}
 
-During the test, participants monitored telemetry and looked for patterns in received data during a ~10-minute simulation drive on the lunar surface. During the course of the drive, camera images were unavailable, but the rover telemetry was indicative of various events that occurred to the rover during the run. The scenario consisted of the rover descending down into a crater, where it loses direct sunlight, resulting in reduced temperatures and solar charge voltages. It also loses line of sight with the lunar lander, causing packet losses and a reduction in signal strength. The rover then climbs out of the crater, bringing about an all-around improvement in these conditions. It enters some rough terrain, and ultimately stops after a rock becomes stuck in the wheel.
+During the test, participants monitored telemetry and looked for patterns in received data during a \~10-minute simulation drive on the lunar surface. During the course of the drive, camera images were unavailable, but the rover telemetry was indicative of various events that occurred to the rover during the run. The scenario consisted of the rover descending down into a crater, where it loses direct sunlight, resulting in reduced temperatures and solar charge voltages. It also loses line of sight with the lunar lander, causing packet losses and a reduction in signal strength. The rover then climbs out of the crater, bringing about an all-around improvement in these conditions. It enters some rough terrain, and ultimately stops after a rock becomes stuck in the wheel.
 
 It was the task of the usability test participants to analyze the telemetry as it was received in order to try to understand the details of the story above. After the 10-minute run was complete, users were then given up to an additional 10 minutes to review received telemetry until they were satisfied they had understood the ``story" of the rover's trip.
 
