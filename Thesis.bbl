@@ -9,6 +9,11 @@ Spaceflight 101.
 \newblock Nasa report on antares launch failure places blame on aj26 engines,
   2015.
 
+\bibitem{anscombe1973graphs}
+Francis~J Anscombe.
+\newblock Graphs in statistical analysis.
+\newblock {\em The American Statistician}, 27(1):17--21, 1973.
+
 \bibitem{aycard2000state}
 Olivier Aycard and Richard Washington.
 \newblock State identification for planetary rovers: Learning and recognition.
@@ -85,6 +90,10 @@ Jiliang Lin and Jingping Jiang.
 \newblock In {\em Intelligent Systems Design and Applications, 2006. ISDA'06.
   Sixth International Conference on}, volume~1, pages 862--866. IEEE, 2006.
 
+\bibitem{xkcd_correlation}
+Randall Munroe.
+\newblock xkcd: Correlation, 2016.
+
 \bibitem{procyon_status}
 JAXA~Institute of~Space and Astronautical Science.
 \newblock On the status of the procyon nanosatellite probe, 2015.
@@ -108,6 +117,14 @@ Mark Schwabacher and Robert Waterman.
 \bibitem{spacex_crs7}
 SpaceX.
 \newblock Crs-7 investigation update, 2015.
+
+\bibitem{kendalls2}
+Laird Statistics.
+\newblock Kendall's tau-b using spss statistics, 2016.
+
+\bibitem{spearmans}
+Laird Statistics.
+\newblock Spearman's rank-order correlation, 2016.
 
 \bibitem{nasa_orb3}
 NASA Independent~Review Team.

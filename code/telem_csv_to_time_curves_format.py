@@ -183,11 +183,6 @@ with open(telem_filename, 'rb') as csvfile:
     print str(standardized_data_matrix[0,:5])
     print
 
-    # print str(data_matrix[0,:])
-    # print str(np.mean(data_matrix[0,:]))
-    # print str(np.std(data_matrix[0,:]))
-    # print str(standardized_data_matrix[0,:])
-
     # Now we've standardardized the data matrix! Heck yeah!
     # For our last trick, we'll make a symmetric distance matrix (where
     # the value at n x m shows the "distance" between column n and column m)

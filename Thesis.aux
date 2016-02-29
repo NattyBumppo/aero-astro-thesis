@@ -21,6 +21,7 @@
 \@writefile{toc}{\vspace  {1em}}
 \@writefile{toc}{\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}}
 \@writefile{toc}{\vspace  {1em}}
+\citation{xkcd_correlation}
 \@writefile{toc}{\contentsline {chapter}{List of Figures}{viii}{dummy.5}}
 \citation{bach2016time}
 \@writefile{toc}{\contentsline {chapter}{List of Tables}{x}{dummy.7}}
@@ -81,177 +82,190 @@
 \citation{kurien2010intrinsic}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Distributed Fault Control}{6}{subsection.33}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Common FDIR Issues}{6}{subsection.34}}
-\citation{Cancro}
-\citation{Yairi}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Correlative Analysis}{7}{chapter.35}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Correlation for Fault Analysis}{7}{section.36}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Correlation Matrices}{7}{subsection.37}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Cross-Correlative Leak Analysis}{7}{subsection.38}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Common Correlation ``Score" Techniques}{8}{section.39}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Pearson Correlation Coefficient}{8}{subsection.40}}
-\newlabel{eq:pcc}{{3.1}{8}{Pearson Correlation Coefficient\relax }{equation.41}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Spearman Rank Correlation Coefficient ($\rho $)}{8}{subsection.42}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Kendall Rank Correlation Coefficient ($\tau $)}{9}{subsection.43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax }}{9}{figure.caption.44}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Correlation for Fault Analysis: Motivation}{7}{section.36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Covariance Matrices}{7}{subsection.37}}
+\newlabel{eq:cov}{{3.1}{7}{Covariance Matrices\relax }{equation.38}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Pearson Correlation Coefficient}{8}{subsection.39}}
+\newlabel{eq:pcc}{{3.2}{8}{Pearson Correlation Coefficient\relax }{equation.40}{}}
+\citation{spearmans}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Spearman Rank Correlation Coefficient ($\rho $)}{9}{subsection.41}}
+\newlabel{eq:rho}{{3.3}{9}{Spearman Rank Correlation Coefficient ($\rho $)\relax }{equation.42}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Kendall Rank Correlation Coefficient ($\tau $)}{9}{subsection.43}}
+\citation{kendalls2}
+\citation{anscombe1973graphs}
+\newlabel{eq:tau}{{3.4}{10}{Kendall Rank Correlation Coefficient ($\tau $)\relax }{equation.44}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}Correlation Coefficient Comparison}{10}{subsection.45}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Limitations of Traditional Correlative Techniques}{10}{section.47}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Linearity Assumptions}{10}{subsection.48}}
+\citation{xkcd_correlation}
+\citation{xkcd_correlation}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax }}{11}{figure.caption.46}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:correlation_comparison}{{3.1}{9}{Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.44}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Limitations of Traditional Correlative Techniques}{10}{section.45}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Linearity Assumptions}{10}{subsection.46}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multivariate Normal Distances vs. Elliptical Distances}{10}{subsection.47}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Implied Causation}{10}{subsection.48}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Alternatives to Correlation Score Techniques}{10}{subsection.49}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Distance Correlation}{10}{subsection.50}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}Correlation Ratio}{10}{subsection.51}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.7}Brownian Covariance}{10}{subsection.52}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.8}Coefficient of Determination}{10}{subsection.53}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.9}Polychloric Correlation}{10}{subsection.54}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{11}{chapter.55}}
+\newlabel{fig:correlation_comparison}{{3.1}{11}{Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.46}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Implied Causation}{11}{subsection.49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces A comical observation on the nature of correlation and causation. From \cite  {xkcd_correlation}.\relax }}{11}{figure.caption.50}}
+\newlabel{fig:xkcd_correction}{{3.2}{11}{A comical observation on the nature of correlation and causation. From \cite {xkcd_correlation}.\relax \relax }{figure.caption.50}{}}
+\citation{Cancro}
+\citation{Yairi}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{12}{chapter.51}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Goals}{11}{section.56}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Corrgrams}{11}{section.57}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Background}{11}{subsection.58}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Applications}{11}{subsection.59}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Animated Corrgrams}{11}{subsection.60}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Goals}{12}{section.52}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Corrgrams}{13}{section.53}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Background}{13}{subsection.54}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Applications}{13}{subsection.55}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Animated Corrgrams}{13}{subsection.56}}
 \citation{xprize}
 \citation{rabbithole}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{12}{chapter.61}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{14}{chapter.57}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{12}{section.62}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{13}{figure.caption.63}}
-\newlabel{fig:moonraker}{{5.1}{13}{Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax \relax }{figure.caption.63}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Ground Station Interface}{13}{section.64}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{14}{section.58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{15}{figure.caption.59}}
+\newlabel{fig:moonraker}{{5.1}{15}{Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax \relax }{figure.caption.59}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Ground Station Interface}{15}{section.60}}
 \citation{jplunity}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Rover Data Path}{14}{section.65}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax }}{14}{figure.caption.66}}
-\newlabel{fig:data_path}{{5.2}{14}{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax \relax }{figure.caption.66}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Non-FDIR-Related Components}{14}{subsection.67}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{15}{subsection.68}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{15}{subsubsection.69}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax }}{16}{figure.caption.70}}
-\newlabel{fig:mobility_telem_subpanel}{{5.3}{16}{Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax \relax }{figure.caption.70}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{16}{subsubsection.71}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax }}{16}{figure.caption.72}}
-\newlabel{fig:alert_panel}{{5.4}{16}{An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax \relax }{figure.caption.72}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{16}{subsubsection.73}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Rover Data Path}{16}{section.61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax }}{16}{figure.caption.62}}
+\newlabel{fig:data_path}{{5.2}{16}{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.\relax \relax }{figure.caption.62}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Non-FDIR-Related Components}{16}{subsection.63}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{17}{subsection.64}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{17}{subsubsection.65}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax }}{18}{figure.caption.66}}
+\newlabel{fig:mobility_telem_subpanel}{{5.3}{18}{Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.\relax \relax }{figure.caption.66}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{18}{subsubsection.67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax }}{18}{figure.caption.68}}
+\newlabel{fig:alert_panel}{{5.4}{18}{An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.\relax \relax }{figure.caption.68}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{18}{subsubsection.69}}
 \citation{friendly2002corrgrams}
 \citation{rummelcorrelation}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{17}{figure.caption.74}}
-\newlabel{fig:fault_info2}{{5.5}{17}{Information for monitored faults on a given subsystem.\relax \relax }{figure.caption.74}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{17}{subsubsection.75}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Animated Corrgram Generation Algorithm\relax }}{18}{algorithm.76}}
-\newlabel{alg:corrgram_get}{{1}{18}{Animated Corrgram Generation Algorithm\relax \relax }{algorithm.76}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Testing}{18}{section.78}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Field Testing}{18}{subsection.79}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{19}{figure.caption.77}}
-\newlabel{fig:corr_map}{{5.6}{19}{Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax \relax }{figure.caption.77}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax }}{20}{figure.caption.80}}
-\newlabel{fig:daytime_operation_pittsburgh_field_test}{{5.7}{20}{Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax \relax }{figure.caption.80}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{20}{subsection.82}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{21}{figure.caption.81}}
-\newlabel{fig:night_test_team}{{5.8}{21}{Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax \relax }{figure.caption.81}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{21}{figure.caption.83}}
-\newlabel{fig:ui_test_takako}{{5.9}{21}{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax \relax }{figure.caption.83}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{22}{subsubsection.84}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{23}{chapter.85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{19}{figure.caption.70}}
+\newlabel{fig:fault_info2}{{5.5}{19}{Information for monitored faults on a given subsystem.\relax \relax }{figure.caption.70}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{19}{subsubsection.71}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Animated Corrgram Generation Algorithm\relax }}{20}{algorithm.72}}
+\newlabel{alg:corrgram_get}{{1}{20}{Animated Corrgram Generation Algorithm\relax \relax }{algorithm.72}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Testing}{20}{section.74}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Field Testing}{20}{subsection.75}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{21}{figure.caption.73}}
+\newlabel{fig:corr_map}{{5.6}{21}{Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax \relax }{figure.caption.73}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax }}{22}{figure.caption.76}}
+\newlabel{fig:daytime_operation_pittsburgh_field_test}{{5.7}{22}{Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax \relax }{figure.caption.76}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{22}{subsection.78}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{23}{figure.caption.77}}
+\newlabel{fig:night_test_team}{{5.8}{23}{Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax \relax }{figure.caption.77}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{23}{figure.caption.79}}
+\newlabel{fig:ui_test_takako}{{5.9}{23}{A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax \relax }{figure.caption.79}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{24}{subsubsection.80}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{25}{chapter.81}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Field Test Results}{23}{section.86}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Usability Test Results}{24}{section.87}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Improvements and Additions}{25}{section.88}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{27}{chapter.89}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Field Test Results}{25}{section.82}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Usability Test Results}{26}{section.83}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Improvements and Additions}{27}{section.84}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{29}{chapter.85}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Dimensional Reduction}{27}{section.90}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{27}{subsection.91}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Meta-Analysis}{27}{section.92}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{27}{subsection.93}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{28}{subsection.94}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{28}{section.95}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{28}{subsection.96}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{28}{subsection.97}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{28}{subsection.98}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{28}{subsection.99}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{28}{subsection.100}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.6}Timelines}{28}{subsection.101}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{28}{section.102}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{28}{subsection.103}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax }}{29}{figure.caption.104}}
-\newlabel{fig:dependency_graph_example}{{7.1}{29}{A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax \relax }{figure.caption.104}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax }}{30}{figure.caption.109}}
-\newlabel{fig:comparison_correlation_map}{{7.2}{30}{A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax \relax }{figure.caption.109}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax }}{30}{figure.caption.110}}
-\newlabel{fig:undirected_both}{{7.3}{30}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax \relax }{figure.caption.110}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax }}{31}{figure.caption.111}}
-\newlabel{fig:undirected_positive_only}{{7.4}{31}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.111}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Dimensional Reduction}{29}{section.86}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{29}{subsection.87}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Meta-Analysis}{29}{section.88}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{29}{subsection.89}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{30}{subsection.90}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{30}{section.91}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{30}{subsection.92}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{30}{subsection.93}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{30}{subsection.94}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{30}{subsection.95}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{30}{subsection.96}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.6}Timelines}{30}{subsection.97}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{30}{section.98}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{30}{subsection.99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax }}{31}{figure.caption.100}}
+\newlabel{fig:dependency_graph_example}{{7.1}{31}{A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax \relax }{figure.caption.100}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax }}{32}{figure.caption.105}}
+\newlabel{fig:comparison_correlation_map}{{7.2}{32}{A snapshot of the correlation map display from a simulated run. Note the strong correlations illustrated by opaque orange (positive) and blue (negative) cells.\relax \relax }{figure.caption.105}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax }}{32}{figure.caption.106}}
+\newlabel{fig:undirected_both}{{7.3}{32}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Both positive and negative correlation connections are shown. Self-correlations are not shown.\relax \relax }{figure.caption.106}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax }}{33}{figure.caption.107}}
+\newlabel{fig:undirected_positive_only}{{7.4}{33}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.107}{}}
 \citation{bach2016time}
 \citation{bach2016time}
 \citation{bach2016time}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{32}{figure.caption.112}}
-\newlabel{fig:undirected_negative_only}{{7.5}{32}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.112}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Time Curves}{32}{section.114}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}}{32}{subsection.116}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}}{32}{subsection.117}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.3}}{32}{subsection.118}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.4}}{32}{subsection.119}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{33}{figure.caption.113}}
-\newlabel{fig:undirected_positive_with_negative_clusters}{{7.6}{33}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax \relax }{figure.caption.113}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite  {bach2016time}.\relax }}{33}{figure.caption.115}}
-\newlabel{fig:time_curve_example}{{7.7}{33}{A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax \relax }{figure.caption.115}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results and Discussion}{34}{chapter.120}}
+\citation{bach2016time}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{34}{figure.caption.108}}
+\newlabel{fig:undirected_negative_only}{{7.5}{34}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.108}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Time Curves}{34}{section.110}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{35}{figure.caption.109}}
+\newlabel{fig:undirected_positive_with_negative_clusters}{{7.6}{35}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax \relax }{figure.caption.109}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite  {bach2016time}.\relax }}{36}{figure.caption.111}}
+\newlabel{fig:time_curve_example}{{7.7}{36}{A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax \relax }{figure.caption.111}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.6}Applying Time Curves to System Telemetry Data}{36}{section.112}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.7}Discussion}{37}{section.123}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels in Figs.\nobreakspace  {}\ref  {fig:pfm2_pcc_time_curve_annotated}, \ref  {fig:pfm2_tau_time_curve_annotated}, \ref  {fig:pfm2_rho_time_curve_annotated} and \ref  {fig:pfm2_raw_data_time_curve_annotated} to see correspondence.\relax }}{39}{table.caption.124}}
+\newlabel{tbl:events}{{7.1}{39}{Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels in Figs.~\ref {fig:pfm2_pcc_time_curve_annotated}, \ref {fig:pfm2_tau_time_curve_annotated}, \ref {fig:pfm2_rho_time_curve_annotated} and \ref {fig:pfm2_raw_data_time_curve_annotated} to see correspondence.\relax \relax }{table.caption.124}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{39}{figure.caption.125}}
+\newlabel{fig:pfm2_raw_data_time_curve_annotated}{{7.8}{39}{A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.125}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{40}{figure.caption.126}}
+\newlabel{fig:pfm2_pcc_time_curve_annotated}{{7.9}{40}{A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.126}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{41}{figure.caption.127}}
+\newlabel{fig:pfm2_rho_time_curve_annotated}{{7.10}{41}{A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.127}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{42}{figure.caption.128}}
+\newlabel{fig:pfm2_tau_time_curve_annotated}{{7.11}{42}{A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.128}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results and Discussion}{43}{chapter.129}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}A Section}{34}{section.121}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels on on Fig.\nobreakspace  {}\ref  {fig:pfm2_pcc_time_curve_annotated}, \ref  {fig:pfm2_tau_time_curve_annotated}, \ref  {fig:pfm2_rho_time_curve_annotated} and \ref  {fig:pfm2_raw_data_time_curve_annotated} to see correspondence.\relax }}{35}{table.caption.123}}
-\newlabel{tbl:events}{{8.1}{35}{Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels on on Fig.~\ref {fig:pfm2_pcc_time_curve_annotated}, \ref {fig:pfm2_tau_time_curve_annotated}, \ref {fig:pfm2_rho_time_curve_annotated} and \ref {fig:pfm2_raw_data_time_curve_annotated} to see correspondence.\relax \relax }{table.caption.123}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{35}{subsection.122}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Another Section}{35}{section.128}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{36}{figure.caption.124}}
-\newlabel{fig:pfm2_pcc_time_curve_annotated}{{8.1}{36}{A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.124}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{37}{figure.caption.125}}
-\newlabel{fig:pfm2_tau_time_curve_annotated}{{8.2}{37}{A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.125}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{38}{figure.caption.126}}
-\newlabel{fig:pfm2_rho_time_curve_annotated}{{8.3}{38}{A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.126}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{39}{figure.caption.127}}
-\newlabel{fig:pfm2_raw_data_time_curve_annotated}{{8.4}{39}{A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.127}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{40}{chapter.129}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}A Section}{43}{section.130}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{43}{subsection.131}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Another Section}{43}{section.132}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{45}{chapter.133}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\vspace  {2em}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}An Appendix}{41}{appendix.130}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Relevant Code Samples}{46}{appendix.134}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{46}{section.135}}
+\@writefile{lol}{\contentsline {lstlisting}{code/basic\textunderscore shaded\textunderscore correlation\textunderscore matrix\textunderscore viz.m}{46}{lstlisting.136}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{47}{section.190}}
+\@writefile{lol}{\contentsline {lstlisting}{code/gen\textunderscore undirected\textunderscore graph.py}{47}{lstlisting.191}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{48}{section.253}}
+\@writefile{lol}{\contentsline {lstlisting}{code/telem\textunderscore csv\textunderscore to\textunderscore time\textunderscore curves\textunderscore format.py}{49}{lstlisting.254}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{53}{section.467}}
+\@writefile{lol}{\contentsline {lstlisting}{code/telem\textunderscore to\textunderscore correlation\textunderscore to\textunderscore timecurve\textunderscore distance.m}{53}{lstlisting.468}}
 \@writefile{toc}{\vspace  {2em}}
 \bibstyle{plain}
 \bibdata{bibliography}
 \bibcite{xprize}{{1}{}{{}}{{}}}
 \bibcite{spaceflight_antares}{{2}{}{{}}{{}}}
-\bibcite{aycard2000state}{{3}{}{{}}{{}}}
-\bibcite{bach2016time}{{4}{}{{}}{{}}}
-\bibcite{castel2006fdir}{{5}{}{{}}{{}}}
-\bibcite{rabbithole}{{6}{}{{}}{{}}}
-\bibcite{dearden2004real}{{7}{}{{}}{{}}}
-\bibcite{friendly2002corrgrams}{{8}{}{{}}{{}}}
-\bibcite{hammett1991application}{{9}{}{{}}{{}}}
-\bibcite{holsti2001towards}{{10}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{43}{dummy.131}}
-\newlabel{Bibliography}{{9}{43}{An Appendix\relax }{dummy.131}{}}
-\bibcite{hwang2010survey}{{11}{}{{}}{{}}}
-\bibcite{kurien2010intrinsic}{{12}{}{{}}{{}}}
-\bibcite{larson2002model}{{13}{}{{}}{{}}}
-\bibcite{lin2006fault}{{14}{}{{}}{{}}}
-\bibcite{procyon_status}{{15}{}{{}}{{}}}
-\bibcite{paakko2001bayesian}{{16}{}{{}}{{}}}
-\bibcite{rummelcorrelation}{{17}{}{{}}{{}}}
-\bibcite{schwabacher2008pre}{{18}{}{{}}{{}}}
-\bibcite{spacex_crs7}{{19}{}{{}}{{}}}
-\bibcite{nasa_orb3}{{20}{}{{}}{{}}}
-\bibcite{jplunity}{{21}{}{{}}{{}}}
-\bibcite{apollo13}{{22}{}{{}}{{}}}
-\bibcite{tipaldi2014spacecraft}{{23}{}{{}}{{}}}
-\bibcite{washington2000board}{{24}{}{{}}{{}}}
-\bibcite{willsky1976survey}{{25}{}{{}}{{}}}
+\bibcite{anscombe1973graphs}{{3}{}{{}}{{}}}
+\bibcite{aycard2000state}{{4}{}{{}}{{}}}
+\bibcite{bach2016time}{{5}{}{{}}{{}}}
+\bibcite{castel2006fdir}{{6}{}{{}}{{}}}
+\bibcite{rabbithole}{{7}{}{{}}{{}}}
+\bibcite{dearden2004real}{{8}{}{{}}{{}}}
+\bibcite{friendly2002corrgrams}{{9}{}{{}}{{}}}
+\bibcite{hammett1991application}{{10}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{55}{dummy.553}}
+\newlabel{Bibliography}{{9}{55}{Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)\relax }{dummy.553}{}}
+\bibcite{holsti2001towards}{{11}{}{{}}{{}}}
+\bibcite{hwang2010survey}{{12}{}{{}}{{}}}
+\bibcite{kurien2010intrinsic}{{13}{}{{}}{{}}}
+\bibcite{larson2002model}{{14}{}{{}}{{}}}
+\bibcite{lin2006fault}{{15}{}{{}}{{}}}
+\bibcite{xkcd_correlation}{{16}{}{{}}{{}}}
+\bibcite{procyon_status}{{17}{}{{}}{{}}}
+\bibcite{paakko2001bayesian}{{18}{}{{}}{{}}}
+\bibcite{rummelcorrelation}{{19}{}{{}}{{}}}
+\bibcite{schwabacher2008pre}{{20}{}{{}}{{}}}
+\bibcite{spacex_crs7}{{21}{}{{}}{{}}}
+\bibcite{kendalls2}{{22}{}{{}}{{}}}
+\bibcite{spearmans}{{23}{}{{}}{{}}}
+\bibcite{nasa_orb3}{{24}{}{{}}{{}}}
+\bibcite{jplunity}{{25}{}{{}}{{}}}
+\bibcite{apollo13}{{26}{}{{}}{{}}}
+\bibcite{tipaldi2014spacecraft}{{27}{}{{}}{{}}}
+\bibcite{washington2000board}{{28}{}{{}}{{}}}
+\bibcite{willsky1976survey}{{29}{}{{}}{{}}}
 \global\NAT@numberstrue

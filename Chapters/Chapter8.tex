@@ -1,10 +1,6 @@
 \chapter{Results and Discussion}
 
-Purpose:
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at pulvinar nisi. Phasellus hendrerit, diam placerat interdum iaculis, mauris justo cursus risus, in viverra purus eros at ligula. Ut metus justo, consequat a tristique posuere, laoreet nec nibh. Etiam et scelerisque mauris. Phasellus vel massa magna. Ut non neque id tortor pharetra bibendum vitae sit amet nisi. Duis nec quam quam, sed euismod justo. Pellentesque eu tellus vitae ante tempus malesuada. Nunc accumsan, quam in congue consequat, lectus lectus dapibus erat, id aliquet urna neque at massa. Nulla facilisi. Morbi ullamcorper eleifend posuere. Donec libero leo, faucibus nec bibendum at, mattis et urna. Proin consectetur, nunc ut imperdiet lobortis, magna neque tincidunt lectus, id iaculis nisi justo id nibh. Pellentesque vel sem in erat vulputate faucibus molestie ut lorem.
+This chapter discusses the final results of our investigation into system analysis and visualization for fault diagnostic purposes.
 
 \section{A Section}
 
@@ -12,67 +8,6 @@ Quisque tristique urna in lorem laoreet at laoreet quam congue. Donec dolor turp
 
 \subsection{System State Visualization with Time Curves}
 
-Set about to do time curve viz
-
-describe data pipeline
-
-describe four choices for comparison
-
-maximum folding
-
-no averaging
-
-results shown
-
-discuss results
-
-
-
-\begin{table}[]
-\centering
-\begin{tabular}{lll}
-Event Number & Timestamp & Event Description \\
-0 & 0s & Rover begins traveling forward along smooth terrain. \\
-1 & 188s & Rover enters crater; begins descending into crater. \\
-2 & 287s & Rover enters shade, causing temp, comms, and power drops. \\
-3 & 300s & Rover begins traversing smooth bottom of crater. \\
-4 & 330s & Rover begins climbing out of crater. \\
-5 & 343s & Rover exits shade; continues uphill. \\
-6 & 534s & Rover emerges from crater and enters smooth terrain. \\
-7 & 594s & Rover enters choppy terrain. \\
-8 & 643s & Rover wheel has fault; rover stops moving.
-\end{tabular}
-\caption{Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels in Figs.~\ref{fig:pfm2_pcc_time_curve_annotated}, \ref{fig:pfm2_tau_time_curve_annotated}, \ref{fig:pfm2_rho_time_curve_annotated} and \ref{fig:pfm2_raw_data_time_curve_annotated} to see correspondence.}
-\label{tbl:events}
-\end{table}
-
-\begin{figure}[h]
-\centering
-    \includegraphics{images/pfm2_pcc_time_curve_annotated.png}
-    \caption{A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
-    \label{fig:pfm2_pcc_time_curve_annotated}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-    \includegraphics{images/pfm2_tau_time_curve_annotated.png}
-    \caption{A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
-    \label{fig:pfm2_tau_time_curve_annotated}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-    \includegraphics{images/pfm2_rho_time_curve_annotated.png}
-    \caption{A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
-    \label{fig:pfm2_rho_time_curve_annotated}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-    \includegraphics{images/pfm2_raw_data_time_curve_annotated.png}
-    \caption{A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.~\ref{tbl:events}.}
-    \label{fig:pfm2_raw_data_time_curve_annotated}
-\end{figure}
 
 \section{Another Section}
 

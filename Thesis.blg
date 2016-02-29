@@ -7,17 +7,23 @@ Warning--entry type for "spacex_crs7" isn't style-file defined
 --line 29 of file bibliography.bib
 Warning--entry type for "procyon_status" isn't style-file defined
 --line 37 of file bibliography.bib
-I was expecting an "="---line 396 of file bibliography.bib
+Warning--entry type for "spearmans" isn't style-file defined
+--line 313 of file bibliography.bib
+Warning--entry type for "kendalls2" isn't style-file defined
+--line 329 of file bibliography.bib
+Warning--entry type for "xkcd_correlation" isn't style-file defined
+--line 348 of file bibliography.bib
+I was expecting an "="---line 438 of file bibliography.bib
  :     
  :     \includegraphics[width=\columnwidth]{images/moonraker.jpg}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "rabbithole" isn't style-file defined
---line 416 of file bibliography.bib
+--line 458 of file bibliography.bib
 Warning--entry type for "xprize" isn't style-file defined
---line 424 of file bibliography.bib
+--line 466 of file bibliography.bib
 Warning--entry type for "jplunity" isn't style-file defined
---line 431 of file bibliography.bib
+--line 473 of file bibliography.bib
 Warning--I didn't find a database entry for "Cancro"
 Warning--I didn't find a database entry for "Yairi"
 Warning--to sort, need author or key in xprize
