@@ -71,17 +71,6 @@ where $n_{c}$ is the number of ``concordant pairs" (pairs of variables with the 
 
 Kendall's Tau carries with it the same assumptions as Spearman's Rho \cite{kendalls2}.
 
-\subsection{Correlation Coefficient Comparison}
-
-A visual comparison of the Pearson Correlation Coefficient, Spearman Rank Correlation Coefficient, and Kendall Rank Correlation Coefficient is shown in Fig.~\ref{fig:correlation_comparison}. Note that the strong negative linear correlation between data channels 4 and 5 is captured well by all three correlative measurement methods; however, the strong, nonlinear association between data channels 1 and 6 is not captured as strongly by the PCC due to its inability to model nonlinear relationships.
-
-\begin{figure}[h]
-\centering
-    \includegraphics[width=\columnwidth]{images/correlation_comparison.png}
-    \caption{Three common correlation coefficient algorithms are compared on a sample data set. Note that items 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.}
-    \label{fig:correlation_comparison}
-\end{figure}
-
 \section{Limitations of Traditional Correlative Techniques}
 
 There are many limitations to the three traditional correlative techniques above, and it's important to understand them, even if the ultimate decision will be to use one of these techniques. Some of the major limitations are decribed below.
@@ -94,7 +83,7 @@ As discussed above, the PCC algorithm assumes that correlated data has a linear 
 
 \subsection{Implied Causation}
 
-One caveat of which a human operator must always be aware, especially when trying to build intuiton and make conclusions based on correlative data, is that the formulations of correlation described above do not imply causation, and causation should not be inferred simply due to a high correlation score. However, correlation may \textit{suggest} causation, and can provide valuable next steps for data examination informed by expert knowledge.
+One caveat of which a human operator must always be aware, especially when trying to build intuition and make conclusions based on correlative data, is that the formulations of correlation described above do not imply causation, and causation should not be inferred simply due to a high correlation score. However, correlation may \textit{suggest} causation, and can provide valuable next steps for data examination informed by expert knowledge.
 
 \begin{figure}[h]
 \centering

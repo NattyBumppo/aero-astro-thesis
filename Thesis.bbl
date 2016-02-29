@@ -28,6 +28,13 @@ Benjamin Bach, Conglei Shi, Nicolas Heulot, Tara Madhyastha, Tom Grabowski, and
 \newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
   22(1):559--568, 2016.
 
+\bibitem{cancro2007interactive}
+George Cancro, Russell Turner, Lilian Nguyen, Angela Li, Deane Sibol, John
+  Gersh, Christine Piatko, Jaime Montemayor, and Priscilla McKerracher.
+\newblock An interactive visualization system for analyzing spacecraft
+  telemetry.
+\newblock In {\em Aerospace Conference, 2007 IEEE}, pages 1--9.
+
 \bibitem{castel2006fdir}
 Charles Castel, Jean-Fran{\c{c}}ois Gabard, Catherine Tessier, Bertrand
   Laborde, and Raymond Soumagne.
@@ -90,9 +97,20 @@ Jiliang Lin and Jingping Jiang.
 \newblock In {\em Intelligent Systems Design and Applications, 2006. ISDA'06.
   Sixth International Conference on}, volume~1, pages 862--866. IEEE, 2006.
 
+\bibitem{muller2003visualization}
+Wolfgang M{\"u}ller and Heidrun Schumann.
+\newblock Visualization methods for time-dependent data-an overview.
+\newblock In {\em Simulation Conference, 2003. Proceedings of the 2003 Winter},
+  volume~1, pages 737--745. IEEE, 2003.
+
 \bibitem{xkcd_correlation}
 Randall Munroe.
 \newblock xkcd: Correlation, 2016.
+
+\bibitem{murdoch1996graphical}
+DJ~Murdoch and ED~Chow.
+\newblock A graphical display of large correlation matrices.
+\newblock {\em The American Statistician}, 50(2):178--180, 1996.
 
 \bibitem{procyon_status}
 JAXA~Institute of~Space and Astronautical Science.
@@ -158,5 +176,19 @@ Richard Washington.
 Alan~S Willsky.
 \newblock A survey of design methods for failure detection in dynamic systems.
 \newblock {\em Automatica}, 12(6):601--611, 1976.
+
+\bibitem{yairi1992telemetry}
+Takehisa Yairi, Yoshinobu Kawahara, Ryohei Fujimaki, Yuichi Sato, and Kazuo
+  Machida.
+\newblock Telemetry-mining: a machine learning approach to anomaly detection
+  and fault diagnosis for space systems.
+\newblock In {\em Space Mission Challenges for Information Technology, 2006.
+  SMC-IT 2006. Second IEEE International Conference on}, pages 8--pp. IEEE,
+  1992.
+
+\bibitem{yeh2007exploratory}
+Shi-Tao Yeh, GlaxoSmithKline, and PA~King~of Prussia.
+\newblock Exploratory visualization of correlation matrices.
+\newblock In {\em NorthEast SAS Users Group (NESUG) conference 2007}, 2007.
 
 \end{thebibliography}

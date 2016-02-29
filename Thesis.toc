@@ -33,62 +33,61 @@
 \contentsline {subsection}{\numberline {3.1.2}Pearson Correlation Coefficient}{8}{subsection.39}
 \contentsline {subsection}{\numberline {3.1.3}Spearman Rank Correlation Coefficient ($\rho $)}{9}{subsection.41}
 \contentsline {subsection}{\numberline {3.1.4}Kendall Rank Correlation Coefficient ($\tau $)}{9}{subsection.43}
-\contentsline {subsection}{\numberline {3.1.5}Correlation Coefficient Comparison}{10}{subsection.45}
-\contentsline {section}{\numberline {3.2}Limitations of Traditional Correlative Techniques}{10}{section.47}
-\contentsline {subsection}{\numberline {3.2.1}Linearity Assumptions}{10}{subsection.48}
-\contentsline {subsection}{\numberline {3.2.2}Implied Causation}{11}{subsection.49}
-\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{12}{chapter.51}
-\contentsline {section}{\numberline {4.1}Goals}{12}{section.52}
-\contentsline {section}{\numberline {4.2}Corrgrams}{13}{section.53}
-\contentsline {subsection}{\numberline {4.2.1}Background}{13}{subsection.54}
-\contentsline {subsection}{\numberline {4.2.2}Applications}{13}{subsection.55}
-\contentsline {subsection}{\numberline {4.2.3}Animated Corrgrams}{13}{subsection.56}
-\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{14}{chapter.57}
-\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{14}{section.58}
-\contentsline {section}{\numberline {5.2}Ground Station Interface}{15}{section.60}
-\contentsline {section}{\numberline {5.3}Rover Data Path}{16}{section.61}
-\contentsline {subsection}{\numberline {5.3.1}Non-FDIR-Related Components}{16}{subsection.63}
-\contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{17}{subsection.64}
-\contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{17}{subsubsection.65}
-\contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{18}{subsubsection.67}
-\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{18}{subsubsection.69}
-\contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{19}{subsubsection.71}
-\contentsline {section}{\numberline {5.4}Testing}{20}{section.74}
-\contentsline {subsection}{\numberline {5.4.1}Field Testing}{20}{subsection.75}
-\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{22}{subsection.78}
-\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{24}{subsubsection.80}
-\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{25}{chapter.81}
-\contentsline {section}{\numberline {6.1}Field Test Results}{25}{section.82}
-\contentsline {section}{\numberline {6.2}Usability Test Results}{26}{section.83}
-\contentsline {section}{\numberline {6.3}Improvements and Additions}{27}{section.84}
-\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{29}{chapter.85}
-\contentsline {section}{\numberline {7.1}Dimensional Reduction}{29}{section.86}
-\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{29}{subsection.87}
-\contentsline {section}{\numberline {7.2}Meta-Analysis}{29}{section.88}
-\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{29}{subsection.89}
-\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{30}{subsection.90}
-\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{30}{section.91}
-\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{30}{subsection.92}
-\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{30}{subsection.93}
-\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{30}{subsection.94}
-\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{30}{subsection.95}
-\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{30}{subsection.96}
-\contentsline {subsection}{\numberline {7.3.6}Timelines}{30}{subsection.97}
-\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{30}{section.98}
-\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{30}{subsection.99}
-\contentsline {section}{\numberline {7.5}Time Curves}{34}{section.110}
-\contentsline {section}{\numberline {7.6}Applying Time Curves to System Telemetry Data}{36}{section.112}
-\contentsline {section}{\numberline {7.7}Discussion}{37}{section.123}
-\contentsline {chapter}{\numberline {8}Results and Discussion}{43}{chapter.129}
-\contentsline {section}{\numberline {8.1}A Section}{43}{section.130}
-\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{43}{subsection.131}
-\contentsline {section}{\numberline {8.2}Another Section}{43}{section.132}
-\contentsline {chapter}{\numberline {9}Conclusion}{45}{chapter.133}
+\contentsline {section}{\numberline {3.2}Limitations of Traditional Correlative Techniques}{10}{section.45}
+\contentsline {subsection}{\numberline {3.2.1}Linearity Assumptions}{10}{subsection.46}
+\contentsline {subsection}{\numberline {3.2.2}Implied Causation}{10}{subsection.47}
+\contentsline {chapter}{\numberline {4}Visualization of Correlative Relationships}{12}{chapter.49}
+\contentsline {section}{\numberline {4.1}Challenges}{12}{section.50}
+\contentsline {section}{\numberline {4.2}Corrgrams}{13}{section.51}
+\contentsline {subsection}{\numberline {4.2.1}Limitations}{13}{subsection.52}
+\contentsline {subsection}{\numberline {4.2.2}Corrgram Example}{14}{subsection.53}
+\contentsline {section}{\numberline {4.3}Animated Corrgrams}{15}{section.55}
+\contentsline {chapter}{\numberline {5}Case Study: Hakuto ``Moonraker" Lunar Rover}{16}{chapter.56}
+\contentsline {section}{\numberline {5.1}HAKUTO Lunar XPRIZE Team}{16}{section.57}
+\contentsline {section}{\numberline {5.2}Ground Station Interface}{17}{section.59}
+\contentsline {section}{\numberline {5.3}Rover Data Path}{18}{section.60}
+\contentsline {subsection}{\numberline {5.3.1}Non-FDIR-Related Components}{18}{subsection.62}
+\contentsline {subsection}{\numberline {5.3.2}FDIR-Related Components}{19}{subsection.63}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Threshold-based fault detection}{19}{subsubsection.64}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Fault alert panel}{20}{subsubsection.66}
+\contentsline {subsubsection}{\numberline {5.3.2.3}Expert fault information}{20}{subsubsection.68}
+\contentsline {subsubsection}{\numberline {5.3.2.4}Correlative Functionality}{21}{subsubsection.70}
+\contentsline {section}{\numberline {5.4}Testing}{22}{section.73}
+\contentsline {subsection}{\numberline {5.4.1}Field Testing}{22}{subsection.74}
+\contentsline {subsection}{\numberline {5.4.2}Usability Testing}{24}{subsection.77}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Test Tasks}{26}{subsubsection.79}
+\contentsline {chapter}{\numberline {6}Intermediate Results and Reassessment}{27}{chapter.80}
+\contentsline {section}{\numberline {6.1}Field Test Results}{27}{section.81}
+\contentsline {section}{\numberline {6.2}Usability Test Results}{28}{section.82}
+\contentsline {section}{\numberline {6.3}Improvements and Additions}{29}{section.83}
+\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{31}{chapter.84}
+\contentsline {section}{\numberline {7.1}Dimensional Reduction}{31}{section.85}
+\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{31}{subsection.86}
+\contentsline {section}{\numberline {7.2}Meta-Analysis}{31}{section.87}
+\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{31}{subsection.88}
+\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{32}{subsection.89}
+\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{32}{section.90}
+\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{32}{subsection.91}
+\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{32}{subsection.92}
+\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{32}{subsection.93}
+\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{32}{subsection.94}
+\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{32}{subsection.95}
+\contentsline {subsection}{\numberline {7.3.6}Timelines}{32}{subsection.96}
+\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{32}{section.97}
+\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{32}{subsection.98}
+\contentsline {section}{\numberline {7.5}Time Curves}{36}{section.109}
+\contentsline {section}{\numberline {7.6}Applying Time Curves to System Telemetry Data}{38}{section.111}
+\contentsline {section}{\numberline {7.7}Discussion}{40}{section.122}
+\contentsline {chapter}{\numberline {8}Results and Discussion}{45}{chapter.128}
+\contentsline {section}{\numberline {8.1}A Section}{45}{section.129}
+\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{45}{subsection.130}
+\contentsline {section}{\numberline {8.2}Another Section}{45}{section.131}
+\contentsline {chapter}{\numberline {9}Conclusion}{47}{chapter.132}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Relevant Code Samples}{46}{appendix.134}
-\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{46}{section.135}
-\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{47}{section.190}
-\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{48}{section.253}
-\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{53}{section.467}
+\contentsline {chapter}{\numberline {A}Relevant Code Samples}{48}{appendix.133}
+\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{48}{section.134}
+\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{49}{section.189}
+\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{50}{section.252}
+\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{55}{section.466}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{55}{dummy.553}
+\contentsline {chapter}{Bibliography}{57}{dummy.552}

@@ -96,6 +96,8 @@ We experimented with actually creating this visualization for explorational purp
 
 These visualizations present a very different way of viewing the correlative data. While the temporal dimension is still only captured as a snapshot (i.e., the correlative state at only one time point can be shown at a time), correlated components are shown very clearly, and can be understood at a glance. In particular, the intuition behind the positive correlated components in Fig.~\ref{fig:undirected_positive_only} seems clear; the most fully-connected, major clusters are exhibiting behavior which is very similar to each other. (In fact, the lower left cluster channels were all in a state of monotonic decrease, and the upper right cluster channels were in a state of monotonic increase.) The negative correlated components are less obvious, as they don't ``cluster" in the same way; however, the negative correlation data can be overlaid onto the positive correlation graphs as a higher-level operation on the clusters. This, perhaps, produces the most informative type of graph; this application is shown in Fig.~\ref{fig:undirected_positive_with_negative_clusters}.
 
+Note that \cite{yeh2007exploratory} uses a similar approach for graph visualization of correlation matrices relationships; however, they impose a radial structure on all graph layouts, which losing the clustering advantage of the graph layouts we have produced here.
+
 \begin{figure}[h]
 \centering
     \includegraphics[width=\columnwidth]{images/undirected_positive_with_negative_clusters.png}
