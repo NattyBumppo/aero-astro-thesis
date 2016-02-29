@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  29 FEB 2016 01:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  29 FEB 2016 02:07
 entering extended mode
 **F:/Dropbox/thesis/Thesis.tex
 (F:/Dropbox/thesis/Thesis.tex
@@ -892,7 +892,7 @@ File: images/dependency_graph_example.png Graphic file (type png)
 
 <use images/dependency_graph_example.png>
 Package pdftex.def Info: images/dependency_graph_example.png used on input line
- 91.
+ 88.
 (pdftex.def)             Requested size: 353.06819pt x 83.56198pt.
 
 
@@ -903,7 +903,7 @@ File: images/comparison_correlation_map.png Graphic file (type png)
 
 <use images/comparison_correlation_map.png>
 Package pdftex.def Info: images/comparison_correlation_map.png used on input li
-ne 111.
+ne 108.
 (pdftex.def)             Requested size: 417.47307pt x 147.90817pt.
 
 
@@ -913,7 +913,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/undirected_both.png Graphic file (type png)
 
 <use images/undirected_both.png>
-Package pdftex.def Info: images/undirected_both.png used on input line 118.
+Package pdftex.def Info: images/undirected_both.png used on input line 115.
 (pdftex.def)             Requested size: 417.47307pt x 218.53609pt.
 
 
@@ -924,7 +924,7 @@ File: images/undirected_positive_only.png Graphic file (type png)
 
 <use images/undirected_positive_only.png>
 Package pdftex.def Info: images/undirected_positive_only.png used on input line
- 125.
+ 122.
 (pdftex.def)             Requested size: 417.47307pt x 322.28056pt.
 
 
@@ -935,7 +935,7 @@ File: images/undirected_negative_only.png Graphic file (type png)
 
 <use images/undirected_negative_only.png>
 Package pdftex.def Info: images/undirected_negative_only.png used on input line
- 132.
+ 129.
 (pdftex.def)             Requested size: 417.47307pt x 243.54605pt.
 
 
@@ -950,7 +950,7 @@ File: images/undirected_positive_with_negative_clusters.png Graphic file (type
 png)
  <use images/undirected_positive_with_negative_clusters.png>
 Package pdftex.def Info: images/undirected_positive_with_negative_clusters.png 
-used on input line 143.
+used on input line 140.
 (pdftex.def)             Requested size: 417.47307pt x 322.2445pt.
 
 
@@ -961,7 +961,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/time_curve_example.png Graphic file (type png)
 
 <use images/time_curve_example.png>
-Package pdftex.def Info: images/time_curve_example.png used on input line 156.
+Package pdftex.def Info: images/time_curve_example.png used on input line 153.
 (pdftex.def)             Requested size: 208.73653pt x 257.1984pt.
 
 
@@ -972,10 +972,10 @@ esis/images/undirected_positive_with_negative_clusters.png>] [42 <F:/Dropbox/th
 esis/images/time_curve_example.png>] [43]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 207.
+               Default added (so using `tbp') on input line 204.
 
 
-Overfull \hbox (32.10274pt too wide) in paragraph at lines 209--221
+Overfull \hbox (32.10274pt too wide) in paragraph at lines 206--218
  [][] 
  []
 
@@ -985,7 +985,7 @@ t>
 File: images/pfm2_raw_data_time_curve_annotated.png Graphic file (type png)
  <use images/pfm2_raw_data_time_curve_annotated.png>
 Package pdftex.def Info: images/pfm2_raw_data_time_curve_annotated.png used on 
-input line 227.
+input line 224.
 (pdftex.def)             Requested size: 356.07944pt x 309.40518pt.
 
 
@@ -996,7 +996,7 @@ File: images/pfm2_pcc_time_curve_annotated.png Graphic file (type png)
 
 <use images/pfm2_pcc_time_curve_annotated.png>
 Package pdftex.def Info: images/pfm2_pcc_time_curve_annotated.png used on input
- line 234.
+ line 231.
 (pdftex.def)             Requested size: 345.54008pt x 306.39394pt.
 
 
@@ -1007,7 +1007,7 @@ File: images/pfm2_rho_time_curve_annotated.png Graphic file (type png)
 
 <use images/pfm2_rho_time_curve_annotated.png>
 Package pdftex.def Info: images/pfm2_rho_time_curve_annotated.png used on input
- line 241.
+ line 238.
 (pdftex.def)             Requested size: 341.02322pt x 310.15799pt.
 
 
@@ -1018,44 +1018,44 @@ File: images/pfm2_tau_time_curve_annotated.png Graphic file (type png)
 
 <use images/pfm2_tau_time_curve_annotated.png>
 Package pdftex.def Info: images/pfm2_tau_time_curve_annotated.png used on input
- line 248.
+ line 245.
 (pdftex.def)             Requested size: 345.54008pt x 319.19171pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (F:\Dropbox\thesis\Chapters/Chapter8.tex [44] [45 <F:/Dropbox/thesis/images/p
+) [44] (F:\Dropbox\thesis\Chapters/Chapter8.tex [45 <F:/Dropbox/thesis/images/p
 fm2_raw_data_time_curve_annotated.png>] [46 <F:/Dropbox/thesis/images/pfm2_pcc_
 time_curve_annotated.png>] [47 <F:/Dropbox/thesis/images/pfm2_rho_time_curve_an
 notated.png>] [48 <F:/Dropbox/thesis/images/pfm2_tau_time_curve_annotated.png>]
 Chapter 8.
 ------------------------------------------------------------------------------
- 8 Conclusion and Future Work
+ 8 Future Work and Conclusion
 ------------------------------------------------------------------------------
-) (F:\Dropbox\thesis\Appendices/AppendixA.tex [49
+[49
 
-]
+] [50]) (F:\Dropbox\thesis\Appendices/AppendixA.tex [51]
 Appendix A.
 ------------------------------------------------------------------------------
  A Relevant Code Samples
 ------------------------------------------------------------------------------
-(F:\Dropbox\thesis\code/basic_shaded_correlation_matrix_viz.m [50
+(F:\Dropbox\thesis\code/basic_shaded_correlation_matrix_viz.m [52
 
 ])
 (F:\Dropbox\thesis\lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(F:\Dropbox\thesis\code/gen_undirected_graph.py [51])
-(F:\Dropbox\thesis\code/telem_csv_to_time_curves_format.py [52] [53] [54]
-[55] [56]) (F:\Dropbox\thesis\code/telem_to_correlation_to_timecurve_distance.m
-[57])) [58]
+(F:\Dropbox\thesis\code/gen_undirected_graph.py [53])
+(F:\Dropbox\thesis\code/telem_csv_to_time_curves_format.py [54] [55] [56]
+[57] [58]) (F:\Dropbox\thesis\code/telem_to_correlation_to_timecurve_distance.m
+[59])) [60]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(F:\Dropbox\thesis\Thesis.bbl [59
+(F:\Dropbox\thesis\Thesis.bbl [61
 
 
-] [60]
+] [62]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -1064,18 +1064,18 @@ Missing character: There is no “ in font cmr10!
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
-[61]
+[63]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (F:\Dropbox\thesis\Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C623AC33461FED0CD62B9680AAB4D72C;15619.
+(rerunfilecheck)             Checksum: F5BFCF7452409D5EA9B8B53E4923C66B;15573.
  ) 
 Here is how much of TeX's memory you used:
- 12887 strings out of 494045
- 180814 string characters out of 3152019
- 773631 words of memory out of 3000000
+ 12889 strings out of 494045
+ 180828 string characters out of 3152019
+ 773687 words of memory out of 3000000
  15271 multiletter control sequences out of 15000+200000
  16998 words of font info for 64 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1099,9 +1099,9 @@ F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/Apps/MiKTeX 2.
 lic/amsfonts/cm/cmtt8.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
 ls/msam7.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 >
-Output written on Thesis.pdf (75 pages, 6780633 bytes).
+Output written on Thesis.pdf (77 pages, 6785807 bytes).
 PDF statistics:
- 1635 PDF objects out of 1728 (max. 8388607)
- 651 named destinations out of 1000 (max. 500000)
+ 1643 PDF objects out of 1728 (max. 8388607)
+ 653 named destinations out of 1000 (max. 500000)
  678 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -61,8 +61,6 @@ Both of these approaches are highly supervised and require expert knowledge of t
 
 % \subsection{Out-of-Family Correlations}
 
-
-
 % \section{Corrgram Enhancements and Dimensional Reduction}
 
 % \subsection{Smoothing and Time Adjustments}
@@ -77,12 +75,11 @@ Both of these approaches are highly supervised and require expert knowledge of t
 
 % \subsection{Timelines}
 
-
 \section{Two-Dimensional Graph Embeddings}
 
 Since the vast majority of user interfaces in common usage are two-dimensional, and hardware limitations can easily result in 3D user interfaces being infeasible for users, it makes sense to look at ways that $n$-dimensional system state data can be embedded within a 2D visualization. Towards this purpose, I did a brief survey of state-of-the-art 2D graph embeddings, looking for implementation feasibility and the ability to give a user ``insight" into the nature of a system fault. Preferably, a 2D embedding for system understanding will make major state transitions and patterns visibly obvious at a glance, and will spatially separate different system ``modes" so that they can easily be mentally grouped by the viewer.
 
-\subsection{Undirected Dependency Graphs}
+\subsection{Undirected Correlation Graphs}
 
 The first type of two-dimensional graph embedding that we examined as an alternative for animated corrgrams was the ``dependency graph." Dependency graphs are a type of 2D embedding in which a complex system is represented as a directed graph, where nodes are system components and edges represent dependencies; for example, if $\textbf{node}_{A} \rightarrow \textbf{node}_{B}$ and $\textbf{node}_{B} \rightarrow \textbf{node}_{C}$, this indicates that the value of $\textbf{node}_{A}$ depends on the value of $\textbf{node}_{B}$, which in turn depends on $\textbf{node}_{C}$. A simple example of this type of visualization is shown in Fig.~\ref{fig:dependency_graph_example}.
 
@@ -93,7 +90,7 @@ The first type of two-dimensional graph embedding that we examined as an alterna
     \label{fig:dependency_graph_example}
 \end{figure}
 
-As such, this type of visualization lends itself well to illustrating the effect of causation in a system. Though causation can be difficult to determine in a complex system, as we have already shown, correlation is calculable via the PCC and other metrics, and a correlation-generalized undirected correlation graph could be envisioned, wherein two nodes have an undirected edge if their mutual PCC score exceeds a certain threshold, and have no edge if their mutual PCC score fails to meet that threshold. The steps to generate such a graph are as follows:
+As such, this type of visualization lends itself well to illustrating the effect of causation in a system. Though causation can be difficult to determine in a complex system, as we have already shown, correlation is calculable via the PCC and other metrics, and a correlation-generalized ``undirected correlation graph" could be envisioned, wherein two nodes have an undirected edge if their mutual PCC score exceeds a certain threshold, and have no edge if their mutual PCC score fails to meet that threshold. The steps to generate such a graph are as follows:
 
 \begin{enumerate}
     \item At a given point in time, generate a PCC matrix for all of the possible data channel pairs.
@@ -249,3 +246,5 @@ Event Number & Timestamp & Event Description \\
     \caption{A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
     \label{fig:pfm2_tau_time_curve_annotated}
 \end{figure}
+
+It is the opinion of the author that the time curve visualization of correlative state data is extremely useful. Not only does it clearly separate and show system modes that we can validate against human intuition, but it allows a human operator to readily spot deviation from a given correlative state trajectory, in a way that seems more robust and reliable than raw state visualization. Future work to adapt this tool to the task of root cause analysis for complex systems will be described in the next chapter.
