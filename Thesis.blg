@@ -8,22 +8,22 @@ Warning--entry type for "spacex_crs7" isn't style-file defined
 Warning--entry type for "procyon_status" isn't style-file defined
 --line 37 of file bibliography.bib
 Warning--entry type for "spearmans" isn't style-file defined
---line 313 of file bibliography.bib
+--line 334 of file bibliography.bib
 Warning--entry type for "kendalls2" isn't style-file defined
---line 329 of file bibliography.bib
+--line 350 of file bibliography.bib
 Warning--entry type for "xkcd_correlation" isn't style-file defined
---line 348 of file bibliography.bib
-I was expecting an "="---line 438 of file bibliography.bib
+--line 369 of file bibliography.bib
+I was expecting an "="---line 459 of file bibliography.bib
  :     
  :     \includegraphics[width=\columnwidth]{images/moonraker.jpg}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "rabbithole" isn't style-file defined
---line 458 of file bibliography.bib
+--line 479 of file bibliography.bib
 Warning--entry type for "xprize" isn't style-file defined
---line 466 of file bibliography.bib
+--line 487 of file bibliography.bib
 Warning--entry type for "jplunity" isn't style-file defined
---line 473 of file bibliography.bib
+--line 494 of file bibliography.bib
 Warning--I didn't find a database entry for "datadriven"
 Warning--to sort, need author or key in xprize
 Warning--empty year in cancro2007interactive

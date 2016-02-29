@@ -35,14 +35,6 @@ George Cancro, Russell Turner, Lilian Nguyen, Angela Li, Deane Sibol, John
   telemetry.
 \newblock In {\em Aerospace Conference, 2007 IEEE}, pages 1--9.
 
-\bibitem{castel2006fdir}
-Charles Castel, Jean-Fran{\c{c}}ois Gabard, Catherine Tessier, Bertrand
-  Laborde, and Raymond Soumagne.
-\newblock Fdir strategies for autonomous satellite formations-a preliminary
-  report.
-\newblock In {\em Symposium Spacecraft Autonomy: Using AI to Expand Human Space
-  Exploration}, 2006.
-
 \bibitem{rabbithole}
 Dauna Coulter.
 \newblock Down the lunar rabbit-hole, 2010.
@@ -91,17 +83,17 @@ J~Nathan Kutz.
   complex systems \& big data}.
 \newblock OUP Oxford, 2013.
 
-\bibitem{larson2002model}
-Edward~C Larson, Eugene~B Parker~Jr, and Brian~R Clark.
-\newblock Model-based sensor and actuator fault detection and isolation.
-\newblock In {\em American Control Conference, 2002. Proceedings of the 2002},
-  volume~5, pages 4215--4219. IEEE, 2002.
-
 \bibitem{lin2006fault}
 Jiliang Lin and Jingping Jiang.
 \newblock Fault detection and analysis of control software for a mobile robot.
 \newblock In {\em Intelligent Systems Design and Applications, 2006. ISDA'06.
   Sixth International Conference on}, volume~1, pages 862--866. IEEE, 2006.
+
+\bibitem{lo2005noise}
+Chet Lo and Cynthia Furse.
+\newblock Noise-domain reflectometry for locating wiring faults.
+\newblock {\em Electromagnetic Compatibility, IEEE Transactions on},
+  47(1):97--104, 2005.
 
 \bibitem{muller2003visualization}
 Wolfgang M{\"u}ller and Heidrun Schumann.
@@ -185,16 +177,12 @@ Thamara Villegas, Mar{\'\i}a~Jes{\'u}s Fuente, and Miguel Rodr{\'\i}guez.
   computational intelligence, man-machine systems and cybernetics}, pages
   147--152, 2010.
 
-\bibitem{washington2000board}
-Richard Washington.
-\newblock On-board real-time state and fault identification for rovers.
-\newblock In {\em Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE
-  International Conference on}, volume~2, pages 1175--1181. IEEE, 2000.
-
-\bibitem{willsky1976survey}
-Alan~S Willsky.
-\newblock A survey of design methods for failure detection in dynamic systems.
-\newblock {\em Automatica}, 12(6):601--611, 1976.
+\bibitem{walker1979fault}
+Bruce~K Walker and Eliezer Gait.
+\newblock Fault detection threshold determination technique using markov
+  theory.
+\newblock {\em Journal of Guidance, Control, and Dynamics}, 2(4):313--319,
+  1979.
 
 \bibitem{yairi1992telemetry}
 Takehisa Yairi, Yoshinobu Kawahara, Ryohei Fujimaki, Yuichi Sato, and Kazuo
