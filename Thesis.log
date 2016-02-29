@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  27 FEB 2016 20:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  28 FEB 2016 16:36
 entering extended mode
 **F:/Dropbox/thesis/Thesis.tex
 (F:/Dropbox/thesis/Thesis.tex
@@ -923,56 +923,114 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (F:\Dropbox\thesis\Chapters/Chapter8.tex [32 <F:/Dropbox/thesis/images/undire
 cted_negative_only.png>] [33 <F:/Dropbox/thesis/images/undirected_positive_with
-_negative_clusters.png>] [34 <F:/Dropbox/thesis/images/time_curve_example.png>]
+_negative_clusters.png> <F:/Dropbox/thesis/images/time_curve_example.png>]
 Chapter 8.
 ------------------------------------------------------------------------------
  8 Results and Discussion
 ------------------------------------------------------------------------------
-[35
+[34
 
-]) (F:\Dropbox\thesis\Chapters/Chapter9.tex [36]
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 31.
+
+
+Overfull \hbox (32.10274pt too wide) in paragraph at lines 33--45
+ [][] 
+ []
+
+<images/pfm2_pcc_time_curve_annotated.png, id=925, 345.54094pt x 306.39468pt>
+File: images/pfm2_pcc_time_curve_annotated.png Graphic file (type png)
+
+<use images/pfm2_pcc_time_curve_annotated.png>
+Package pdftex.def Info: images/pfm2_pcc_time_curve_annotated.png used on input
+ line 51.
+(pdftex.def)             Requested size: 345.54008pt x 306.39394pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/pfm2_tau_time_curve_annotated.png, id=928, 345.54094pt x 319.1925pt>
+File: images/pfm2_tau_time_curve_annotated.png Graphic file (type png)
+
+<use images/pfm2_tau_time_curve_annotated.png>
+Package pdftex.def Info: images/pfm2_tau_time_curve_annotated.png used on input
+ line 58.
+(pdftex.def)             Requested size: 345.54008pt x 319.19171pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/pfm2_rho_time_curve_annotated.png, id=931, 341.02406pt x 310.15875pt>
+File: images/pfm2_rho_time_curve_annotated.png Graphic file (type png)
+
+<use images/pfm2_rho_time_curve_annotated.png>
+Package pdftex.def Info: images/pfm2_rho_time_curve_annotated.png used on input
+ line 65.
+(pdftex.def)             Requested size: 341.02322pt x 310.15799pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<images/pfm2_raw_data_time_curve_annotated.png, id=934, 356.0803pt x 309.40594p
+t>
+File: images/pfm2_raw_data_time_curve_annotated.png Graphic file (type png)
+ <use images/pfm2_raw_data_time_curve_annotated.png>
+Package pdftex.def Info: images/pfm2_raw_data_time_curve_annotated.png used on 
+input line 72.
+(pdftex.def)             Requested size: 356.07944pt x 309.40518pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (F:\Dropbox\thesis\Chapters/Chapter9.tex [35] [36 <F:/Dropbox/thesis/images/p
+fm2_pcc_time_curve_annotated.png>] [37 <F:/Dropbox/thesis/images/pfm2_tau_time_
+curve_annotated.png>] [38 <F:/Dropbox/thesis/images/pfm2_rho_time_curve_annotat
+ed.png>] [39 <F:/Dropbox/thesis/images/pfm2_raw_data_time_curve_annotated.png>]
 Chapter 9.
 ------------------------------------------------------------------------------
  9 Conclusion
 ------------------------------------------------------------------------------
-) (F:\Dropbox\thesis\Appendices/AppendixA.tex [37
+) (F:\Dropbox\thesis\Appendices/AppendixA.tex [40
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[38
+[41
 
-]) [39]
+]) [42]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(F:\Dropbox\thesis\Thesis.bbl [40
+(F:\Dropbox\thesis\Thesis.bbl [43
 
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [41])
+ [44])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-[42]
+[45]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (F:\Dropbox\thesis\Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AED1E2E18013CCE725837D1428749E3B;19479.
+(rerunfilecheck)             Checksum: B4D7395788DE656E5C3D3F9429679147;18688.
  ) 
 Here is how much of TeX's memory you used:
- 11360 strings out of 494045
- 160436 string characters out of 3152019
- 251973 words of memory out of 3000000
- 14208 multiletter control sequences out of 15000+200000
+ 11384 strings out of 494045
+ 161449 string characters out of 3152019
+ 253077 words of memory out of 3000000
+ 14225 multiletter control sequences out of 15000+200000
  16830 words of font info for 63 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  49i,12n,45p,1782b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -992,9 +1050,9 @@ type1/public/amsfonts/cm/cmsy8.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 ><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><F:/Apps/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (57 pages, 6314474 bytes).
+Output written on Thesis.pdf (60 pages, 6577149 bytes).
 PDF statistics:
- 1060 PDF objects out of 1200 (max. 8388607)
- 215 named destinations out of 1000 (max. 500000)
- 878 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1100 PDF objects out of 1200 (max. 8388607)
+ 218 named destinations out of 1000 (max. 500000)
+ 858 words of extra memory for PDF output out of 10000 (max. 10000000)
 

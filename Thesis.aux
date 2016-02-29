@@ -94,9 +94,9 @@
 \newlabel{eq:pcc}{{3.1}{8}{Pearson Correlation Coefficient\relax }{equation.41}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Spearman Rank Correlation Coefficient ($\rho $)}{8}{subsection.42}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Kendall Rank Correlation Coefficient ($\tau $)}{9}{subsection.43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax }}{9}{figure.caption.44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax }}{9}{figure.caption.44}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:correlation_comparison}{{3.1}{9}{Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.44}{}}
+\newlabel{fig:correlation_comparison}{{3.1}{9}{Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax \relax }{figure.caption.44}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Limitations of Traditional Correlative Techniques}{10}{section.45}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Linearity Assumptions}{10}{subsection.46}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multivariate Normal Distances vs. Elliptical Distances}{10}{subsection.47}}
@@ -193,30 +193,35 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{32}{figure.caption.112}}
 \newlabel{fig:undirected_negative_only}{{7.5}{32}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax \relax }{figure.caption.112}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.5}Time Curves}{32}{section.114}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}}{32}{subsection.116}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}}{32}{subsection.117}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.3}}{32}{subsection.118}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.4}}{32}{subsection.119}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{33}{figure.caption.113}}
 \newlabel{fig:undirected_positive_with_negative_clusters}{{7.6}{33}{A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax \relax }{figure.caption.113}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite  {bach2016time}.\relax }}{34}{figure.caption.115}}
-\newlabel{fig:time_curve_example}{{7.7}{34}{A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax \relax }{figure.caption.115}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.1}}{34}{subsection.116}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.2}}{34}{subsection.117}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.3}}{34}{subsection.118}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5.4}}{34}{subsection.119}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.6}Multidimensional Scaling for Characterizing Correlation Families}{34}{section.120}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.1}}{34}{subsection.121}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.2}}{34}{subsection.122}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.3}}{34}{subsection.123}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.4}}{34}{subsection.124}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results and Discussion}{35}{chapter.125}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite  {bach2016time}.\relax }}{33}{figure.caption.115}}
+\newlabel{fig:time_curve_example}{{7.7}{33}{A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax \relax }{figure.caption.115}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results and Discussion}{34}{chapter.120}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}A Section}{35}{section.126}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{36}{subsection.127}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Another Section}{36}{section.128}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{37}{chapter.129}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}A Section}{34}{section.121}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels on on Fig.\nobreakspace  {}\ref  {fig:pfm2_pcc_time_curve_annotated}, \ref  {fig:pfm2_tau_time_curve_annotated}, \ref  {fig:pfm2_rho_time_curve_annotated} and \ref  {fig:pfm2_raw_data_time_curve_annotated} to see correspondence.\relax }}{35}{table.caption.123}}
+\newlabel{tbl:events}{{8.1}{35}{Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels on on Fig.~\ref {fig:pfm2_pcc_time_curve_annotated}, \ref {fig:pfm2_tau_time_curve_annotated}, \ref {fig:pfm2_rho_time_curve_annotated} and \ref {fig:pfm2_raw_data_time_curve_annotated} to see correspondence.\relax \relax }{table.caption.123}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{35}{subsection.122}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Another Section}{35}{section.128}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{36}{figure.caption.124}}
+\newlabel{fig:pfm2_pcc_time_curve_annotated}{{8.1}{36}{A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.124}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{37}{figure.caption.125}}
+\newlabel{fig:pfm2_tau_time_curve_annotated}{{8.2}{37}{A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.125}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{38}{figure.caption.126}}
+\newlabel{fig:pfm2_rho_time_curve_annotated}{{8.3}{38}{A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.126}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.\nobreakspace  {}\ref  {tbl:events}.\relax }}{39}{figure.caption.127}}
+\newlabel{fig:pfm2_raw_data_time_curve_annotated}{{8.4}{39}{A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.~\ref {tbl:events}.\relax \relax }{figure.caption.127}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusion}{40}{chapter.129}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\vspace  {2em}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}An Appendix}{38}{appendix.130}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}An Appendix}{41}{appendix.130}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\vspace  {2em}}
@@ -232,8 +237,8 @@
 \bibcite{friendly2002corrgrams}{{8}{}{{}}{{}}}
 \bibcite{hammett1991application}{{9}{}{{}}{{}}}
 \bibcite{holsti2001towards}{{10}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{40}{dummy.131}}
-\newlabel{Bibliography}{{9}{40}{An Appendix\relax }{dummy.131}{}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{43}{dummy.131}}
+\newlabel{Bibliography}{{9}{43}{An Appendix\relax }{dummy.131}{}}
 \bibcite{hwang2010survey}{{11}{}{{}}{{}}}
 \bibcite{kurien2010intrinsic}{{12}{}{{}}{{}}}
 \bibcite{larson2002model}{{13}{}{{}}{{}}}

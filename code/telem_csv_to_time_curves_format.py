@@ -6,8 +6,8 @@ import sys
 import numpy as np
 
 telem_filename = 'telem.csv'
-timecurve_json_filename = 'timecurve_test_dummy_data.json'
-dataset_name = 'PFM2 User Test Data'
+timecurve_json_filename = 'timecurve_full_data.json'
+dataset_name = 'PFM2 User Test Data (Full Data)'
 
 # Gets a "distance" between two arrays of values
 def get_distance(arr1, arr2):
@@ -102,7 +102,7 @@ with open(telem_filename, 'rb') as csvfile:
     print
 
     # Divide up timespan into interval seconds-sized buckets
-    time_bucket_size = 5
+    time_bucket_size = 1
     time_bucket_data = {}
 
     for floor in xrange(0, int(timespan_seconds)+1, time_bucket_size):

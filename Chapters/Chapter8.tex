@@ -12,7 +12,67 @@ Quisque tristique urna in lorem laoreet at laoreet quam congue. Donec dolor turp
 
 \subsection{System State Visualization with Time Curves}
 
-Donec urna leo, vulputate vitae porta eu, vehicula blandit libero. Phasellus eget massa et leo condimentum mollis. Nullam molestie, justo at pellentesque vulputate, sapien velit ornare diam, nec gravida lacus augue non diam. Integer mattis lacus id libero ultrices sit amet mollis neque molestie. Integer ut leo eget mi volutpat congue. Vivamus sodales, turpis id venenatis placerat, tellus purus adipiscing magna, eu aliquam nibh dolor id nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed cursus convallis quam nec vehicula. Sed vulputate neque eget odio fringilla ac sodales urna feugiat.
+Set about to do time curve viz
+
+describe data pipeline
+
+describe four choices for comparison
+
+maximum folding
+
+no averaging
+
+results shown
+
+discuss results
+
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{lll}
+Event Number & Timestamp & Event Description \\
+0 & 0s & Rover begins traveling forward along smooth terrain. \\
+1 & 188s & Rover enters crater; begins descending into crater. \\
+2 & 287s & Rover enters shade, causing temp, comms, and power drops. \\
+3 & 300s & Rover begins traversing smooth bottom of crater. \\
+4 & 330s & Rover begins climbing out of crater. \\
+5 & 343s & Rover exits shade; continues uphill. \\
+6 & 534s & Rover emerges from crater and enters smooth terrain. \\
+7 & 594s & Rover enters choppy terrain. \\
+8 & 643s & Rover wheel has fault; rover stops moving.
+\end{tabular}
+\caption{Events during a visualized user simulation are shown. Cross-reference ``Event Numbers" with labels in Figs.~\ref{fig:pfm2_pcc_time_curve_annotated}, \ref{fig:pfm2_tau_time_curve_annotated}, \ref{fig:pfm2_rho_time_curve_annotated} and \ref{fig:pfm2_raw_data_time_curve_annotated} to see correspondence.}
+\label{tbl:events}
+\end{table}
+
+\begin{figure}[h]
+\centering
+    \includegraphics{images/pfm2_pcc_time_curve_annotated.png}
+    \caption{A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
+    \label{fig:pfm2_pcc_time_curve_annotated}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+    \includegraphics{images/pfm2_tau_time_curve_annotated.png}
+    \caption{A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
+    \label{fig:pfm2_tau_time_curve_annotated}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+    \includegraphics{images/pfm2_rho_time_curve_annotated.png}
+    \caption{A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.~\ref{tbl:events}.}
+    \label{fig:pfm2_rho_time_curve_annotated}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+    \includegraphics{images/pfm2_raw_data_time_curve_annotated.png}
+    \caption{A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.~\ref{tbl:events}.}
+    \label{fig:pfm2_raw_data_time_curve_annotated}
+\end{figure}
 
 \section{Another Section}
 

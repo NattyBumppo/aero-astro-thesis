@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note the consistency in visualization for the strong positive correlation between items 1 and 6, and the strong negative correlation between items 4 and 5.\relax }}{9}{figure.caption.44}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Three common correlation coefficient algorithms are compared on a sample data set. Note that 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.\relax }}{9}{figure.caption.44}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.\relax }}{13}{figure.caption.63}
@@ -21,7 +21,11 @@
 \contentsline {figure}{\numberline {7.4}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only positive correlations are shown. Self-correlations are not shown.\relax }}{31}{figure.caption.111}
 \contentsline {figure}{\numberline {7.5}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{32}{figure.caption.112}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{33}{figure.caption.113}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax }}{34}{figure.caption.115}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax }}{33}{figure.caption.115}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{36}{figure.caption.124}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{37}{figure.caption.125}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{38}{figure.caption.126}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{39}{figure.caption.127}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
