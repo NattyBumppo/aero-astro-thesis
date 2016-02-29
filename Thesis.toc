@@ -60,34 +60,24 @@
 \contentsline {section}{\numberline {6.1}Field Test Results}{27}{section.81}
 \contentsline {section}{\numberline {6.2}Usability Test Results}{28}{section.82}
 \contentsline {section}{\numberline {6.3}Improvements and Additions}{29}{section.83}
-\contentsline {chapter}{\numberline {7}Dimensional Reduction and Visualization Improvements}{31}{chapter.84}
+\contentsline {chapter}{\numberline {7}Analytical and Visualization Improvements in Response to Intermediate Test Data}{31}{chapter.84}
 \contentsline {section}{\numberline {7.1}Dimensional Reduction}{31}{section.85}
-\contentsline {subsection}{\numberline {7.1.1}Principal Component Analysis}{31}{subsection.86}
-\contentsline {section}{\numberline {7.2}Meta-Analysis}{31}{section.87}
-\contentsline {subsection}{\numberline {7.2.1}Out-of-Family Telemetry}{31}{subsection.88}
-\contentsline {subsection}{\numberline {7.2.2}Out-of-Family Correlations}{32}{subsection.89}
-\contentsline {section}{\numberline {7.3}Corrgram Enhancements and Dimensional Reduction}{32}{section.90}
-\contentsline {subsection}{\numberline {7.3.1}Smoothing and Time Adjustments}{32}{subsection.91}
-\contentsline {subsection}{\numberline {7.3.2}Ranked Filtering}{32}{subsection.92}
-\contentsline {subsection}{\numberline {7.3.3}Fault Filtering}{32}{subsection.93}
-\contentsline {subsection}{\numberline {7.3.4}Substring Filtering}{32}{subsection.94}
-\contentsline {subsection}{\numberline {7.3.5}Cross-System Filtering}{32}{subsection.95}
-\contentsline {subsection}{\numberline {7.3.6}Timelines}{32}{subsection.96}
-\contentsline {section}{\numberline {7.4}Two-Dimensional Graph Embeddings}{32}{section.97}
-\contentsline {subsection}{\numberline {7.4.1}Undirected Dependency Graphs}{32}{subsection.98}
-\contentsline {section}{\numberline {7.5}Time Curves}{36}{section.109}
-\contentsline {section}{\numberline {7.6}Applying Time Curves to System Telemetry Data}{38}{section.111}
-\contentsline {section}{\numberline {7.7}Discussion}{40}{section.122}
-\contentsline {chapter}{\numberline {8}Results and Discussion}{45}{chapter.128}
-\contentsline {section}{\numberline {8.1}A Section}{45}{section.129}
-\contentsline {subsection}{\numberline {8.1.1}System State Visualization with Time Curves}{45}{subsection.130}
-\contentsline {section}{\numberline {8.2}Another Section}{45}{section.131}
-\contentsline {chapter}{\numberline {9}Conclusion}{47}{chapter.132}
+\contentsline {subsection}{\numberline {7.1.1}Singular Value Decomposition and PCA}{31}{subsection.86}
+\contentsline {subsection}{\numberline {7.1.2}Applying PCA to Raw Telemetry and Correlative Telemetry Models}{32}{subsection.88}
+\contentsline {subsection}{\numberline {7.1.3}Ad Hoc Dimensionality Reduction Techniques}{33}{subsection.90}
+\contentsline {section}{\numberline {7.2}Two-Dimensional Graph Embeddings}{34}{section.91}
+\contentsline {subsection}{\numberline {7.2.1}Undirected Dependency Graphs}{34}{subsection.92}
+\contentsline {section}{\numberline {7.3}Time Curves}{38}{section.103}
+\contentsline {section}{\numberline {7.4}Applying Time Curves to System Telemetry Data}{40}{section.105}
+\contentsline {section}{\numberline {7.5}Discussion}{42}{section.116}
+\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{47}{chapter.122}
+\contentsline {section}{\numberline {8.1}}{47}{section.123}
+\contentsline {section}{\numberline {8.2}Future Work}{47}{section.124}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Relevant Code Samples}{48}{appendix.133}
-\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{48}{section.134}
-\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{49}{section.189}
-\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{50}{section.252}
-\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{55}{section.466}
+\contentsline {chapter}{\numberline {A}Relevant Code Samples}{48}{appendix.125}
+\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{48}{section.126}
+\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{49}{section.181}
+\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{50}{section.244}
+\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{55}{section.458}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{57}{dummy.552}
+\contentsline {chapter}{Bibliography}{57}{dummy.544}

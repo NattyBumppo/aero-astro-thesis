@@ -4,13 +4,35 @@ In this chapter, we will discuss the theoretic fundamentals of Fault Detection, 
 
 \section{Goals and Definitions}
 
-% Terms to define: fault, detect, isolate, recover, residual, operational modes, fault levels
+First, we will define a handful terms in order to precisely discuss FDIR problems.
+
+A \textbf{fault} 
+
+A fault is \textbf{detected}
+
+The process of fault \textbf{isolation}
+
+
+After a fault is isolated, the final step for an autonomous system is to \textbf{recover}
+
+System behavior may be modeled as a finite state machine of \textbf{operational modes},
+
+A system state or subset of values can be said to be \textbf{nominal} when
+
+it can be described as \textbf{anomalous} when 
+
+also described as \textbf{out of family}
+
+System models may include ideal or expected behavior for a given operation mode, and a method for comparing the current state to the expected mode can be expressed as a \textbf{residual}
+
+Furthermore, faults can be divided into \textbf{fault levels} \cite{tipaldi2014spacecraft}.
+
 
 \cite{schwabacher2008pre}
 \cite{dearden2004real}
 
-fault levels
-\cite{tipaldi2014spacecraft}
+
+
 
 
 \section{Model-Based FDIR}
@@ -32,7 +54,7 @@ fault levels
 \subsection{Residual Generation}
 
 
-mention Thresholds
+A simpler version of fault residual comparison can be found in the setting of upper and lower bounds to describe the range of nominal values for a state. This ``threshold-based" system is the easiest variant of fault detection to implement, and is an important part of many modern FDIR systems \cite{walker1979fault}.
 
 \section{Fault Filtering and State Observation}
 

@@ -1,41 +1,81 @@
 
-\chapter{Dimensional Reduction and Visualization Improvements}
+\chapter{Analytical and Visualization Improvements in Response to Intermediate Test Data}
 
-Purpose:
-
-
+This chapter discusses some of the additional improvements we made in response to problems identified in usability and field testing.
 
 \section{Dimensional Reduction}
 
-\subsection{Principal Component Analysis}
+In order to reduce complexity of the displayed data for reduced cognitive load, we first looked at methods for reducing the total amount of data to be displayed.
 
-Tharrault paper
+\subsection{Singular Value Decomposition and PCA}
 
-Russell paper
+The Singular Value Decomposition, or SVD, is a way to diagonalize a given matrix in a pair of basis vectors \cite{kutz2013data}. If the matrix to be diagonalized is $A$, then the SVD may be written as
+\begin{equation} \label{eq:svd}
+A = \text{U} \Sigma \text{V}^{*},
+\end{equation}
 
-\section{Meta-Analysis}
+where \textbf{U} is a set of basis vectors expressing the range, $\Sigma$ is the diagonal matrix of singular values, and \textbf{V} is a set of basis vectors expressing the domain.
 
-\subsection{Out-of-Family Telemetry}
+The SVD's two bases are orthonormal, and the SVD is guaranteed to exist for any matrix $A$, which cannot be said about the alternative diagonalization method of the eigenvalue decomposition \cite{datadriven}. The SVD allows us to project a matrix onto a low-dimensional representation in a formal way, a very useful quality for our spring system representations in this project.
 
-Two NASA papers
+Principal component analysis, or PCA, is a technique that makes heavy use of SVD. PCA takes an SVD of the covariance matrix of a series of observations in order to find the basis vectors and singular values that characterize the behavior. By looking at the magnitudes of the singular values, it becomes apparent which are significant, since the singular values are ordered and those of smaller magnitude can be elided in order to achieve a low-dimensional reduction to serve as a representation of the system \cite{kutz2013data}. This reduction consists of the ``principal components" of the system, and thus, PCA can be used to gain a fundamental understanding of how a system behaves, and how many principal modes it contains.
 
-\subsection{Out-of-Family Correlations}
+Note that it is important to normalize data before performing PCA, in order to avoid emphasizing data channels with large variances. Refer to \cite{shlens2014tutorial} for a detailed discussion of PCA.
+
+\subsection{Applying PCA to Raw Telemetry and Correlative Telemetry Models}
+
+As we have seen before, the raw, telemetered state history for system telemetry is a matrix $M \in \mathbb{R}^{n \times t}$, while the correlative state history of a system is even higher order, on the order of $C \in \mathbb{R}^{n \times x \times t}$. Reducing either of these matrices to their principal components could be immensely valuable towards simplifying their dynamics. The post-PCA result would be a new, simplified and reconstructed state vector that captures the majority of the state dynamics. It should be noted that this technique has been shown to be of value in \cite{villegas2010principal}.
+
+We can apply PCA, as described above, to first simplify the non-correlative state matrix obtained from raw telemetry. We will use sample data from the usability test simulation discussed in Chapter 5.
+
+After the SVD has been performed on this data, scaled singular values were obtained as shown in Fig.~\ref{fig:raw_telem_svs}. Though the state vector of the original system is 112-dimensional, the SVD shows only 29 singular values above 15\% contribution, suggesting a system of dimensionality ~29. We can use a reduced singular value matrix $\Sigma_{r}$, containing only this subset of the 29 largest singular values, to reconstruct the state dynamics of the system. Though we cannot easily plot such a reconstruction to show its faithfulness visually, we can calculate a norm difference between the standardized original and reconstructed matrices, and in doing so, find a standardized difference of $~11.41$.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/raw_telem_svs.png}
+    \caption{Singular values are shown for the Principal Component Analysis of non-correlative, sample mission telemetry data.}
+    \label{fig:raw_telem_svs}
+\end{figure}
+
+A similar deconstruction and reconstruction can be applied to the correlative models to reduce dimensionality; however, by calculating new bases for analysis, an intrinsic connection is lost with respect to the nature of the underlying data channels. For a human operator, a simplified system representation is only of value if it represents changing state quantities that have a meaning to the operator. It is the opinion of the author, after examining this possibility, that a weighted basis of 112 different state variables is of questionable value, and should be excluded from any visualizations.
+
+\subsection{Ad Hoc Dimensionality Reduction Techniques}
+
+In addition to identifying principal components of the system and displaying only those modes with significant singular values, we also can look for system-specific optimizations which can reduce dimensionality.
+
+The simplest technique is to remove data channels that are not of interest. Channels that always behave deterministically, such as known functions of other channels or channels that stay constant throughout an entire telemetry recording, are prime candidates for removal. (The latter set of channels could not be covered in correlative analysis anyway, because of the zero standard deviation in the time series.)
+
+Another candidate for dimensionality reduction is reducing the scope of correlative calculation. Instead of correlating all $n$ channels with each other, if channels are divided into independent subsystem clusters, then these subsystem channels may be correlated internally, without inter-correlations among these clusters. However, this eliminates the possibility of discovering unintended data connections between systems, which could be indicative of unanticipated and important fault-related behavior.
+
+Both of these approaches are highly supervised and require expert knowledge of the system, constraining their general applicability and restricting their capacity to discover unintended patterns in the data. However, they could prove useful in the absence of better techniques.
+
+% Tharrault paper
+
+% Russell paper
+
+% \section{Meta-Analysis}
+
+% \subsection{Out-of-Family Telemetry}
+
+% Two NASA papers
+
+% \subsection{Out-of-Family Correlations}
 
 
 
-\section{Corrgram Enhancements and Dimensional Reduction}
+% \section{Corrgram Enhancements and Dimensional Reduction}
 
-\subsection{Smoothing and Time Adjustments}
+% \subsection{Smoothing and Time Adjustments}
 
-\subsection{Ranked Filtering}
+% \subsection{Ranked Filtering}
 
-\subsection{Fault Filtering}
+% \subsection{Fault Filtering}
 
-\subsection{Substring Filtering}
+% \subsection{Substring Filtering}
 
-\subsection{Cross-System Filtering}
+% \subsection{Cross-System Filtering}
 
-\subsection{Timelines}
+% \subsection{Timelines}
 
 
 \section{Two-Dimensional Graph Embeddings}

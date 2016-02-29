@@ -85,6 +85,12 @@ James Kurien and Mar{\'\i}a~DR Moreno.
 \newblock {\em Systems, Man and Cybernetics, Part A: Systems and Humans, IEEE
   Transactions on}, 40(5):945--958, 2010.
 
+\bibitem{kutz2013data}
+J~Nathan Kutz.
+\newblock {\em Data-driven modeling \& scientific computation: methods for
+  complex systems \& big data}.
+\newblock OUP Oxford, 2013.
+
 \bibitem{larson2002model}
 Edward~C Larson, Eugene~B Parker~Jr, and Brian~R Clark.
 \newblock Model-based sensor and actuator fault detection and isolation.
@@ -132,6 +138,11 @@ Mark Schwabacher and Robert Waterman.
 \newblock Pre-launch diagnostics for launch vehicles.
 \newblock In {\em Aerospace Conference, 2008 IEEE}, pages 1--8. IEEE, 2008.
 
+\bibitem{shlens2014tutorial}
+Jonathon Shlens.
+\newblock A tutorial on principal component analysis.
+\newblock {\em arXiv preprint arXiv:1404.1100}, 2014.
+
 \bibitem{spacex_crs7}
 SpaceX.
 \newblock Crs-7 investigation update, 2015.
@@ -165,6 +176,14 @@ Massimo Tipaldi and Bernhard Bruenjes.
 \newblock Spacecraft health monitoring and management systems.
 \newblock In {\em Metrology for Aerospace (MetroAeroSpace), 2014 IEEE}, pages
   68--72. IEEE, 2014.
+
+\bibitem{villegas2010principal}
+Thamara Villegas, Mar{\'\i}a~Jes{\'u}s Fuente, and Miguel Rodr{\'\i}guez.
+\newblock Principal component analysis for fault detection and diagnosis.
+  experience with a pilot plant.
+\newblock In {\em Proceedings of the 9th WSEAS international conference on
+  computational intelligence, man-machine systems and cybernetics}, pages
+  147--152, 2010.
 
 \bibitem{washington2000board}
 Richard Washington.
