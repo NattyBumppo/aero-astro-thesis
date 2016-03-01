@@ -13,6 +13,8 @@
 \usepackage{algorithm}
 \usepackage{algorithmicx}
 \usepackage{algpseudocode}
+\usepackage{url}
+\usepackage{hyperref}
 \hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 
 \usepackage{listings}
@@ -137,7 +139,7 @@ This thesis explores new ways of looking at telemetry data, from a time-correlat
 \acknowledgements{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-I would like to thank my advisor, Dr. Mehran Mesbahi, for his academic guidance, his patience, and his constant encouragement as I struggled with the process of determining my own interests in this field. Deep thanks go to Dr. Jeff Heer for his insights and suggestions into the best practices for visualizing the hidden patterns within correlation data. My sincere thanks to Dr. Chris Lum for his opinions and suggestions about aerospace fault detection systems. I'd also like thank my various internship teams for their guidance and encouragement: the JPL OpsLab team, specifically Scott Davidoff, Jeff Norris, and Garrett Johnson, for introducing me to teleoperation interface design and testing techniques with the Unity 3D game engine; the SpaceX Flight Software team, specifically Mike Soares, Dan Gelband and Derek Bronish, for introducing me to Fault Detection, Isolation and Recovery systems and teaching me much about aerospace ground software systems; and the HAKUTO Lunar XPRIZE team, specifically Dr. Nathan Britton, Louis Burtz, Kurai Shimizu, Toshiro Shimizu, Toshiki Tanaka, Dr. John Walker, and Dr. Kazuya Yoshida for letting me use their lunar rover as a testbed for new ground software design methodologies and fault diagnosis techniques. Special thanks go to Daisuke Kikuchi for countless bits of design advice and for helping to increase the aesthetic appeal of the HAKUTO rover ground station UI. My thanks to the team at Unity, for developing an excellent and adaptive game engine. Finally, I'd like to thank Steve Rabin at Nintendo of America for his advice about fault detection and valuable comparisons to runtime analysis and profiling of executable code. Without the aforementioned people and many others, I would be lost!
+I would like to thank my advisor, Dr. Mehran Mesbahi, for his academic guidance, his patience, and his constant encouragement as I struggled with the process of determining my own interests in this field. Deep thanks go to Dr. Jeff Heer for his insights and suggestions into the best practices for visualizing the hidden patterns within correlation data. My sincere thanks to Dr. Chris Lum for his opinions and suggestions about aerospace fault detection systems. I'd also like thank my various internship teams for their guidance and encouragement: the JPL OpsLab team, specifically Scott Davidoff, Jeff Norris, and Garrett Johnson, for introducing me to teleoperation interface design and testing techniques with the Unity 3D game engine; the SpaceX Flight Software team, specifically Mike Soares, Dan Gelband and Derek Bronish, for introducing me to Fault Detection, Isolation and Recovery systems and teaching me much about aerospace ground software systems; and the HAKUTO Lunar XPRIZE team, specifically Dr. Nathan Britton, Louis Burtz, Toshiro ``Dark" Shimizu, Toshiki Tanaka, Dr. John Walker, and Dr. Kazuya Yoshida for letting me use their lunar rover as a testbed for new ground software design methodologies and fault diagnosis techniques, and for their friendship and support. Special thanks go to Daisuke Kikuchi for countless bits of design advice and for helping to increase the aesthetic appeal of the HAKUTO rover ground station UI. My thanks to the team at Unity, for developing an excellent and adaptive game engine. Finally, I'd like to thank Steve Rabin at Nintendo of America for his advice about fault detection and valuable comparisons to runtime analysis and profiling of executable code. Without the aforementioned people and many others, I would be lost!
 
 }
 \clearpage  % End of the Acknowledgements
@@ -199,7 +201,7 @@ $D$ & Distance matrix (for state differences) & \\
 $C$ & Correlation matrix & \\
 $C_{all}$ & Horizontally stacked matrix of flattened correlation matrices at each time step & \\
 $D_{ij}$ & Row $i$, column $j$ of $D$ & \\
-$D_{ij}$ & Row $i$, all columns of $D$ & \\
+$D_{i, :}$ & Row $i$, all columns of $D$ & \\
 $M$ & State history matrix & \\
 $r_{PCC, X, Y}$ & Pearson's Correlation Coefficient for variables $X$ and $Y$ &  \\
 $t$ & Time; number of time steps & \\
@@ -265,7 +267,7 @@ $W$ & Windowed sample matrix (a subset of the state history matrix) &  \\
 
 \label{Bibliography}
 \lhead{\emph{Bibliography}}  % Change the left side page header to "Bibliography"
-\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\bibliographystyle{plain}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
 \bibliography{bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
 
 \end{document}  % The End

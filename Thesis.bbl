@@ -1,201 +1,234 @@
 \begin{thebibliography}{10}
 
-\bibitem{xprize}
-Google sponsors lunar x prize to create a space race for a new generation,
-  2007.
-
 \bibitem{spaceflight_antares}
 Spaceflight 101.
-\newblock Nasa report on antares launch failure places blame on aj26 engines,
+\newblock {NASA Report on Antares Launch Failure places Blame on AJ26 Engines}.
+\newblock
+  \url{http://spaceflight101.com/nasa-report-on-antares-launch-failure-places-blame-on-aj26-engines/},
   2015.
 
 \bibitem{anscombe1973graphs}
 Francis~J Anscombe.
-\newblock Graphs in statistical analysis.
+\newblock {Graphs in statistical analysis}.
 \newblock {\em The American Statistician}, 27(1):17--21, 1973.
 
 \bibitem{aycard2000state}
 Olivier Aycard and Richard Washington.
-\newblock State identification for planetary rovers: Learning and recognition.
+\newblock {State identification for planetary rovers: Learning and
+  recognition}.
 \newblock In {\em Robotics and Automation, 2000. Proceedings. ICRA'00. IEEE
   International Conference on}, volume~2, pages 1163--1168. IEEE, 2000.
 
 \bibitem{bach2016time}
 Benjamin Bach, Conglei Shi, Nicolas Heulot, Tara Madhyastha, Tom Grabowski, and
   Pierre Dragicevic.
-\newblock Time curves: Folding time to visualize patterns of temporal evolution
-  in data.
+\newblock {Time curves: Folding time to visualize patterns of temporal
+  evolution in data}.
 \newblock {\em Visualization and Computer Graphics, IEEE Transactions on},
   22(1):559--568, 2016.
 
 \bibitem{cancro2007interactive}
 George Cancro, Russell Turner, Lilian Nguyen, Angela Li, Deane Sibol, John
   Gersh, Christine Piatko, Jaime Montemayor, and Priscilla McKerracher.
-\newblock An interactive visualization system for analyzing spacecraft
-  telemetry.
-\newblock In {\em Aerospace Conference, 2007 IEEE}, pages 1--9.
+\newblock {An Interactive Visualization System for Analyzing Spacecraft
+  Telemetry}.
+\newblock In {\em Aerospace Conference, 2007 IEEE}, pages 1--9. IEEE, 2007.
 
 \bibitem{rabbithole}
 Dauna Coulter.
-\newblock Down the lunar rabbit-hole, 2010.
+\newblock {Down the Lunar Rabbit-hole}.
+\newblock
+  \url{http://science.nasa.gov/science-news/science-at-nasa/2010/12jul_rabbithole/},
+  2010.
 
 \bibitem{dearden2004real}
 Richard Dearden, Thomas Willeke, Reid Simmons, Vandi Verma, Frank Hutter, and
   Sebastian Thrun.
-\newblock Real-time fault detection and situational awareness for rovers:
-  Report on the mars technology program task.
+\newblock {Real-time fault detection and situational awareness for rovers:
+  Report on the mars technology program task}.
 \newblock In {\em Aerospace Conference, 2004. Proceedings. 2004 IEEE},
   volume~2, pages 826--840. IEEE, 2004.
 
+\bibitem{xprize}
+X~PRIZE Foundation.
+\newblock {Google Sponsors Lunar X PRIZE to Create a Space Race for a New
+  Generation}.
+\newblock
+  \url{http://lunar.xprize.org/press-release/google-sponsors-lunar-xprize-create-space-race-new-generation},
+  2007.
+
 \bibitem{friendly2002corrgrams}
 Michael Friendly.
-\newblock Corrgrams: Exploratory displays for correlation matrices.
+\newblock {Corrgrams: Exploratory displays for correlation matrices}.
 \newblock {\em The American Statistician}, 56(4):316--324, 2002.
 
 \bibitem{hammett1991application}
 Robert Hammett and Robert Luppold.
-\newblock Application of syndrome pattern-matching approach to fault isolation
-  in avionic systems.
+\newblock {Application of syndrome pattern-matching approach to fault isolation
+  in avionic systems}.
 \newblock In {\em Digital Avionics Systems Conference, 1991. Proceedings.,
   IEEE/AIAA 10th}, pages 56--61. IEEE, 1991.
 
 \bibitem{holsti2001towards}
 Niklas Holsti and Matti Paakko.
-\newblock Towards advanced fdir components.
+\newblock {Towards advanced FDIR components}.
 \newblock {\em Data Systems in Aerospace, DASIA 2001}, 2001.
 
 \bibitem{hwang2010survey}
 Inseok Hwang, Sungwan Kim, Youdan Kim, and Chze~Eng Seah.
-\newblock A survey of fault detection, isolation, and reconfiguration methods.
+\newblock {A survey of fault detection, isolation, and reconfiguration
+  methods}.
 \newblock {\em Control Systems Technology, IEEE Transactions on},
   18(3):636--653, 2010.
 
 \bibitem{kurien2010intrinsic}
 James Kurien and Mar{\'\i}a~DR Moreno.
-\newblock Intrinsic hurdles in applying automated diagnosis and recovery to
-  spacecraft.
+\newblock {Intrinsic hurdles in applying automated diagnosis and recovery to
+  spacecraft}.
 \newblock {\em Systems, Man and Cybernetics, Part A: Systems and Humans, IEEE
   Transactions on}, 40(5):945--958, 2010.
 
 \bibitem{kutz2013data}
 J~Nathan Kutz.
-\newblock {\em Data-driven modeling \& scientific computation: methods for
-  complex systems \& big data}.
+\newblock {\em {Data-driven modeling \& scientific computation: methods for
+  complex systems \& big data}}.
 \newblock OUP Oxford, 2013.
 
 \bibitem{lin2006fault}
 Jiliang Lin and Jingping Jiang.
-\newblock Fault detection and analysis of control software for a mobile robot.
+\newblock {Fault detection and analysis of control software for a mobile
+  robot}.
 \newblock In {\em Intelligent Systems Design and Applications, 2006. ISDA'06.
   Sixth International Conference on}, volume~1, pages 862--866. IEEE, 2006.
 
 \bibitem{lo2005noise}
 Chet Lo and Cynthia Furse.
-\newblock Noise-domain reflectometry for locating wiring faults.
+\newblock {Noise-domain reflectometry for locating wiring faults}.
 \newblock {\em Electromagnetic Compatibility, IEEE Transactions on},
   47(1):97--104, 2005.
 
 \bibitem{muller2003visualization}
 Wolfgang M{\"u}ller and Heidrun Schumann.
-\newblock Visualization methods for time-dependent data-an overview.
+\newblock {Visualization methods for time-dependent data-an overview}.
 \newblock In {\em Simulation Conference, 2003. Proceedings of the 2003 Winter},
   volume~1, pages 737--745. IEEE, 2003.
 
 \bibitem{xkcd_correlation}
 Randall Munroe.
-\newblock xkcd: Correlation, 2016.
+\newblock {xkcd: Correlation}.
+\newblock \url{https://xkcd.com/552/}, 2016.
 
 \bibitem{murdoch1996graphical}
 DJ~Murdoch and ED~Chow.
-\newblock A graphical display of large correlation matrices.
+\newblock {A graphical display of large correlation matrices}.
 \newblock {\em The American Statistician}, 50(2):178--180, 1996.
 
 \bibitem{procyon_status}
 JAXA~Institute of~Space and Astronautical Science.
-\newblock On the status of the procyon nanosatellite probe, 2015.
+\newblock {On the Status of the PROCYON Nanosatellite Probe}.
+\newblock \url{http://www.isas.jaxa.jp/j/topics/topics/2015/1211.shtml}, 2015.
 
 \bibitem{paakko2001bayesian}
 Matti Paakko, Petri Myllym{\"a}ki, Niklas Holsti, and Henry Tirri.
-\newblock Bayesian networks for advanced fdir.
+\newblock {Bayesian Networks for Advanced FDIR}.
 \newblock In {\em Proceedings of the ESA Workshop on On-Board Autonomy}, pages
   311--318, 2001.
 
 \bibitem{rummelcorrelation}
 RJ~Rummel.
-\newblock Understanding correlation.
+\newblock {Understanding Correlation}.
 \newblock 1976.
 
 \bibitem{schwabacher2008pre}
 Mark Schwabacher and Robert Waterman.
-\newblock Pre-launch diagnostics for launch vehicles.
+\newblock {Pre-launch diagnostics for launch vehicles}.
 \newblock In {\em Aerospace Conference, 2008 IEEE}, pages 1--8. IEEE, 2008.
 
 \bibitem{shlens2014tutorial}
 Jonathon Shlens.
-\newblock A tutorial on principal component analysis.
+\newblock {A tutorial on principal component analysis}.
 \newblock {\em arXiv preprint arXiv:1404.1100}, 2014.
 
 \bibitem{spacex_crs7}
 SpaceX.
-\newblock Crs-7 investigation update, 2015.
+\newblock {CRS-7 Investigation Update}.
+\newblock
+  \url{http://www.spacex.com/news/2015/07/20/crs-7-investigation-update}, 2015.
 
 \bibitem{kendalls2}
 Laird Statistics.
-\newblock Kendall's tau-b using spss statistics, 2016.
+\newblock {Kendall's Tau-b using SPSS Statistics}.
+\newblock
+  \url{https://statistics.laerd.com/spss-tutorials/kendalls-tau-b-using-spss-statistics.php},
+  2016.
 
 \bibitem{spearmans}
 Laird Statistics.
-\newblock Spearman's rank-order correlation, 2016.
+\newblock {Spearman's Rank-Order Correlation}.
+\newblock
+  \url{https://statistics.laerd.com/statistical-guides/spearmans-rank-order-correlation-statistical-guide.php},
+  2016.
 
 \bibitem{nasa_orb3}
 NASA Independent~Review Team.
-\newblock Orb–3 accident investigation report.
+\newblock {Orb–3 Accident Investigation Report}.
 \newblock Technical report, National Aeronautics and Space Administration,
   October 2015.
 
 \bibitem{jplunity}
 Unity Technologies.
-\newblock Unity powers nasa virtual mars rover experience, 2012.
+\newblock {Unity Powers NASA Virtual Mars Rover Experience}.
+\newblock
+  \url{http://www.marketwired.com/press-release/unity-powers-nasa-virtual-mars-rover-experience-1680327.htm},
+  2012.
 
 \bibitem{apollo13}
 Apollo Spacecraft Program~Office Test~Division.
-\newblock {\em Apollo 13 Technical Air-to-Ground Voice Transcription}.
+\newblock {\em {Apollo 13 Technical Air-to-Ground Voice Transcription}}.
 \newblock National Aeronautics and Space Administration Manned Spacecraft
   Center, 1970.
 
 \bibitem{tipaldi2014spacecraft}
 Massimo Tipaldi and Bernhard Bruenjes.
-\newblock Spacecraft health monitoring and management systems.
+\newblock {Spacecraft health monitoring and management systems}.
 \newblock In {\em Metrology for Aerospace (MetroAeroSpace), 2014 IEEE}, pages
   68--72. IEEE, 2014.
 
 \bibitem{villegas2010principal}
 Thamara Villegas, Mar{\'\i}a~Jes{\'u}s Fuente, and Miguel Rodr{\'\i}guez.
-\newblock Principal component analysis for fault detection and diagnosis.
-  experience with a pilot plant.
+\newblock {Principal component analysis for fault detection and diagnosis.
+  experience with a pilot plant}.
 \newblock In {\em Proceedings of the 9th WSEAS international conference on
   computational intelligence, man-machine systems and cybernetics}, pages
   147--152, 2010.
 
 \bibitem{walker1979fault}
 Bruce~K Walker and Eliezer Gait.
-\newblock Fault detection threshold determination technique using markov
-  theory.
+\newblock {Fault detection threshold determination technique using Markov
+  theory}.
 \newblock {\em Journal of Guidance, Control, and Dynamics}, 2(4):313--319,
   1979.
+
+\bibitem{walker2015update}
+John Walker, Nathan Britton, Kazuya Yoshida, Toshiro Shimizu, Louis Burtz, and
+  Alperen Pala.
+\newblock {Update on the Qualiﬁcation of the Hakuto Micro-Rover for the
+  Google Lunar X-Prize}.
+\newblock In {\em Proceedings of The 10th Conference on Field and Service
+  Robotics (2015)}, 2015.
 
 \bibitem{yairi1992telemetry}
 Takehisa Yairi, Yoshinobu Kawahara, Ryohei Fujimaki, Yuichi Sato, and Kazuo
   Machida.
-\newblock Telemetry-mining: a machine learning approach to anomaly detection
-  and fault diagnosis for space systems.
+\newblock {Telemetry-mining: a machine learning approach to anomaly detection
+  and fault diagnosis for space systems}.
 \newblock In {\em Space Mission Challenges for Information Technology, 2006.
   SMC-IT 2006. Second IEEE International Conference on}, pages 8--pp. IEEE,
   1992.
 
 \bibitem{yeh2007exploratory}
 Shi-Tao Yeh, GlaxoSmithKline, and PA~King~of Prussia.
-\newblock Exploratory visualization of correlation matrices.
+\newblock {Exploratory visualization of correlation matrices}.
 \newblock In {\em NorthEast SAS Users Group (NESUG) conference 2007}, 2007.
 
 \end{thebibliography}

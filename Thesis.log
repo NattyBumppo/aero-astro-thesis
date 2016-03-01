@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  29 FEB 2016 02:47
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.18)  1 MAR 2016 01:12
 entering extended mode
-**F:/Dropbox/thesis/Thesis.tex
-(F:/Dropbox/thesis/Thesis.tex
+**Thesis.tex
+(F:\Dropbox\thesis\Thesis.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -508,7 +508,7 @@ Package: algpseudocode
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 16.
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
  ("F:\Apps\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
@@ -520,22 +520,22 @@ Package color Info: Driver file: pdftex.def on input line 130.
 (F:\Dropbox\thesis\lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 ) (F:\Dropbox\thesis\Thesis.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -550,7 +550,7 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count151
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 52.
 
 ("F:\Apps\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -560,9 +560,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 (F:\Dropbox\thesis\Thesis.out) (F:\Dropbox\thesis\Thesis.out)
 \@outlinefile=\write3
@@ -578,16 +578,16 @@ LaTeX Info: Redefining \nameref on input line 50.
 ------------------------------------------------------------------------------
  Declaration of Authorship
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 ("F:\Apps\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 ("F:\Apps\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
@@ -653,7 +653,7 @@ m Buck-eted Teleme-try (MAT-
  Symbols
 ------------------------------------------------------------------------------
 
-Overfull \hbox (37.9729pt too wide) in alignment at lines 211--211
+Overfull \hbox (37.9729pt too wide) in alignment at lines 213--213
  [] [] [] 
  []
 
@@ -688,30 +688,28 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Background in Fault Detection, Isolation and Recovery
 ------------------------------------------------------------------------------
-<images/fp_flow.png, id=573, 663.22781pt x 67.0003pt>
-File: images/fp_flow.png Graphic file (type png)
- <use images/fp_flow.png>
-Package pdftex.def Info: images/fp_flow.png used on input line 13.
-(pdftex.def)             Requested size: 417.47307pt x 42.1736pt.
+<images/fp_flow2.png, id=573, 483.30562pt x 173.14688pt>
+File: images/fp_flow2.png Graphic file (type png)
+
+<use images/fp_flow2.png>
+Package pdftex.def Info: images/fp_flow2.png used on input line 13.
+(pdftex.def)             Requested size: 417.47307pt x 149.56654pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4
 
-] <images/residual_block_diagram.png, id=588, 397.485pt x 181.42781pt>
-File: images/residual_block_diagram.png Graphic file (type png)
+] [5 <F:/Dropbox/thesis/images/fp_flow2.png>]
+<images/residual_block_diagram2.png, id=600, 600.74437pt x 239.39438pt>
+File: images/residual_block_diagram2.png Graphic file (type png)
 
-<use images/residual_block_diagram.png>
-Package pdftex.def Info: images/residual_block_diagram.png used on input line 4
-5.
-(pdftex.def)             Requested size: 397.48402pt x 181.42737pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <F:/Dropbox/thesis/images/fp_flow.png>] [6 <F:/Dropbox/thesis/images/residua
-l_block_diagram.png>] [7]) (F:\Dropbox\thesis\Chapters/Chapter3.tex [8]
+<use images/residual_block_diagram2.png>
+Package pdftex.def Info: images/residual_block_diagram2.png used on input line 
+45.
+(pdftex.def)             Requested size: 417.47307pt x 166.36581pt.
+ [6 <F:/Dropbox/thesis/images/residual_block_diagram2.png>] [7]) (F:\Dropbox\th
+esis\Chapters/Chapter3.tex [8]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Correlative Analysis
@@ -774,7 +772,7 @@ File: images/correlation_comparison.png Graphic file (type png)
 Package pdftex.def Info: images/correlation_comparison.png used on input line 3
 1.
 (pdftex.def)             Requested size: 417.47307pt x 340.24152pt.
-) [16 <F:/Dropbox/thesis/images/correlation_comparison.png>] (F:\Dropbox\thesis
+ [16 <F:/Dropbox/thesis/images/correlation_comparison.png>]) (F:\Dropbox\thesis
 \Chapters/Chapter5.tex [17]
 Chapter 5.
 ------------------------------------------------------------------------------
@@ -782,21 +780,21 @@ Chapter 5.
 ------------------------------------------------------------------------------
 [18
 
-] <images/moonraker.jpg, id=714, 912.40875pt x 736.7525pt>
+] <images/moonraker.jpg, id=715, 912.40875pt x 736.7525pt>
 File: images/moonraker.jpg Graphic file (type jpg)
 
 <use images/moonraker.jpg>
 Package pdftex.def Info: images/moonraker.jpg used on input line 19.
 (pdftex.def)             Requested size: 417.47307pt x 337.10031pt.
  [19 <F:/Dropbox/thesis/images/moonraker.jpg>]
-<images/rover_data_flow.png, id=721, 644.4075pt x 230.8625pt>
+<images/rover_data_flow.png, id=723, 644.4075pt x 230.8625pt>
 File: images/rover_data_flow.png Graphic file (type png)
 
 <use images/rover_data_flow.png>
 Package pdftex.def Info: images/rover_data_flow.png used on input line 36.
 (pdftex.def)             Requested size: 417.47307pt x 149.56566pt.
  [20 <F:/Dropbox/thesis/images/rover_data_flow.png>] <images/mobility_telem_sub
-panel.png, id=729, 924.45375pt x 213.79875pt>
+panel.png, id=731, 924.45375pt x 213.79875pt>
 File: images/mobility_telem_subpanel.png Graphic file (type png)
 
 <use images/mobility_telem_subpanel.png>
@@ -804,14 +802,14 @@ Package pdftex.def Info: images/mobility_telem_subpanel.png used on input line
 67.
 (pdftex.def)             Requested size: 417.47307pt x 96.54782pt.
  [21]
-<images/alert_panel.png, id=735, 550.055pt x 39.14626pt>
+<images/alert_panel.png, id=737, 550.055pt x 39.14626pt>
 File: images/alert_panel.png Graphic file (type png)
 
 <use images/alert_panel.png>
 Package pdftex.def Info: images/alert_panel.png used on input line 78.
 (pdftex.def)             Requested size: 417.47307pt x 29.71143pt.
 
-<images/fault_info2.png, id=737, 322.20375pt x 398.48875pt>
+<images/fault_info2.png, id=739, 322.20375pt x 398.48875pt>
 File: images/fault_info2.png Graphic file (type png)
 
 <use images/fault_info2.png>
@@ -824,7 +822,7 @@ Missing character: There is no Ø in font cmr10!
  [23 <F:/Dropbox/thesis/images/fault_info2.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 103.
- <images/corr_map.png, id=755, 1691.31876pt x 925.4575pt>
+ <images/corr_map.png, id=757, 1691.31876pt x 925.4575pt>
 File: images/corr_map.png Graphic file (type png)
 
 <use images/corr_map.png>
@@ -835,7 +833,7 @@ Package pdftex.def Info: images/corr_map.png used on input line 124.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24] [25 <F:/Dropbox/thesis/images/corr_map.png>]
-<images/daytime_operation_pittsburgh_field_test.jpg, id=769, 3276.24pt x 2457.1
+<images/daytime_operation_pittsburgh_field_test.jpg, id=771, 3276.24pt x 2457.1
 8pt>
 File: images/daytime_operation_pittsburgh_field_test.jpg Graphic file (type jpg
 )
@@ -844,7 +842,7 @@ Package pdftex.def Info: images/daytime_operation_pittsburgh_field_test.jpg use
 d on input line 147.
 (pdftex.def)             Requested size: 417.47307pt x 313.07072pt.
 
-<images/night_test_team.png, id=770, 937.25156pt x 536.75531pt>
+<images/night_test_team.png, id=772, 937.25156pt x 536.75531pt>
 File: images/night_test_team.png Graphic file (type png)
 
 <use images/night_test_team.png>
@@ -854,7 +852,7 @@ Package pdftex.def Info: images/night_test_team.png used on input line 154.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/ui_test_takuto.jpg, id=772, 2055.68pt x 1156.32pt>
+<images/ui_test_takuto.jpg, id=774, 2055.68pt x 1156.32pt>
 File: images/ui_test_takuto.jpg Graphic file (type jpg)
 
 <use images/ui_test_takuto.jpg>
@@ -881,14 +879,14 @@ ata
 ------------------------------------------------------------------------------
 [33
 
-] <images/raw_telem_svs.png, id=814, 610.53094pt x 316.18124pt>
+] <images/raw_telem_svs.png, id=816, 610.53094pt x 316.18124pt>
 File: images/raw_telem_svs.png Graphic file (type png)
 
 <use images/raw_telem_svs.png>
 Package pdftex.def Info: images/raw_telem_svs.png used on input line 35.
 (pdftex.def)             Requested size: 417.47307pt x 216.20653pt.
  [34] [35 <F:/Dropbox/thesis/images/raw_telem_svs.png (PNG copy)>]
-<images/dependency_graph_example.png, id=827, 353.06906pt x 83.5622pt>
+<images/dependency_graph_example.png, id=829, 353.06906pt x 83.5622pt>
 File: images/dependency_graph_example.png Graphic file (type png)
 
 <use images/dependency_graph_example.png>
@@ -900,7 +898,7 @@ Package pdftex.def Info: images/dependency_graph_example.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [36] [37 <F:/Dropbox/thesis/images/dependency_graph_example.png>]
-<images/comparison_correlation_map.png, id=845, 1053.9375pt x 373.395pt>
+<images/comparison_correlation_map.png, id=847, 1053.9375pt x 373.395pt>
 File: images/comparison_correlation_map.png Graphic file (type png)
 
 <use images/comparison_correlation_map.png>
@@ -908,25 +906,25 @@ Package pdftex.def Info: images/comparison_correlation_map.png used on input li
 ne 108.
 (pdftex.def)             Requested size: 417.47307pt x 147.90817pt.
 
-<images/undirected_both.png, id=846, 2690.05pt x 1408.26125pt>
+<images/undirected_both.png, id=848, 2690.05pt x 1408.26125pt>
 File: images/undirected_both.png Graphic file (type png)
 
 <use images/undirected_both.png>
 Package pdftex.def Info: images/undirected_both.png used on input line 115.
 (pdftex.def)             Requested size: 417.47307pt x 218.53609pt.
 
-<images/undirected_positive_only.png, id=847, 1096.095pt x 846.16125pt>
+<images/undirected_positive_only.png, id=849, 986.9372pt x 677.53125pt>
 File: images/undirected_positive_only.png Graphic file (type png)
 
 <use images/undirected_positive_only.png>
 Package pdftex.def Info: images/undirected_positive_only.png used on input line
  122.
-(pdftex.def)             Requested size: 417.47307pt x 322.28056pt.
+(pdftex.def)             Requested size: 417.47307pt x 286.59782pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/undirected_negative_only.png, id=848, 1257.69875pt x 733.74126pt>
+<images/undirected_negative_only.png, id=850, 1257.69875pt x 733.74126pt>
 File: images/undirected_negative_only.png Graphic file (type png)
 
 <use images/undirected_negative_only.png>
@@ -939,20 +937,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [38 <F:/Dropbox/thesis/images/comparison_correlation_map.png> <F:/Dropbox/thesi
 s/images/undirected_both.png>]
-<images/undirected_positive_with_negative_clusters.png, id=860, 1204.5pt x 929.
-72343pt>
+<images/undirected_positive_with_negative_clusters.png, id=862, 986.9372pt x 67
+7.53125pt>
 File: images/undirected_positive_with_negative_clusters.png Graphic file (type 
 png)
  <use images/undirected_positive_with_negative_clusters.png>
 Package pdftex.def Info: images/undirected_positive_with_negative_clusters.png 
 used on input line 140.
-(pdftex.def)             Requested size: 417.47307pt x 322.2445pt.
+(pdftex.def)             Requested size: 417.47307pt x 286.59782pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39 <F:/Dropbox/thesis/images/undirected_positive_only.png>]
-<images/time_curve_example.png, id=868, 295.1025pt x 363.60844pt>
+<images/time_curve_example.png, id=870, 295.1025pt x 363.60844pt>
 File: images/time_curve_example.png Graphic file (type png)
 
 <use images/time_curve_example.png>
@@ -975,7 +973,7 @@ Overfull \hbox (32.10274pt too wide) in paragraph at lines 206--218
  []
 
 
-<images/pfm2_raw_data_time_curve_annotated.png, id=920, 356.0803pt x 309.40594p
+<images/pfm2_raw_data_time_curve_annotated.png, id=922, 356.0803pt x 309.40594p
 t>
 File: images/pfm2_raw_data_time_curve_annotated.png Graphic file (type png)
  <use images/pfm2_raw_data_time_curve_annotated.png>
@@ -986,7 +984,7 @@ input line 224.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/pfm2_pcc_time_curve_annotated.png, id=923, 345.54094pt x 306.39468pt>
+<images/pfm2_pcc_time_curve_annotated.png, id=925, 345.54094pt x 306.39468pt>
 File: images/pfm2_pcc_time_curve_annotated.png Graphic file (type png)
 
 <use images/pfm2_pcc_time_curve_annotated.png>
@@ -997,7 +995,7 @@ Package pdftex.def Info: images/pfm2_pcc_time_curve_annotated.png used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/pfm2_rho_time_curve_annotated.png, id=926, 341.02406pt x 310.15875pt>
+<images/pfm2_rho_time_curve_annotated.png, id=928, 341.02406pt x 310.15875pt>
 File: images/pfm2_rho_time_curve_annotated.png Graphic file (type png)
 
 <use images/pfm2_rho_time_curve_annotated.png>
@@ -1008,7 +1006,7 @@ Package pdftex.def Info: images/pfm2_rho_time_curve_annotated.png used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/pfm2_tau_time_curve_annotated.png, id=929, 345.54094pt x 319.1925pt>
+<images/pfm2_tau_time_curve_annotated.png, id=931, 345.54094pt x 319.1925pt>
 File: images/pfm2_tau_time_curve_annotated.png Graphic file (type png)
 
 <use images/pfm2_tau_time_curve_annotated.png>
@@ -1047,31 +1045,85 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(F:\Dropbox\thesis\Thesis.bbl [61
+(F:\Dropbox\thesis\Thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]\OT1/cmr/m/n/10.95 Spaceflight 101.  NASA Re-port on Antares Launch Fail-ure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\OT1/cmr/m/n/10.95 places Blame on AJ26 En-gines.  [][]$\OT1/cmtt/m/n/10.95 htt
+p : / / spaceflight101 . com /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+$\OT1/cmtt/m/n/10.95 nasa-[]report-[]on-[]antares-[]launch-[]failure-[]places-[
+]blame-[]on-[]aj26-[]engines/$[][]\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 53--59
+\OT1/cmr/m/n/10.95 Race for a New Gen-er-a-tion.  [][]$\OT1/cmtt/m/n/10.95 http
+ : / / lunar . xprize . org / press-[]release /$
+ []
+
+[61
 
 
 ] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+$\OT1/cmtt/m/n/10.95 laerd . com / spss-[]tutorials / kendalls-[]tau-[]b-[]usin
+g-[]spss-[]statistics . php$[][]\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
+[]\OT1/cmr/m/n/10.95 Laird Statis-tics.  Spear-man's Rank-Order Cor-re-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
+\OT1/cmr/m/n/10.95 tion.  [][]$\OT1/cmtt/m/n/10.95 https : / / statistics . lae
+rd . com / statistical-[]guides /$
+ []
+
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
- [63]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
+[]\OT1/cmr/m/n/10.95 Unity Tech-nolo-gies.  Unity Pow-ers NASA Vir-tual Mars Ro
+ver
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
+\OT1/cmr/m/n/10.95 Ex-pe-ri-ence.  [][]$\OT1/cmtt/m/n/10.95 http : / / www . ma
+rketwired . com / press-[]release /$
+ []
+
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no Å in font cmr10!
+[63])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+ [64]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (F:\Dropbox\thesis\Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: F5BFCF7452409D5EA9B8B53E4923C66B;15573.
  ) 
 Here is how much of TeX's memory you used:
- 12888 strings out of 494045
- 180816 string characters out of 3152019
- 773643 words of memory out of 3000000
- 15270 multiletter control sequences out of 15000+200000
- 16998 words of font info for 64 fonts, out of 3000000 for 9000
+ 12893 strings out of 494045
+ 180896 string characters out of 3152019
+ 773672 words of memory out of 3000000
+ 15272 multiletter control sequences out of 15000+200000
+ 17166 words of font info for 65 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 49i,12n,45p,1782b,2287s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,12n,45p,1795b,2287s stack positions out of 5000i,500n,10000p,200000b,50000s
 <F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Apps/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmcsc10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/
@@ -1088,12 +1140,12 @@ pe1/public/amsfonts/cm/cmsl12.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/Apps/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti12.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmtt8.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
-ls/msam7.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
->
-Output written on Thesis.pdf (77 pages, 6784108 bytes).
+lic/amsfonts/cm/cmtt10.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt8.pfb><F:/Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><F:/
+Apps/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (78 pages, 6813587 bytes).
 PDF statistics:
- 1644 PDF objects out of 1728 (max. 8388607)
- 653 named destinations out of 1000 (max. 500000)
+ 1672 PDF objects out of 1728 (max. 8388607)
+ 655 named destinations out of 1000 (max. 500000)
  678 words of extra memory for PDF output out of 10000 (max. 10000000)
 

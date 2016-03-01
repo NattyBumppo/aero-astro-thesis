@@ -1,17 +1,17 @@
 \chapter{Background in Fault Detection, Isolation and Recovery}
 
-In this chapter, we will discuss the theoretic fundamentals of Fault Detection, Isolation and Recovery (hereafter, ``FDIR"). We will look at how behavior of complex systems can be modeled in such a way that undesirable states can be clearly defined and detected. We will look at more modern, advanced techniques for this analysis. We'll also spend some time talking about analytical as well as human-centered issues with current techniques, in order to motivate the subsequent work within this paper.
+In this chapter, we will discuss the theoretic fundamentals of Fault Detection, Isolation and Recovery (hereafter, ``FDIR"). We will look at how behavior of complex systems can be modeled in such a way that undesirable states can be clearly defined and detected. We will look at more modern, advanced techniques for this analysis. We'll also spend some time talking about analytical as well as human-centered issues with current techniques, in order to motivate the subsequent work within this thesis.
 
 \section{Goals and Definitions}
 
 First, we will define a handful terms in order to precisely discuss FDIR problems.
 
-We will define a \textbf{fault} as any system state that is undesirable. When a fault is \textbf{detected}, a decision has been made that a fault has occurred. This will often by followed by an \textbf{alarm} step, in which the fault is made known to a human operator or to a higher level of a control system hierarchy. The process of fault \textbf{isolation} is a narrowing-down step in which the location, whether physical or logical, of a fault is determined \cite{schwabacher2008pre}. After a fault is isolated, the final step for an autonomous system is to \textbf{recover} from the fault, by returning to a non-faulty state or entering a ``safe" state in which the fault cannot negatively affect the system's ability to complete objectives. FDIR schemes for ensuring system safety are also referred to in the literature as ``fault protection" schemes \cite{kurien2010intrinsic}. A typical flow is shown in \ref{fig:fp_flow}.
+We will define a \textbf{fault} as any system state that is undesirable. When a fault is \textbf{detected}, a decision has been made that a fault has occurred. This will often by followed by an \textbf{alarm} step, in which the fault is made known to a human operator or to a higher level of a control system hierarchy. The process of fault \textbf{isolation} is a narrowing-down step in which the location, whether physical or logical, of a fault is determined \cite{schwabacher2008pre}. After a fault is isolated, the final step for an autonomous system is to \textbf{recover} from the fault, by returning to a non-faulty state or entering a ``safe" state in which the fault cannot negatively affect the system's ability to complete objectives. FDIR schemes for ensuring system safety are also referred to in the literature as ``fault protection" schemes \cite{kurien2010intrinsic}. A typical flow, including human interactive steps, is shown in \ref{fig:fp_flow}.
 
 \begin{figure}[h]
 \centering
-    \includegraphics[width=\columnwidth]{images/fp_flow.png}
-    \caption{A typical fault protection flow. From \cite{kurien2010intrinsic}.}
+    \includegraphics[width=\columnwidth]{images/fp_flow2.png}
+    \caption{A typical fault detection flow. Adapted from \cite{kurien2010intrinsic}.}
     \label{fig:fp_flow}
 \end{figure}
 
@@ -23,13 +23,13 @@ System models may include ideal or expected behavior for a given operation mode,
 
 Control systems for which FDIR is conducted are often represented with a modern state-space model, wherein plant dynamics are modeled as follows \cite{hwang2010survey}
 \begin{equation} \label{eq:plant_model1}
-    x(t+1) = (A + \Delta A) x(t) + (B + \Delta B)u(t) + E_{1}n_{1}(t),
+    x(t+1) = A(t) x(t) + B(t) u(t) + E_{1}n_{1}(t),
 \end{equation}
 \begin{equation} \label{eq:plant_model2}
-    y(t) = (C + \Delta C) x(t) + (D + \Delta D) + u(t) + E_{2}n_{2}(t),
+    y(t) = C(t) x(t) + D(t) u(t) + E_{2}n_{2}(t),
 \end{equation}
 
-where $x \in \mathbb{R}^{n}$ is the state vector, $u \in \mathbb{R}^{p}$ is the plant's input vector, $y \in \mathbb{R}^{m}$ is the sensor-measured output vector, and $n_{1}$ and $n_{2}$ are disturbance vectors.
+where $x \in \mathbb{R}^{n}$ is the state vector, $u \in \mathbb{R}^{p}$ is the plant's input vector, $y \in \mathbb{R}^{m}$ is the sensor-measured output vector, $A$, $B$, $C$ and $D$ are realizations of linear dynamics with permissible perturbations, and $n_{1}$ and $n_{2}$ are disturbance vectors.
 
 By observing the system via $y$, along with the known input $u$, it is possible to assess, via a model of expected system behavior, if the current state is an anomalous one. As discussed above, a measure of our deviation from this nominal state is the residual, and is commonly expressed as a difference between an estimated output $\hat{y}(t)$ and the observed output $y(t)$ \cite{hwang2010survey}, as follows:
 \begin{equation} \label{eq:residual_generation}
@@ -42,7 +42,7 @@ A block diagram illustrating how a residual generation system might be structure
 
 \begin{figure}[h]
 \centering
-    \includegraphics{images/residual_block_diagram.png}
+    \includegraphics[width=\columnwidth]{images/residual_block_diagram2.png}
     \caption{A simple residual generation model for a dynamic system. Adapted from \cite{hwang2010survey}.}
     \label{fig:residual_block_diagram}
 \end{figure}
@@ -82,7 +82,7 @@ Rule-based FDIR is an alternative to model-based FDIR in which a system-dynamic 
 
 Recent research has made progress into using machine learning techniques for classifying and identifying faults. An interesting overview of Support Vector Machines (SVMs) for FDIR is given in \cite{lin2006fault}, and \cite{aycard2000state} discusses the usage of Hidden Markov Models (HMMs) for a similar purpose.
 
-This paper will not attempt to examine these techniques in detail; however, it seems that they are likely to suffer from those problems typical of machine learning algorithms, including the necessity for a large amount of training data in order to learn nominal states, and the difficulty of human operator insight into the causes of anomalous states.
+This thesis will not attempt to examine these techniques in detail; however, it seems that they are likely to suffer from those problems typical of machine learning algorithms, including the necessity for a large amount of training data in order to learn nominal states, and the difficulty of human operator insight into the causes of anomalous states.
 
 % \subsection{Distributed Fault Control}
 
@@ -99,3 +99,5 @@ Another danger, especially relevant with expensive, teleoperated systems is the 
 A detailed list of issues with model-based FDIR, with multiple references in the space industries and others, is given in \cite{kurien2010intrinsic}.
 
 Because complex system faults, especially for teleoperated space systems, require large amounts of human analysis, creativity, and validation in order to understand root causes and recover from them, it is evident that the range of autonomous FDIR schemes is inadequate. We must create human-in-the-loop systems that augment model-based FDIR and analyze the resulting data to optimize the analytical work of root cause analysis and recovery.
+
+In the next chapter, we will look at analysis techniques that help us examine behaviors of the system which we can visualize.
