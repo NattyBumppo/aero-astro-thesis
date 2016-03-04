@@ -1,40 +1,129 @@
-\chapter{Visualization of Correlative Relationships}
+\chapter{Case Study: Hakuto ``Moonraker" Lunar Rover}
 
-As we discussed in the previous chapter, correlative relationships in a system can provide a useful view into the internal dynamics of state variables which a non-correlative approach could not. Because much of the motivation behind these variables is for discovery of new patterns and associations between variables, and as such, intuitive visualization to a human viewer is needed. We will investigate some traditional methods for correlative state visualization in this chapter.
+In this section, we will discuss a motivating problem and platform on which to test some of the algorithms we've developed and assess their practicality.
 
-\section{Challenges}
+\section{HAKUTO Lunar XPRIZE Team}
 
-However, correlative data is very high-dimensional; for a system with $n$ state variables, the correlative state looking back within a given time window is of size $\mathbb{R}^{n \times n}$. What's more, the correlative state changes over time as the time window slides across the state history, giving a total correlative state on the order of $\mathbb{R}^{n \times n \times t}$. For mission analysis over a 1,000-sample time window for an aerospace vehicle with 1,000 data channels, the correlative state has on the order of $10^{9}$ elements! Simultaneously visualizing this complex state in such a way that the data displayed to the user is maximized is a major challenge. Some of the difficulties of visualizing time series data, and the benefits of event identification and grouping, are studied in \cite{muller2003visualization}.
+In the summer and autumn of 2015, research was performed at Tohoku University's Space Robotics Lab (hereafter ``SRL"), under the guidance of Professor Kazuya Yoshida, among others. This laboratory focuses on the research and development of robotic systems for space exploration and science missions.
 
-\section{Corrgrams}
+One of the major sub-groups within SRL is the Hakuto Lunar XPRIZE team, a group of engineers who, working together with their promotional counterparts in Tokyo, have been working for several years on the core mission of sending a lunar rover to the Moon, traveling at least 500 meters, and sending back high-resolution and photos. Completing this mission would satisfy the requirements of the Google Lunar XPRIZE, an international lunar rover competition with a combined purse of \$30M USD \cite{xprize}.
 
-A grid-based matrix representation of a matrix of correlative values, or ``corrgram," is a popular visualization used for correlation relationships in the research literature. In these visualizations, a state $\bar{x} \in \mathbb{R}^{n}$ is represented by a matrix $M \in \mathbb{R}^{n \times n}$, where $M_{ij}$ is shaded with a color hue to indicate the correlation score between $\bar{x}_{i}$ and $\bar{x}_{j}$.
+As a secondary mission, Hakuto hopes to explore the interior of caves on the Moon, as precursor exploration to assess their feasibility as future human habitats. Recent high-resolution photography from JAXA's Kaguya spacecraft, and from NASA's Lunar Reconnaissance Orbiter, has confirmed that large ``skylights" exist on the lunar surface leading into these caves \cite{rabbithole}, and Hakuto aims to land near enough to one of these skylights to make its exploration a possibility.
 
-\cite{yeh2007exploratory} suggests methods for visualizing correlations with schematic scatter plots and simple corrgrams. \cite{murdoch1996graphical} provides a method for more expressively visualizing correlative relationships between time series using embedded ellipse glyphs, but sacrifices dimensionality and screen space. Finally, a thorough survey of corrgram representations is given in \cite{friendly2002corrgrams}. 
+We decided that Hakuto's four-wheeled ``Moonraker" rover would be an excellent testbed against which to develop advanced fault analysis algorithms and visualization. Moonraker is a state-of-the-art micro-rover, developed over the past 5 years by the Hakuto team \cite{walker2015update}. During normal operation, Moonraker sends back status reports on 100 to 150 channels of telemetry data to its ground station on Earth, at a rate of once per second. This telemetry covers everything from IMU attitude data and temperature sensors readings to motor rotations, solar charge voltage, and communication metadata such as packets errors detected and radio signal strength.
 
-For high-detail matrix structures that push the limits of on-screen display, \cite{yairi1992telemetry} shows a dense, 2D visualization of a subset of telemetry series data in which a measurement of ``association" is found through sorting, although the details of this correlative analysis are not given, and the applications were unclear to the authors as of the publication. Finally, \cite{cancro2007interactive} shows a colored, compact grid structure for maximizing telemetry display, although correlation is to be inferred by user inspection (i.e., noticing if two values happen to change similarly), rather than analyzed and displayed directly.
-
-\subsection{Limitations}
-
-Corrgrams can only be used to display correlative state up to a certain level of dimensionality. After a certain point, the number of correlations which can be displayed on the screen is limited by screen space. The theoretical maximum, neglecting human perceptive elements, would be a correlation matrix where every pixel of a screen display is used to show a different pairwise correlation. If corrgram symmetry is exploited (i.e., if we only visualize the upper diagonal of the symmetric correlation matrix), we can reduce the number of visualized elements to $\frac{n^{2} - n}{2}$; however, on a generous modern screen resolution of 1920x1080, this reduces us to the capability of displaying correlations for only roughly 2,000 data channels. If we increase the pixel size to a much more reason 6x6 square for every data channel, we are reduced to roughly 300 displayable data channels. It is clear that screen space will be a major constraint, especially when precisely interaction with the data is necessary for detailed examination.
-
-And it does seem that interaction will be a necessity. Even with a small number of data channels, horizontal and vertical labels to show data channel identifiers will not easily fit on the screen; therefore, an interaction system for showing the channel names for data pairs of interest is necessary. This interaction load slows down usage, though, and is likely to reduce utility of the visualization.
-
-One final, major limitation of the corrgram visualization is that it only shows correlative state of the system at a single point in time; however, systems are dynamic, and their correlative states change as the systems transition between operational modes (including fault modes). If we are to see changes between modes, and to be able to identify these events as possible faults, we need a method to see correlative data change over time.
-
-\subsection{Corrgram Example}
-
-A monochrome corrgram comparison of the Pearson Correlation Coefficient, Spearman Rank Correlation Coefficient, and Kendall Rank Correlation Coefficient is shown in Fig.~\ref{fig:correlation_comparison}. Note that the strong negative linear correlation between data channels 4 and 5 is captured well by all three correlative measurement methods; however, the strong, nonlinear association between data channels 1 and 6 is not captured as strongly by the PCC due to its inability to model nonlinear relationships.
+See Figure~\ref{fig:moonraker} for a photo of Moonraker.
 
 \begin{figure}[h]
 \centering
-    \includegraphics[width=\columnwidth]{images/correlation_comparison.png}
-    \caption{Three common correlation coefficient algorithms are compared on a sample data set. Note that items 1 and 6 have a strong rank-based correlation, but the relationship is non-linear, resulting in a visibly lower correlation score within the PCC visualization. Also note the strong negative correlation between items 4 and 5.}
-    \label{fig:correlation_comparison}
+    \includegraphics[width=\columnwidth]{images/moonraker.jpg}
+    \caption{Hakuto's Moonraker ``Pre-Flight Model 2." Photo by George Thomas Mendel.}
+    \label{fig:moonraker}
 \end{figure}
 
-\section{Animated Corrgrams}
+\section{Ground Station Interface}
 
-Animated corrgrams are a potential solution to address the traditional corrgram's inability to capture changing correlative state over time. In an animated corrgram, the correlative state of a system is calculated over a retrospective time window, and every time new data is received, the correlative state is recalculated and redisplayed. This allows multiple ``views" of the current correlation during a run to be displayed, and facilitates the comparison of how correlation relationships change. We have been unable to find any examples of animated corrgrams used in previous research for displaying changing system state over time.
+In early July 2015, Team Hakuto began designing a new ground station software suite for the most recent version of the rover. The rover had been updated in several ways since the prior Pre-Flight Model, and many of its avionics, including its software, were updated and redesigned, breaking compatibility with the previous version of the ground station software. We worked together to evaluate the current and future needs of the rover, and to redesign and reimplement software to optimally fit these needs.
 
-The next chapter will walk through the creation of an animated corrgram with real system data.
+Our discussions focused on optimizing performance, reliability, and maintainability of the software. The latter factor was of particular concern, given that the software was to be used and maintained in a university laboratory environment, with many students---some of them inexperienced in software engineering---potentially responsible for updating the software and adding new features. After evaluating a list of disparate choices, including C++ on Linux with the Qt framework and multi-platform JavaScript running in HTML5, we ultimately decided that the ideal choice would be the Unity Game Engine, for its high frequency of software updates, its active developer community, and its aerospace legacy within the NASA Jet Propulsion Laboratory \cite{jplunity}. 
+
+\section{Rover Data Path}
+
+In Hakuto's network configuration, Moonraker sends data packets over radio from the Moon, and they are intercepted on Earth and relayed to the ground station over the Internet. Subsequently, these packets are decoded and processed in order to be visualized by the ground station. The data is stored locally in memory by the ground station software for subsequent display. A flowchart of this data path is shown in Fig.~\ref{fig:data_path}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/rover_data_flow.png}
+    \caption{Moonraker's communication flow, from rover subsystem to ground station data storage, is shown.}
+    \label{fig:data_path}
+\end{figure}
+
+\subsection{Non-FDIR-Related Components}
+
+The focus of this thesis is on the fault detective and correlative visualizations implemented within the ground station, so we will spend the bulk of the time focusing on this component. However, there were several non-FDIR-related components as well, briefly described below to provide context:
+
+\begin{itemize}
+    \item \textit{Numerical telemetry display}, to visually show the state of various sensors on subsystem boards (such as IMU accelerations, motor voltages, and board temperatures), as well as internal software metrics. Whenever possible, telemetry data was placed in semantically meaningful positions and groups, to improve discoverability.
+    \item \textit{Attitude display and visual tachometer}, to provide more intuitive visualizations of pitch, roll, and current wheel rotation rate (which mostly corresponded to vehicle speed).
+    \item \textit{Telemetry change indicators}, to point out data channels that have strong downward or upward trends over time.
+    \item \textit{Quad-camera display}, to display the most recent images and streaming video from the rover cameras.
+    \item \textit{Connectivity map}, to show the state of connectivity to various subsystems based on the elapsed time since packets from those subsystems had been received.
+    \item \textit{Immersive viewing}, allowing users to navigate the camera data in an embedded 3D mapping.
+    \item \textit{Map display}, showing the position of the rover with respect to the surrounding selenography, based on mobility subsystem telemetry and SLAM telemetry.
+    \item \textit{Audio alert cues}, to draw the user's attention to the UI in the event of faults.
+    \item \textit{Telemetry saving, loading, and playback}, to facilitate the review of mission events after the fact.
+\end{itemize}
+
+\subsection{FDIR-Related Components}
+
+In comparison with traditional aerospace ground station software, particular attention was given in this implementation to FDIR-related components. The components below were implemented and used extensively.
+
+\subsubsection{Threshold-based fault detection}
+
+In order to build a threshold-based fault detection system for Moonraker, we worked with engineers on our team to define the ``danger" thresholds that indicated points of severe jeopardy, as well as the ``warning" thresholds that indicated points of concern. We implemented these thresholds in my ground station software as a general-purpose fault detection engine. Faults are detected constantly, and are displayed to the user via color and detailed information (see the following sections for more details). All fault occurrence details and times are logged for future review as well. See Figure~\ref{fig:mobility_telem_subpanel}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/mobility_telem_subpanel.png}
+    \caption{Various telemetry values are shown for the mobility subsystem. Colors indicate current fault detection levels, with green representing a nominal state.}
+    \label{fig:mobility_telem_subpanel}
+\end{figure}
+
+\subsubsection{Fault alert panel}
+
+For safety, faults that have occurred need to be easily visible and understood by human operators. Towards this end, a highly visible, brightly colored alert panel was placed at the top of the screen seen by human operators. Each panel cell corresponds to a subsystem or other type of data grouping, and any issues with that grouping (i.e., faults that occur on monitored channels) will trigger a color change on that cell. Interacting with the cell can give the user more information on the fault (see the next section for details). See Figure~\ref{fig:alert_panel}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/alert_panel.png}
+    \caption{An alert panel monitors potential faults on various different subsystems, indicating any faults and their severity by color.}
+    \label{fig:alert_panel}
+\end{figure}
+
+\subsubsection{Expert fault information}
+
+Ensuring human understanding of fault data is an essential part of the fault diagnosis and recovery process. As such, it's important to design a system where detailed information can be provided about individual faults that have occurred, while maintaining a high-level understanding of which systems are behaving anomalously. The system designed allows for this hierarchical organization of information. When high-level fault information is indicated in the ``fault alert panel," more concise information is provided in the ``fault information panel," including which anomalous data channels are contributing to the problem. The fault information is highly extensible, allowing for any other additional fault-related notes that system designers or operators would like to include for reference. This additional information, uncommon in traditional fault monitoring systems, accelerates the fault diagnosis problem by immediately pointing towards possible root causes. See Figure~\ref{fig:fault_info2}.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=0.4\columnwidth]{images/fault_info2.png}
+    \caption{Information for monitored faults on a given subsystem.}
+    \label{fig:fault_info2}
+\end{figure}
+
+\subsubsection{Correlative Functionality}
+
+The Pearson Correlation Coefficient was chosen as an algorithm for calculating correlation between sets of data channels, in order to give a metric of their mutual ``connectedness." This algorithm was chosen for its simple and efficient calculations, under the (in retrospect, naïve) assumption of linear relationships.
+
+To visualize this data, a two-dimensional corrgram was used, visualizing relationships between data channels as a matrix with cell shadings representative of the PCC score of each relationship. Hue of each cell shows positive/negative correlation, and intensity shows the strength of that correlation. This visualization allows an operator can see changing channel correlations, which may suggest possible interconnectedness or causation and aid with troubleshooting. See Figure~\ref{fig:corr_map}.
+
+To show the flow of this data, pseudocode for the algorithm used is shown in Algorithm~\ref{alg:corrgram_get}. Assume that a pre-generated $n \times n$ grid of transparent blocks, $\textbf{Corr}$, is displayed on the screen. Also assume that $\textbf{GetColor}$ refers to an arbitrary function which maps from a PCC score $\in [-1,1]$ to an RGB color $(r, g, b) \in \mathbb{R}^{3}$, where $0 \leq r, g, b \leq 255$. We experimented with several variations of this function, and found that a linear mapping exaggerated the importance of low correlation scores, which led to the development of a hand-tuned exponential color mapping function to produce the correct scores. Certain work has explored the complexities of determining a proper mapping, which relate to the non-linearity of human perception of color \cite{friendly2002corrgrams}. Other work has suggested the efficacy of pre-squaring the PCC score before display, which instead results in displaying the coefficient of determination (i.e., the shared portion of the variance) for the pair of data items, which intuitively corresponds to a more intuitive human understanding of data connectivity \cite{rummelcorrelation}.
+
+\begin{algorithm}
+    \caption{Animated Corrgram Generation Algorithm}\label{alg:corrgram_get}
+    \begin{algorithmic}[1]
+        \Procedure{CorrgramGenerator}{$M$}\Comment{Takes data point matrix $M \in \mathbb{R}^{n \times t}$.}
+        \State $M_{r} \gets \{U_{:,j}\}_{j=t-s}^{n}$ \Comment{Reduce data to most recent $s$ points.}
+        \State $C\gets \textbf{PCC}_{s}(M_{r})$ \Comment{Calculate a symmetric PCC matrix using last $s$ points.}
+        \For{$\textbf{row} = 1~\textbf{to}~n$}
+            \For{$\textbf{col} = 1~\textbf{to}~n$}
+                \State $\textbf{color} = \textbf{GetColor}(C_{row, col})$ \Comment{Convert PCC score to a color.}
+                \State $\textbf{Corr}_{row, col}\textbf{.color} \gets \textbf{color}$ \Comment{Assign color to cell in corrgram.}
+            \EndFor
+        \EndFor
+        \EndProcedure \Comment{Algorithm is re-run on every graphical update.}
+    \end{algorithmic}
+\end{algorithm}
+
+A few additional modifications were applied in order to make this algorithm performant. For instance, the entire corrgram is not updated at once, due to the performance hit from calculating new PCC scores for thousands of corrgram cells on each graphical update. Instead, a subset of the corrgram cells are updated, resulting in a ``rolling" effect wherein cells update gradually, with a full update of the corrgram being achieved on the order of once per second.
+
+We also built functionality to adjust the sampling rate, the period of time over which samples are taken, and parameters related to averaging for smoothing out noise. Channel pairs may also be filtered via substring search.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=\columnwidth]{images/corr_map.png}
+    \caption{Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.}
+    \label{fig:corr_map}
+\end{figure}
+
+The next chapter will discuss testing we performed to validate the various components of this ground station interface.

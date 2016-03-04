@@ -200,17 +200,20 @@
       \smallskip
       {\LARGE \authornames \par}
       \vfill
+      \bigskip
       {\large A thesis submitted in partial fulfillment for the \par}
       {\large degree of Master of Science in Aeronautics \& Astronautics \par}
       \bigskip
+      {\large University of Washington \par}
+      {\large 2016 \par}
       \bigskip
-      {\large in the \par}
+      {\large Committee Members: \par}
+      {\large Mehran Mesbahi, Chair \par}
+      {\large Jeffrey Heer \par}
+      \bigskip
+     {\large Program Authorized to Offer Degree: \par}
       {\large \facname \par}
       {\large \deptname \par}
-      \bigskip
-      \bigskip
-      \bigskip
-      {\Large \@date \par}
       \bigskip
     \end{center}
     \par
@@ -241,14 +244,18 @@
     \bigskip
     {\huge{\textit{Abstract}} \par}
     \bigskip
+    {\large Techniques for Fault Detection and Visualization of Telemetry Dependence Relationships for Root Cause Fault Analysis in Complex Systems\par}
+    \bigskip
+    {\normalsize by \authornames \par}
+    \bigskip
+    {\normalsize Chair of the Supervisory Committee: \par}
+    {\normalsize Professor Mehran Mesbahi \par}
     {\normalsize \facname \par}
     {\normalsize \deptname \par}
     \bigskip
-    {\normalsize Master of Science in Aeronautics \& Astronautics\par}
-    \bigskip
     {\normalsize\bf \@title \par}
     \medskip
-    {\normalsize by \authornames \par}
+
     \bigskip
   \end{center}
 }

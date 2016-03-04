@@ -1,0 +1,66 @@
+\chapter{Usability Testing Script}
+
+This appendix gives a detailed timeline of the usability tests performed for the Moonraker lunar rover, and gives the script read by the test coordinator during each of the tests.
+
+\section{Approximate Simulated Run Timeline}
+
+Users will be told that this is a straight-forward, long distance run. The run takes place on the Moon, towards the end of the lunar day. The cameras are non-functional for known (but irrelevant) reasons. 
+
+\begin{itemize}
+
+\item 0s: Mission start, commence driving forward (wheel telemetry, attitude changing normally), slow temperature gain from movement.
+\item 188s: Rover starts moving slightly downhill, RSSI slowly degrades, chance of latency and packet drops increases.
+\item Motor temperature gain drops due to downhill.
+\item 287s: Battery charge voltage suddenly drops (in the shade). Temperature begins to fall on all systems.
+\item 300s: Rover reaches bottom of crater floor, and travels along flat-ish ground for some time.
+\item 330s: Rover starts moving uphill out of the crater. RSSI slowly increases, chance of latency and packet drops decreases. Motor temperature gain increases due to uphill.
+\item 343s: Battery charge voltage suddenly increases (out of the shade). Temperature rising again on all systems.
+\item 534s: Rover moves to flat ground again.
+\item 594s: Attitude gets much choppier here (rough terrain).
+\item 643s: Rover stops suddenly with motor fault (rock stuck in wheel).
+
+\end{itemize}
+
+\section{Test Script}
+
+[Start script to send demo (non-test) telemetry to the rover]
+
+Thanks for agreeing to test the Moonraker ground station interface. Note that this is a test of the software, not of you, so just relax and have fun.
+
+In this test, you're a copilot for Moonraker. You're observing part of the lunar mission, and monitoring the telemetry, but you won't be sending any rover commands. Instead, you'll be looking for patterns in the data that indicate meaningful events, and explaining the story of these events.
+
+This run is a long-distance, straight forward run on the Moon. The time is near the end of the lunar day. You won't be using the cameras. You can assume that they have stopped working for reasons that are understood, but which are not relevant to this run.
+
+First, I'll do a quick overview of the data you can see. You have access to three screens.
+
+This is the Pilot screen, which shows high-level data. Please click the Hakuto logo in the upper-left.
+
+This is the Copilot screen, which shows lower-level data. Please click the Hakuto logo in the upper-left again.
+
+This is the Correlation screen. This screen has a grid of squares, and each square shows the correlation between two channels of data. A correlation value of 1 indicates a strong positive correlation, -1 indicates a strong negative correlation, and 0 indicates no correlation.
+
+You can switch between these three screens at any time by clicking the icon in the upper-left-hand corner of the screen. Feel free to use the screen which you feel gives you the most useful data at any given time.
+
+Please go to the Pilot screen. Near the top is the Alert panel row, which tells you about the state of various sets of data. Clicking on the panels in this row will give you detailed information about what's happening with Moonraker.
+
+In the lower-right of the Pilot screen, you can see controls to pause the incoming data to review it at any time. When paused, incoming data will continue to be received, but will not be shown until you unpause. Feel free to pause to review data at any time. You can also use the A, S, D, and F keys on the keyboard to manipulate data.
+
+The run will take about 10 minutes, if you'd like to wait until the end of the run to pause, rewind, and review data, you're free to do so.
+
+After the run is complete and the rover has stopped, I'd like you to try to develop a story for all of the events that happened. Once you're satisfied with your explanation story, please tell me what you think and what led you to those conclusions, and that will conclude the test. The time limit is 30 minutes.
+
+Do you have any questions before we begin?
+
+[Respond to any questions]
+
+I will begin the test momentarily. As you monitor data, I'd like you to do a narrative outloud. What do you see? What is it telling you? What do you infer? What are you thinking? As much as possible, please think outloud for the entire test.
+
+The test will now begin.
+
+[Restart Unity editor; start script to send testing telemetry to the rover at 30 seconds mission time]
+
+[Finished telling the story]
+
+Do you have any general comments, thoughts, or suggestions?
+
+[At the end of the test, thank them for their participation, and tell them not to discuss the details of this test with anyone until the end of the week.]
