@@ -11,7 +11,7 @@
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}
 \contentsline {chapter}{\numberline {2}Background in Fault Detection, Isolation and Recovery}{4}{chapter.16}
-\contentsline {section}{\numberline {2.1}Goals and Definitions}{4}{section.17}
+\contentsline {section}{\numberline {2.1}Definitions}{4}{section.17}
 \contentsline {section}{\numberline {2.2}Model-Based FDIR}{5}{section.19}
 \contentsline {section}{\numberline {2.3}Signal Processing-Based FDIR}{6}{section.24}
 \contentsline {section}{\numberline {2.4}Redundancy-Based Systems}{6}{section.25}

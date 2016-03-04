@@ -5,7 +5,6 @@ import csv
 
 csv_filename = 'strong_corrs_for_undirected_graph.csv'
 undirected_graph_filename = 'undirected.dot'
-telem_filename = 'telem.csv'
 
 channel_names = Set()
 
