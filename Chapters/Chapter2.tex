@@ -29,7 +29,7 @@ Control systems for which FDIR is conducted are often represented with a modern 
     y(t) = C(t) x(t) + D(t) u(t) + E_{2}n_{2}(t),
 \end{equation}
 
-where $x \in \mathbb{R}^{n}$ is the state vector, $u \in \mathbb{R}^{p}$ is the plant's input vector, $y \in \mathbb{R}^{m}$ is the sensor-measured output vector, $A$, $B$, $C$, $D$, $E_{1}$ and $E_{2}$ are realizations of linear dynamics with permissible perturbations, and $n_{1}$ and $n_{2}$ are disturbance vectors.
+where $x \in \mathbb{R}^{n}$ is the state vector, $u \in \mathbb{R}^{p}$ is the plant's input vector, $y \in \mathbb{R}^{m}$ is the sensor-measured output vector, $A$, $B$, $C$, $D$, $E_{1}$ and $E_{2}$ are realizations of linear dynamics with permissible perturbations, and $n_{1}$ and $n_{2}$ are disturbance vectors. We will refer to the individual elements of $y$ as \textbf{telemetry channels}, and they may refer to discretely telemetered values such as direct sensor readings (temperature, acceleration, etc.) and processed metrics (packet error rate, average speed, etc.).
 
 By observing the system via $y$, along with the known input $u$, it is possible to assess, via a model of expected system behavior, if the current state is an anomalous one. As discussed above, a measure of our deviation from this nominal state is the residual, and is commonly expressed as a difference between an estimated output $\hat{y}(t)$ and the observed output $y(t)$ \cite{hwang2010survey}, as follows:
 \begin{equation} \label{eq:residual_generation}

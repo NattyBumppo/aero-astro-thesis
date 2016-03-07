@@ -13,8 +13,8 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{22}{figure.caption.65}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{24}{figure.caption.68}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Lead software engineer Toshiro Shimizu and the author work on radio testing during a Pittsburgh field test at the Lafarge rock quarry.\relax }}{26}{figure.caption.72}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{27}{figure.caption.73}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Lead software engineer Toshiro Shimizu (right) and the author (left) work on radio testing during a field test at the Lafarge rock quarry.\relax }}{27}{figure.caption.72}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{28}{figure.caption.73}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{28}{figure.caption.75}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Singular values are shown for the Principal Component Analysis of non-correlative, sample mission telemetry data.\relax }}{33}{figure.caption.83}
@@ -25,10 +25,10 @@
 \contentsline {figure}{\numberline {6.6}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Only negative correlations are shown. Self-correlations are not shown.\relax }}{38}{figure.caption.95}
 \contentsline {figure}{\numberline {6.7}{\ignorespaces A snapshot of an undirected dependency graph display from a simulated run. Correlated components have been isolated, with edges drawn for all correlation relationships exceeding a certain value ($r_{PCC}^{2} > 0.8$). Positive correlations, and negatively correlated subgraphs, are shown. Self-correlations are not shown.\relax }}{39}{figure.caption.96}
 \contentsline {figure}{\numberline {6.8}{\ignorespaces A time curve is ``folded" from an initial linear timeline to bring similar data points close together in the 2D embedding. From \cite {bach2016time}.\relax }}{40}{figure.caption.98}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{43}{figure.caption.112}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{44}{figure.caption.113}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{45}{figure.caption.114}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{46}{figure.caption.115}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces A time curve embedding visualizing mission events using raw telemetry state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{44}{figure.caption.112}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces A time curve embedding visualizing mission events using PCC correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{45}{figure.caption.113}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces A time curve embedding visualizing mission events using Spearman's Rho correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{46}{figure.caption.114}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces A time curve embedding visualizing mission events using Kendall's Tau correlation state. Event annotations are described in Tbl.\nobreakspace {}\ref {tbl:events}.\relax }}{47}{figure.caption.115}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {2.1}Definitions}{4}{section.17}
 \contentsline {section}{\numberline {2.2}Model-Based FDIR}{5}{section.19}
 \contentsline {section}{\numberline {2.3}Signal Processing-Based FDIR}{6}{section.24}
-\contentsline {section}{\numberline {2.4}Redundancy-Based Systems}{6}{section.25}
+\contentsline {section}{\numberline {2.4}Redundancy-Based Systems}{7}{section.25}
 \contentsline {section}{\numberline {2.5}Advanced Techniques for Fault Detection}{7}{section.26}
 \contentsline {subsection}{\numberline {2.5.1}Rule Combinations and Fault Syndromes}{7}{subsection.27}
 \contentsline {subsection}{\numberline {2.5.2}Machine Learning and Classification}{7}{subsection.28}
@@ -28,12 +28,12 @@
 \contentsline {section}{\numberline {3.2}Limitations of Traditional Correlative Techniques}{12}{section.40}
 \contentsline {subsection}{\numberline {3.2.1}Linearity Assumptions}{12}{subsection.41}
 \contentsline {subsection}{\numberline {3.2.2}Implied Causation}{12}{subsection.42}
-\contentsline {subsection}{\numberline {3.2.3}Singular Value Decomposition and Principal Component Analysis}{13}{subsection.44}
-\contentsline {section}{\numberline {3.3}Visualization of Correlative Relationships}{14}{section.46}
-\contentsline {subsection}{\numberline {3.3.1}Corrgrams}{14}{subsection.47}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Corrgram Limitations}{15}{subsubsection.48}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Corrgram Example}{15}{subsubsection.49}
-\contentsline {subsection}{\numberline {3.3.2}Animated Corrgrams}{16}{subsection.51}
+\contentsline {section}{\numberline {3.3}Singular Value Decomposition (SVD) and Principal Component Analysis (PCA)}{13}{section.44}
+\contentsline {section}{\numberline {3.4}Visualization of Correlative Relationships}{14}{section.46}
+\contentsline {subsection}{\numberline {3.4.1}Corrgrams}{14}{subsection.47}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Corrgram Limitations}{15}{subsubsection.48}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Corrgram Example}{15}{subsubsection.49}
+\contentsline {subsection}{\numberline {3.4.2}Animated Corrgrams}{16}{subsection.51}
 \contentsline {chapter}{\numberline {4}Case Study: Hakuto ``Moonraker" Lunar Rover}{17}{chapter.52}
 \contentsline {section}{\numberline {4.1}HAKUTO Lunar XPRIZE Team}{17}{section.53}
 \contentsline {section}{\numberline {4.2}Ground Station Interface}{18}{section.55}
@@ -47,11 +47,11 @@
 \contentsline {chapter}{\numberline {5}Intermediate Testing Results and Reassessment}{25}{chapter.69}
 \contentsline {section}{\numberline {5.1}Testing}{25}{section.70}
 \contentsline {subsection}{\numberline {5.1.1}Field Testing}{25}{subsection.71}
-\contentsline {subsection}{\numberline {5.1.2}Usability Testing}{27}{subsection.74}
+\contentsline {subsection}{\numberline {5.1.2}Usability Testing}{26}{subsection.74}
 \contentsline {subsubsection}{\numberline {5.1.2.1}Test Tasks}{27}{subsubsection.76}
 \contentsline {section}{\numberline {5.2}Field Test Results}{28}{section.77}
 \contentsline {section}{\numberline {5.3}Usability Test Results}{29}{section.78}
-\contentsline {section}{\numberline {5.4}Improvements and Additions}{30}{section.79}
+\contentsline {section}{\numberline {5.4}Improvements and Additions}{31}{section.79}
 \contentsline {chapter}{\numberline {6}Analytical and Visualization Improvements in Response to Intermediate Test Data}{32}{chapter.80}
 \contentsline {section}{\numberline {6.1}Dimensional Reduction}{32}{section.81}
 \contentsline {subsection}{\numberline {6.1.1}Applying PCA to Raw Telemetry and Correlative Telemetry Models}{32}{subsection.82}
@@ -61,17 +61,17 @@
 \contentsline {section}{\numberline {6.3}Time Curves}{38}{section.97}
 \contentsline {section}{\numberline {6.4}Applying Time Curves to System Telemetry Data}{40}{section.99}
 \contentsline {section}{\numberline {6.5}Discussion}{41}{section.110}
-\contentsline {chapter}{\numberline {7}Future Work and Conclusion}{47}{chapter.116}
-\contentsline {section}{\numberline {7.1}Future Work}{47}{section.117}
-\contentsline {section}{\numberline {7.2}Conclusion}{48}{section.118}
+\contentsline {chapter}{\numberline {7}Future Work and Conclusion}{48}{chapter.116}
+\contentsline {section}{\numberline {7.1}Future Work}{48}{section.117}
+\contentsline {section}{\numberline {7.2}Conclusion}{49}{section.118}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Relevant Code Samples}{50}{appendix.119}
-\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{50}{section.120}
-\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{51}{section.175}
-\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{52}{section.238}
-\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{57}{section.452}
-\contentsline {chapter}{\numberline {B}Usability Testing Script}{59}{appendix.538}
-\contentsline {section}{\numberline {B.1}Approximate Simulated Run Timeline}{59}{section.539}
-\contentsline {section}{\numberline {B.2}Test Script}{60}{section.540}
+\contentsline {chapter}{\numberline {A}Relevant Code Samples}{51}{appendix.119}
+\contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{51}{section.120}
+\contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{52}{section.175}
+\contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{53}{section.237}
+\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{58}{section.451}
+\contentsline {chapter}{\numberline {B}Usability Testing Script}{60}{appendix.537}
+\contentsline {section}{\numberline {B.1}Approximate Simulated Run Timeline}{60}{section.538}
+\contentsline {section}{\numberline {B.2}Test Script}{61}{section.539}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{62}{dummy.541}
+\contentsline {chapter}{Bibliography}{63}{dummy.540}
