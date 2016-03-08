@@ -69,9 +69,9 @@
 \contentsline {section}{\numberline {A.1}Generating Example Corrgrams for PCC, Kendall's Tau, and Spearman's Rho Correlations (MATLAB)}{51}{section.120}
 \contentsline {section}{\numberline {A.2}Generating Undirected Graph from Filtered Correlation Data (Python)}{52}{section.181}
 \contentsline {section}{\numberline {A.3}Generating Time Curve Distance Matrix from Raw Telemetry (Python)}{54}{section.243}
-\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{58}{section.457}
-\contentsline {chapter}{\numberline {B}Usability Testing Script}{61}{appendix.543}
-\contentsline {section}{\numberline {B.1}Approximate Simulated Run Timeline}{61}{section.544}
-\contentsline {section}{\numberline {B.2}Test Script}{62}{section.545}
+\contentsline {section}{\numberline {A.4}Generating Correlated Distance Matrices from Bucketed Telemetry (MATLAB)}{58}{section.440}
+\contentsline {chapter}{\numberline {B}Usability Testing Script}{60}{appendix.526}
+\contentsline {section}{\numberline {B.1}Approximate Simulated Run Timeline}{60}{section.527}
+\contentsline {section}{\numberline {B.2}Test Script}{61}{section.528}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{64}{dummy.546}
+\contentsline {chapter}{Bibliography}{63}{dummy.529}

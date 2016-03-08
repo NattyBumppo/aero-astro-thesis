@@ -18,7 +18,7 @@ with open(csv_filename, 'rb') as csvfile:
     header_skipped = False
     for row in csv_reader:
         row_name = row['']
-        # Go through all of the different columns and create connections if necessary
+        # Go through all of the different columns and create connections
         for key in row.keys():
             if key != '' and row_name != key:
                 if row[key] == 'P':
@@ -32,7 +32,7 @@ with open(csv_filename, 'rb') as csvfile:
                     paired_nodes.add(row_name)
                     paired_nodes.add(key)
                 elif row[key] == '':
-                    # print "No strong correlation between %s and %s." % (row_name, key)
+                    print "No strong correlation between %s and %s." % (row_name, key)
                     pass
                 else:
                     print "Undefined correlation between %s and %s!!!" % (row_name, key)
