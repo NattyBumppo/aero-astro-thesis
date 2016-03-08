@@ -47,11 +47,11 @@
 \contentsline {chapter}{\numberline {5}Intermediate Testing Results and Reassessment}{25}{chapter.69}
 \contentsline {section}{\numberline {5.1}Testing}{25}{section.70}
 \contentsline {subsection}{\numberline {5.1.1}Field Testing}{25}{subsection.71}
-\contentsline {subsection}{\numberline {5.1.2}Usability Testing}{26}{subsection.74}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Test Tasks}{27}{subsubsection.76}
-\contentsline {section}{\numberline {5.2}Field Test Results}{28}{section.77}
-\contentsline {section}{\numberline {5.3}Usability Test Results}{29}{section.78}
-\contentsline {section}{\numberline {5.4}Improvements and Additions}{31}{section.79}
+\contentsline {subsection}{\numberline {5.1.2}Field Test Results}{27}{subsection.74}
+\contentsline {subsection}{\numberline {5.1.3}Usability Testing}{28}{subsection.75}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Test Tasks}{28}{subsubsection.77}
+\contentsline {subsection}{\numberline {5.1.4}Usability Test Results}{29}{subsection.78}
+\contentsline {section}{\numberline {5.2}Improvements and Additions}{31}{section.79}
 \contentsline {chapter}{\numberline {6}Analytical and Visualization Improvements in Response to Intermediate Test Data}{32}{chapter.80}
 \contentsline {section}{\numberline {6.1}Dimensional Reduction}{32}{section.81}
 \contentsline {subsection}{\numberline {6.1.1}Applying PCA to Raw Telemetry and Correlative Telemetry Models}{32}{subsection.82}

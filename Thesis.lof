@@ -13,9 +13,9 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Information for monitored faults on a given subsystem.\relax }}{22}{figure.caption.65}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Correlation map visualization showing various different data channel pairs and their correlations. Bright orange signifies a high positive correlation, and bright blue is a high negative correlation.\relax }}{24}{figure.caption.68}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Lead software engineer Toshiro Shimizu (right) and the author (left) work on radio testing during a field test at the Lafarge rock quarry.\relax }}{27}{figure.caption.72}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{28}{figure.caption.73}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{28}{figure.caption.75}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Lead software engineer Toshiro Shimizu (right) and the author (left) work on radio testing during a field test at the Lafarge rock quarry.\relax }}{26}{figure.caption.72}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Engineering members of Team Hakuto discuss terrain challenges during a nighttime field test.\relax }}{27}{figure.caption.73}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A usability test participant focuses on the incoming telemetry to try to ascertain patterns behind a faulted system.\relax }}{28}{figure.caption.76}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Singular values are shown for the Principal Component Analysis of non-correlative, sample mission telemetry data.\relax }}{33}{figure.caption.83}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces A simple example of a traditional dependency graph is shown. Here, node A's value depends on the value of node B, and node B's value depends on the value of node C.\relax }}{35}{figure.caption.87}
