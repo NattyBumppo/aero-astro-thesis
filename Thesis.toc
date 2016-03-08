@@ -60,7 +60,7 @@
 \contentsline {subsection}{\numberline {6.2.1}Undirected Correlation Graphs}{34}{subsection.86}
 \contentsline {section}{\numberline {6.3}Time Curves}{38}{section.97}
 \contentsline {section}{\numberline {6.4}Applying Time Curves to System Telemetry Data}{40}{section.99}
-\contentsline {section}{\numberline {6.5}Discussion}{41}{section.110}
+\contentsline {section}{\numberline {6.5}Discussion}{42}{section.110}
 \contentsline {chapter}{\numberline {7}Future Work and Conclusion}{48}{chapter.116}
 \contentsline {section}{\numberline {7.1}Future Work}{48}{section.117}
 \contentsline {section}{\numberline {7.2}Conclusion}{49}{section.118}
