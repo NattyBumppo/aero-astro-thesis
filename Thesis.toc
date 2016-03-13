@@ -44,7 +44,7 @@
 \contentsline {subsubsection}{\numberline {4.3.2.2}Fault alert panel}{21}{subsubsection.62}
 \contentsline {subsubsection}{\numberline {4.3.2.3}Expert fault information}{21}{subsubsection.64}
 \contentsline {subsubsection}{\numberline {4.3.2.4}Correlative Functionality}{22}{subsubsection.66}
-\contentsline {chapter}{\numberline {5}Intermediate Testing Results and Reassessment}{25}{chapter.69}
+\contentsline {chapter}{\numberline {5}Intermediate Testing and Reassessment}{25}{chapter.69}
 \contentsline {section}{\numberline {5.1}Testing}{25}{section.70}
 \contentsline {subsection}{\numberline {5.1.1}Field Testing}{25}{subsection.71}
 \contentsline {subsection}{\numberline {5.1.2}Field Test Results}{27}{subsection.74}
