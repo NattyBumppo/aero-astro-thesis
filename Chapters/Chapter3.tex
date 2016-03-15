@@ -10,7 +10,7 @@ In Chapter 2, we discussed some of the common methods for FDIR on complex system
 
 Covariance is defined as a measurement of the strength of correlation between two or more sets of random variables; i.e., it shows how much these variables ``change together." Statistically, for two variables $x$ and $y$, the covariance is the expected value of the product of the standard deviations of each of the variables:
 \begin{equation} \label{eq:cov}
-\mathrm{cov} = \text{E}[(x - \mu_{x})(y - \mu_{y})]
+\mathrm{cov}(X, Y) = \text{E}[(x - \mu_{x})(y - \mu_{y})]
 \end{equation}
 
 Intuitively, it can be seen that a situation in which $x$ and $y$ are both much larger (or are both much smaller) than their respective means results in a high covariance; a situation where $x$ is much larger than its mean, but $y$ is around its mean, will result in a small covariance. In this way, the correlation between these two variables is captured by a covariance measurement.
@@ -21,7 +21,7 @@ When looking at two sets of data, it can often be valuable to reduce their inter
 
 \subsection{Pearson Correlation Coefficient}
 
-The Pearson Correlation Coefficient (PCC), also known as the Pearson Product-Moment Coefficient, is a metric of the linear relationship between two sets of data. It is essentially a scaled covariance, defined as \\
+The Pearson Correlation Coefficient (PCC), also known as the Pearson Product-Moment Coefficient, is a metric of the linear relationship between two sets of data \cite{pcc}. It is essentially a scaled covariance, defined as \\
 \begin{equation} \label{eq:pcc}
 \text{PCC}_{X, Y} = \frac{\mathrm{cov}(X, Y)}{\sigma_{X} \sigma_{Y}}
 \end{equation}
